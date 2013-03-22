@@ -63,6 +63,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="neuFL.xaml.cs">
+      <DependentUpon>neuFL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="neueFL1.xaml.cs">
+      <DependentUpon>neueFL1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="fehlend.xaml.cs">
+      <DependentUpon>fehlend.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -104,6 +113,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="NeuZuWunsch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="neuFL.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="neueFL1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="fehlend.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
