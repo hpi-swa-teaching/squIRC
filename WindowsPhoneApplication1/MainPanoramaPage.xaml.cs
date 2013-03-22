@@ -23,11 +23,11 @@ namespace WindowsPhoneApplication1
         }
         private void VerlaufButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("Verlauf.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("/Verlauf.xaml", UriKind.Relative));
         }
         private void NavigationPromillButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("Promill.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("/Promillerechner.xaml", UriKind.Relative));
         }
     }
 }
