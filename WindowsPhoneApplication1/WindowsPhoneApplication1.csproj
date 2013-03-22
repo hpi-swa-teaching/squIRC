@@ -69,8 +69,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Getraenke.xaml.cs">
-      <DependentUpon>Getraenke.xaml</DependentUpon>
+    <Compile Include="Getraenk.xaml.cs">
+      <DependentUpon>Getraenk.xaml</DependentUpon>
     </Compile>
     <Compile Include="Neues_Getraenk.xaml.cs">
       <DependentUpon>Neues_Getraenk.xaml</DependentUpon>
@@ -123,7 +123,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Getraenke.xaml">
+    <Page Include="Getraenk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -185,9 +185,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Background.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="icons\appbar.add.rest.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="icons\appbar.cancel.rest.png">
