@@ -40,7 +40,12 @@
             <TextBlock HorizontalAlignment="Left" Height="51" Margin="8,0,0,118" TextWrapping="Wrap" Text="Beschreibung:" VerticalAlignment="Bottom" Width="130"/>
             <TextBox x:Name="Beschreibung" Height="129" Margin="-2,0,123,18" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
             <Button x:Name="Weiter" Content="Weiter" HorizontalAlignment="Right" Height="80" Margin="0,0,0,18" VerticalAlignment="Bottom" Width="134"/>
-            <ListBox x:Name="Kategorie" Height="136" Margin="143,0,27,151" VerticalAlignment="Bottom" Background="Transparent"/>
+            <ListBox x:Name="Kategorie" Height="136" Margin="143,0,27,151" VerticalAlignment="Bottom" Background="Transparent">
+                <ListBoxItem Content="Bierflaschen" />
+                <ListBoxItem Content="Schnappsflaschen" />
+                <ListBoxItem Content="Weinflaschen" />
+                <ListBoxItem Content="Andere" />
+            </ListBox>
         </Grid>
     </Grid>
 </phone:PhoneApplicationPage>
