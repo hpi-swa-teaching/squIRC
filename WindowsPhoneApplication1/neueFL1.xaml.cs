@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace Challenge
 {
-    public partial class PhonePage1 : PhoneApplicationPage
+    public partial class NeueFL1 : PhoneApplicationPage
     {
-        public PhonePage1()
+        public NeueFL1()
         {
             InitializeComponent();
         }
