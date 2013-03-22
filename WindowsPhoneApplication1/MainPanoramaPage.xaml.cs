@@ -29,5 +29,10 @@ namespace WindowsPhoneApplication1
         {
             this.NavigationService.Navigate(new Uri("/Promillerechner.xaml", UriKind.Relative));
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/neueFL1.xaml", UriKind.Relative));
+        }
     }
 }
