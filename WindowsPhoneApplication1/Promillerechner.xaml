@@ -15,7 +15,7 @@
 	<phone:PhoneApplicationPage.ApplicationBar>
 		<shell:ApplicationBar>
 			<shell:ApplicationBar.MenuItems>
-				<shell:ApplicationBarMenuItem x:Name="Settings" Text="Einstellungen"/>
+				<shell:ApplicationBarMenuItem x:Name="Settings" Text="Einstellungen" Click="Settings_Click" />
 			</shell:ApplicationBar.MenuItems>
 		</shell:ApplicationBar>
 	</phone:PhoneApplicationPage.ApplicationBar>

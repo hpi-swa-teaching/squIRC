@@ -25,6 +25,7 @@ namespace WindowsPhoneApplication1
 
             NavigationService.Navigate(new Uri("/anderes_getränk.xaml", UriKind.Relative));
         }
+
         private void Bier_Click(object sender, RoutedEventArgs e)
         {
 

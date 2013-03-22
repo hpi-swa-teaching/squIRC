@@ -90,6 +90,9 @@
     <Compile Include="PhonePage1.xaml.cs">
       <DependentUpon>PhonePage1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="rechner_einstellungen.xaml.cs">
+      <DependentUpon>rechner_einstellungen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Verlauf.xaml.cs">
       <DependentUpon>Verlauf.xaml</DependentUpon>
     </Compile>
@@ -123,6 +126,10 @@
     </Page>
     <Page Include="Neues_Getraenk.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="rechner_einstellungen.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Verlauf.xaml">
