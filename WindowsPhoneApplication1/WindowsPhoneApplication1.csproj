@@ -60,8 +60,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anderes_Getraenk.xaml.cs">
+      <DependentUpon>Anderes_Getraenk.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gatränke+.xaml.cs">
+      <DependentUpon>Gatränke+.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Neues_Getraenk.xaml.cs">
+      <DependentUpon>Neues_Getraenk.xaml</DependentUpon>
     </Compile>
     <Compile Include="neuFL.xaml.cs">
       <DependentUpon>neuFL.xaml</DependentUpon>
@@ -100,6 +109,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="Anderes_Getraenk.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Gatränke+.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Neues_Getraenk.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Verlauf.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
