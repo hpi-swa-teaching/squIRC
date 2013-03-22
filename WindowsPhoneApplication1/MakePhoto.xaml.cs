@@ -19,5 +19,12 @@ namespace WindowsPhoneApplication1
         {
             InitializeComponent();
         }
+
+        private void FertigButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Zur Bibiliothek hinzugefügt");
+            this.NavigationService.Navigate(new Uri("/MainPanoramaPage.xaml", UriKind.Relative));
+        }
+
     }
 }
