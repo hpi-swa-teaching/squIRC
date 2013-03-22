@@ -15,7 +15,7 @@
 	<phone:PhoneApplicationPage.ApplicationBar>
 		<shell:ApplicationBar Mode="Default">
 			<shell:ApplicationBarIconButton IconUri="/icons/appbar.add.rest.png" Text="anderes" Click="other"/>
-			<shell:ApplicationBarIconButton IconUri="/icons/appbar.favs.addto.rest.png" Text="hinzufügen"Click="addToFav"/>
+			<shell:ApplicationBarIconButton IconUri="/icons/appbar.favs.addto.rest.png" Text="hinzufügen" Click="addToFav"/>
 		</shell:ApplicationBar>
 	</phone:PhoneApplicationPage.ApplicationBar>
 
