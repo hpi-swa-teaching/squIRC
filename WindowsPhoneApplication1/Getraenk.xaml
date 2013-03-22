@@ -1,0 +1,42 @@
+﻿<phone:PhoneApplicationPage
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+	x:Class="WindowsPhoneApplication1.Getraenk"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{x:Null}"
+	SupportedOrientations="Portrait" Orientation="Portrait"
+	shell:SystemTray.IsVisible="True" BorderBrush="Black">
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar>
+            <shell:ApplicationBarIconButton IconUri="/icons/appbar.add.rest.png" Text="Hinzufügen"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="MyAlcApp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Text="Getränk +"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Button x:Name="Bier" Content="Bier" HorizontalAlignment="Left" Margin="8,8,0,0" VerticalAlignment="Top" Height="176" Width="176"/>
+            <Button x:Name="Wein" Content="Wein" HorizontalAlignment="Right" Margin="0,8,92,0" VerticalAlignment="Top" Width="176" Height="176"/>
+            <Button x:Name="Vodka" HorizontalAlignment="Left" Margin="8,0,0,171" VerticalAlignment="Bottom" Width="176" Height="176" d:LayoutOverrides="HorizontalAlignment" Content="Vodka"/>
+            <Button x:Name="anderes" Content="anderes" VerticalAlignment="Top" Margin="188,188,92,0" Width="176" Height="176" Click="anderes_Click" />
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>
