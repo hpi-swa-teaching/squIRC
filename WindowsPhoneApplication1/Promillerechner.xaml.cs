@@ -19,5 +19,21 @@ namespace WindowsPhoneApplication2
         {
             InitializeComponent();
         }
+
+        private void Calculate_Click(object sender, RoutedEventArgs e)
+        {
+
+            int concentration = 20;
+            int mass = 80;
+            float reduction = 0.69;
+
+            float promillegehalt = concentration / mass * reduction;
+
+            this.promille.text = promillegehalt.ToString();
+
+        }
+
+
+          
     }
 }

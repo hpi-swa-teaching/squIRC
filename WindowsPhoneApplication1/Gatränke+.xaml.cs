@@ -22,8 +22,14 @@ namespace My_Alc_App
 
         private void anderes_Click(object sender, RoutedEventArgs e)
         {
-          
+
             NavigationService.Navigate(new Uri("/anderes_getränk.xaml", UriKind.Relative));
+        }
+        private void Bier_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            NavigationService.Navigate(new Uri("/Promillerechner.xaml", UriKind.Relative));
         }
     }
 }
