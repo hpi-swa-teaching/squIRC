@@ -22,8 +22,7 @@ namespace WindowsPhoneApplication1
 
         private void Kategorie_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            listBox1.Items.Insert(4, "Bierflaschen","Schnapsflaschen","Weinflaschen","Sonstige");
-
+            
         }
         private void ZuFotoButton_Click(object sender, RoutedEventArgs e)
         {

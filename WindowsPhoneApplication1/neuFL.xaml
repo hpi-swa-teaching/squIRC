@@ -27,7 +27,6 @@
 		</StackPanel>
 
 		<!--ContentPanel - place additional content here-->
-<<<<<<< HEAD
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="16,0,8,0">
             <TextBlock Height="35" Margin="19,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Name:" HorizontalAlignment="Left" Width="61"/>
             <TextBox x:Name="Name" Height="71" Margin="132,8,8,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
@@ -42,27 +41,6 @@
             <TextBox x:Name="Beschreibung" Height="129" Margin="-2,0,123,18" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
             <Button x:Name="Weiter" Content="Weiter" HorizontalAlignment="Right" Height="80" Margin="0,0,0,18" VerticalAlignment="Bottom" Width="134"/>
             <ListBox x:Name="Kategorie" Height="136" Margin="143,0,27,151" VerticalAlignment="Bottom" Background="Transparent"/>
-=======
-		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="16,0,8,0">
-			<TextBlock Height="35" Margin="19,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Name:" HorizontalAlignment="Left" Width="61"/>
-			<TextBox x:Name="FlaschenName" Height="71" Margin="132,8,8,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-			<TextBlock HorizontalAlignment="Left" Height="39" Margin="15,100,0,0" TextWrapping="Wrap" Text="Kaufdatum:" VerticalAlignment="Top" Width="113"/>
-			<TextBox x:Name="Kaufdatum" Height="69" Margin="132,83,8,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-			<TextBlock HorizontalAlignment="Left" Height="49" Margin="15,172,0,0" TextWrapping="Wrap" Text="Standort:" VerticalAlignment="Top" Width="139"/>
-			<TextBox x:Name="Standort" Height="74" Margin="132,156,8,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-			<TextBlock HorizontalAlignment="Left" Margin="8,252,0,291" TextWrapping="Wrap" Text="Bewertung:" Width="135"/>
-			<TextBox x:Name="Bewertung" Margin="132,230,8,300" TextWrapping="Wrap"/>
-			<TextBlock HorizontalAlignment="Left" Height="53" Margin="8,0,0,238" TextWrapping="Wrap" Text="Kategorie:" VerticalAlignment="Bottom" Width="104"/>
-			<TextBlock HorizontalAlignment="Left" Height="51" Margin="8,0,0,118" TextWrapping="Wrap" Text="Beschreibung:" VerticalAlignment="Bottom" Width="130"/>
-			<TextBox x:Name="Beschreibung" Height="129" Margin="-2,0,123,18" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
-			<Button x:Name="ZuFotoButton" Content="Weiter" HorizontalAlignment="Right" Height="80" Margin="0,0,0,18" VerticalAlignment="Bottom" Width="134" Click="ZuFotoButton_Click"/>
-            <ListBox x:Name="Kategorie" Height="136" Margin="143,0,27,151" VerticalAlignment="Bottom">
-            <ListBoxItem x:Name="Bierflaschen"/>
-            <ListBoxItem x:Name="Schnapsflaschen"/>
-            <ListBoxItem x:Name="Weinflaschen"/>
-            <ListBoxItem x:Name="Sonstige"/>
-            </ListBox>
->>>>>>> 505194cf01a72eaf7f7eacae6c76672a2046ae8c
         </Grid>
     </Grid>
 </phone:PhoneApplicationPage>
