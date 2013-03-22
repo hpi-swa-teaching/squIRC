@@ -93,6 +93,12 @@
     <Compile Include="BehalteOnlineBild.xaml.cs">
       <DependentUpon>BehalteOnlineBild.xaml</DependentUpon>
     </Compile>
+    <Compile Include="neuFL.xaml.cs">
+      <DependentUpon>neuFL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="neueFL1.xaml.cs">
+      <DependentUpon>neueFL1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
