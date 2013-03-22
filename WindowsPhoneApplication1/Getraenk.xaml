@@ -14,7 +14,7 @@
 	shell:SystemTray.IsVisible="True" BorderBrush="Black">
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar>
-            <shell:ApplicationBarIconButton IconUri="/icons/appbar.add.rest.png" Text="Hinzufügen"/>
+            <shell:ApplicationBarIconButton IconUri="/icons/appbar.add.rest.png" Text="Hinzufügen" Click="ButtonAdd_Click"/>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 
