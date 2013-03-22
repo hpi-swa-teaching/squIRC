@@ -63,20 +63,20 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPanoramaPage.xaml.cs">
+      <DependentUpon>MainPanoramaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PhonePage1.xaml.cs">
+      <DependentUpon>PhonePage1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Verlauf.xaml.cs">
       <DependentUpon>Verlauf.xaml</DependentUpon>
     </Compile>
     <Compile Include="Promillerechner.xaml.cs">
       <DependentUpon>Promillerechner.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PhonePage1.xaml.cs">
-      <DependentUpon>PhonePage1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="NeuZuWunsch.xaml.cs">
-      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="AlleWunsch.xaml.cs">
-      <DependentUpon>AlleWunsch.xaml</DependentUpon>
     </Compile>
     <Compile Include="MakePhoto.xaml.cs">
       <DependentUpon>MakePhoto.xaml</DependentUpon>
@@ -107,15 +107,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AlleWunsch.xaml">
-      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MakePhoto.xaml">
-      <Generator>MSBuild:MarkupCompilePass1</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="BehalteOnlineBild.xaml">
+    <Page Include="MainPanoramaPage.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>

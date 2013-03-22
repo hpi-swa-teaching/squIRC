@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class PhonePage1 : PhoneApplicationPage
+    public partial class PanoramaPage3 : PhoneApplicationPage
     {
-        public PhonePage1()
+        public PanoramaPage3()
         {
             InitializeComponent();
         }
