@@ -61,9 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NeuZuWunsch.xaml.cs">
-      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Anderes_Getraenk.xaml.cs">
       <DependentUpon>Anderes_Getraenk.xaml</DependentUpon>
     </Compile>

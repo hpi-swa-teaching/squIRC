@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class AddWish : PhoneApplicationPage
+    public partial class NeuZuWunsch : PhoneApplicationPage
     {
-        public AddWish()
+        public NeuZuWunsch()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace WindowsPhoneApplication1
         {
             this.NavigationService.Navigate(new Uri("/MakePhoto.xaml", UriKind.Relative));
         }
-        private void FertigButton_Click(object sender, RoutedEventArgs e)
+        private void Fertig_Click(object sender, RoutedEventArgs e)
         {            
             MessageBox.Show("Zur Bibiliothek hinzugefügt");
             this.NavigationService.Navigate(new Uri("/MainPanoramaPage.xaml", UriKind.Relative));
