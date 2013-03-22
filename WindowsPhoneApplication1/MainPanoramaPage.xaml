@@ -33,8 +33,8 @@
 					<TextBlock HorizontalAlignment="Left" Height="33" Margin="20,198,0,0" TextWrapping="Wrap" Text="fehlende:" VerticalAlignment="Top" Width="89"/>
 					<Button Content="Alle" HorizontalAlignment="Left" Height="75" Margin="29,81,0,0" VerticalAlignment="Top" Width="149"/>
 					<Button Content="Auswahl" HorizontalAlignment="Right" Height="75" Margin="0,81,53,0" VerticalAlignment="Top" Width="149"/>
-					<Button HorizontalAlignment="Right" Height="63" Margin="0,0,28,80" VerticalAlignment="Bottom" Width="118" Content="Alle"/>
-					<Button Content="+" HorizontalAlignment="Right" Height="68" Margin="0,0,19,8" VerticalAlignment="Bottom" Width="98" Click="Button_Click" />
+					<Button HorizontalAlignment="Left" Margin="29,235,0,188" Width="149" Content="Alle" RenderTransformOrigin="-1.059,0.373" Height="75"/>
+					<Button Content="+" HorizontalAlignment="Right" Margin="0,235,53,188" Width="149" Click="Button_Click" />
 				</Grid>
 			</controls:PanoramaItem>
 		</controls:Panorama>

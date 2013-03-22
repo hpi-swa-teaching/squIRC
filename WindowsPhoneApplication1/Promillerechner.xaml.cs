@@ -33,6 +33,11 @@ namespace WindowsPhoneApplication1
             Promille_Wert.Text = promillegehalt.ToString() + "‰"; 
 
         }
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/Getraenke.xaml", UriKind.Relative));
+        }
+
 
   
 

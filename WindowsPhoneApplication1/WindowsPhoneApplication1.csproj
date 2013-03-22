@@ -69,8 +69,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Gatraenke.xaml.cs">
-      <DependentUpon>Gatraenke.xaml</DependentUpon>
+    <Compile Include="Getraenke.xaml.cs">
+      <DependentUpon>Getraenke.xaml</DependentUpon>
     </Compile>
     <Compile Include="Neues_Getraenk.xaml.cs">
       <DependentUpon>Neues_Getraenk.xaml</DependentUpon>
@@ -92,6 +92,9 @@
     </Compile>
     <Compile Include="PhonePage1.xaml.cs">
       <DependentUpon>PhonePage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PhonePage2.xaml.cs">
+      <DependentUpon>PhonePage2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Verlauf.xaml.cs">
       <DependentUpon>Verlauf.xaml</DependentUpon>
@@ -120,7 +123,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Gatraenke.xaml">
+    <Page Include="Getraenke.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -130,6 +133,10 @@
     </Page>
     <Page Include="Neues_Getraenk.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PhonePage2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Verlauf.xaml">
@@ -180,10 +187,16 @@
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="icons\appbar.add.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="icons\appbar.cancel.rest.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="icons\appbar.check.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.favs.addto.rest.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SplashScreenImage.jpg" />
