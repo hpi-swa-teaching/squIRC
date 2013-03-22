@@ -66,8 +66,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Gatraenke.xaml.cs">
-      <DependentUpon>Gatraenke.xaml</DependentUpon>
+    <Compile Include="Getraenke.xaml.cs">
+      <DependentUpon>Getraenke.xaml</DependentUpon>
     </Compile>
     <Compile Include="Neues_Getraenk.xaml.cs">
       <DependentUpon>Neues_Getraenk.xaml</DependentUpon>
@@ -113,7 +113,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Gatraenke.xaml">
+    <Page Include="Getraenke.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
