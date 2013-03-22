@@ -5,7 +5,7 @@
 	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
 	x:Class="WindowsPhoneApplication1.PhonePage3"
 	FontFamily="{StaticResource PhoneFontFamilyNormal}"
 	FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -28,13 +28,19 @@
 
 		<!--ContentPanel - place additional content here-->
 		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-			<TextBlock HorizontalAlignment="Left" Height="35" Margin="90,53,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="109"/>
-			<TextBlock Height="35" Margin="222,53,137,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-			<TextBlock HorizontalAlignment="Right" Height="35" Margin="0,53,19,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="89"/>
-			<TextBlock HorizontalAlignment="Left" Margin="190,40,0,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
+			<TextBlock HorizontalAlignment="Left" Height="35" Margin="90,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109"><Run Text="î "/><Run Text="Name"/></TextBlock>
+			<TextBlock Height="35" Margin="212,53,147,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Kauf"/><Run Text="d"/><Run Text="atum"/></TextBlock>
+			<TextBlock HorizontalAlignment="Right" Height="35" Margin="0,53,19,0" TextWrapping="Wrap" Text="Standort" VerticalAlignment="Top" Width="89"/>
+			<TextBlock HorizontalAlignment="Left" Margin="203,40,0,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
 			<TextBlock HorizontalAlignment="Right" Margin="0,40,124,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
-			<TextBlock HorizontalAlignment="Left" Margin="77,40,0,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
-			<TextBlock Height="25" Margin="15,55,4,0" TextWrapping="Wrap" Text="_____________________________________________________________" VerticalAlignment="Top"/>
+			<TextBlock HorizontalAlignment="Left" Margin="50,40,0,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
+			<TextBlock Height="25" Margin="15,55,4,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="_________"/><Run Text="___"/><Run Text="_________________________________________"/></TextBlock>
+			<Button x:Name="AuswahlButton" Content="Auswahl" HorizontalAlignment="Right" Height="77" Margin="0,0,37,27" VerticalAlignment="Bottom" Width="159" Click="AuswahlButton_Click"/>
+			<Button x:Name="NeueFlascheButton" Content="Neue Flasche" Height="77" Margin="32,0,220,27" VerticalAlignment="Bottom" Click="NeueFlascheButton_Click" />
+			<TextBlock HorizontalAlignment="Left" Margin="25,107,0,193" TextWrapping="Wrap" Width="34"><Run Text="1"/><LineBreak/><Run/><LineBreak/><Run Text="2"/><LineBreak/><Run/><LineBreak/><Run Text="3"/><LineBreak/><Run/><LineBreak/><Run Text="4"/><LineBreak/><Run/><LineBreak/><Run Text="5"/></TextBlock>
+			<TextBlock HorizontalAlignment="Left" Margin="63,107,0,221" TextWrapping="Wrap" Width="139" FontSize="20"><Run Text="Amaretto di Saronno"/><Run Text=" "/><Run Text="("/><Run FontSize="13.333" Text="1971"/><Run Text=")"/><LineBreak/><Run Text="Bitburger "/><Run Text="("/><Run FontSize="13.333" Text="1965"/><Run Text=")"/><LineBreak/><Run/><LineBreak/><Run Text="Brauweise "/><Run Text="("/><Run FontSize="13.333" Text="1923"/><Run Text=")"/><LineBreak/><LineBreak/><Run Text="Courvoisier("/><Run FontSize="13.333" Text="1980"/><Run Text=")"/><LineBreak/><Run/><LineBreak/><Run Text="Guinness "/><Run Text="("/><Run FontSize="13.333" Text="1897"/><Run Text=")"/><LineBreak/></TextBlock>
+			<TextBlock Margin="217,107,123,193" TextWrapping="Wrap"><Run Text="21.03.2001"/><LineBreak/><Run/><LineBreak/><Run Text="04.06.2004"/><LineBreak/><Run/><LineBreak/><Run Text="18.01.2000"/><LineBreak/><Run/><LineBreak/><Run Text="28.11.2008"/><LineBreak/><Run/><LineBreak/><Run Text="10.08.2012"/><LineBreak/><Run/></TextBlock>
+			<TextBlock HorizontalAlignment="Right" Margin="0,107,0,203" TextWrapping="Wrap" Width="119"><Run Text="Wohnzimmer"/><LineBreak/><Run/><LineBreak/><Run Text="Küche"/><LineBreak/><Run/><LineBreak/><Run Text="Küche"/><LineBreak/><Run/><LineBreak/><Run Text="Büro"/><LineBreak/><Run/><LineBreak/><Run Text="Küche"/></TextBlock>
 		</Grid>
 	</Grid>
 </phone:PhoneApplicationPage>

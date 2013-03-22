@@ -29,8 +29,8 @@
 		<!--ContentPanel - place additional content here-->
 		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Button Content="|Ö|" Height="80" Margin="134,0,207,20" VerticalAlignment="Bottom"/>
-			<Button Content="Button" HorizontalAlignment="Right" Height="63" Margin="0,8,8,0" VerticalAlignment="Top" Width="61"/>
-			<Button x:Name="FertigButton" Content="FERTIG" HorizontalAlignment="Right" Height="80" Margin="0,0,25,20" VerticalAlignment="Bottom" Width="133" Click="FertigButton_Click" />
+            <Button x:Name="FertigButton" Content="FERTIG" HorizontalAlignment="Right" Height="80" Margin="0,0,25,20" VerticalAlignment="Bottom" Width="133" Click="FertigButton_Click" />
+            <Image Margin="31,115,34,202" Source="Image2.png" Stretch="Fill"/>
 		</Grid>
 	</Grid>
 </phone:PhoneApplicationPage>
