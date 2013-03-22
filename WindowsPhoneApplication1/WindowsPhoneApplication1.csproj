@@ -60,6 +60,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NeuZuWunsch.xaml.cs">
+      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Anderes_Getraenk.xaml.cs">
       <DependentUpon>Anderes_Getraenk.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,8 @@
     <Compile Include="PhonePage1.xaml.cs">
       <DependentUpon>PhonePage1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="rechner_einstellungen.xaml.cs">
+      <DependentUpon>rechner_einstellungen.xaml</DependentUpon>
     <Compile Include="PhonePage2.xaml.cs">
       <DependentUpon>PhonePage2.xaml</DependentUpon>
     </Compile>
@@ -118,6 +123,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="NeuZuWunsch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Anderes_Getraenk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -134,6 +143,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="rechner_einstellungen.xaml">
     <Page Include="PhonePage2.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
@@ -153,10 +163,6 @@
     <Page Include="PhonePage1.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="NeuZuWunsch.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="neuFL.xaml">
       <SubType>Designer</SubType>

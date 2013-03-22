@@ -10,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
+using System.IO.IsolatedStorage;
+using System.IO;
 
 namespace WindowsPhoneApplication1
 {
@@ -23,9 +25,56 @@ namespace WindowsPhoneApplication1
         private void Calculate_Click(object sender, RoutedEventArgs e)
         {
 
-            var concentration = 20;
-            var mass = 80;
-            var reduction = 0.69;
+              IsolatedStorageFile myISFile;
+                String directoryName = "Daten";
+                myISFile = IsolatedStorageFile.GetUserStoreForApplication();
+               
+            if (!string.IsNullOrEmpty(directoryName)&&
+                    !myISFile.DirectoryExists(directoryName))
+                {
+                    myISFile.CreateDirectory(directoryName);
+                }
+
+               
+            if (!myISFile.FileExists("Daten/Daten.txt"))
+                {
+                    var isolated = myISFile.CreateFile("Daten/Daten.txt");
+                    isolated.Close();
+                }
+            
+            double concentration;
+            double mass;
+            string gender;
+            using (IsolatedStorageFileStream fileStream = myISFile.OpenFile("Daten/Daten.txt", FileMode.Open, FileAccess.Read))
+            {
+               
+                StreamReader reader = new StreamReader(fileStream);
+
+                using (reader)
+                {
+
+                    string currResult = reader.ReadLine();
+                    string[] data = currResult.Split(';');
+
+                    mass = double.Parse(data[0]);
+                    gender =(data[1]);
+                }
+            }
+
+           double reduction;
+
+           if (gender == "maennlich")
+           {
+
+               reduction = 0.69;
+           }
+           else
+           {
+               reduction = 0.55;
+           }
+
+            concentration = 20;
+         
 
             var promillegehalt = concentration / (mass * reduction);
             promillegehalt = Math.Round(promillegehalt, 2);
@@ -39,8 +88,12 @@ namespace WindowsPhoneApplication1
         }
 
 
-  
 
+
+        private void Settings_Click(object sender, EventArgs e)
+        {
+ NavigationService.Navigate(new Uri("/rechner_einstellungen.xaml", UriKind.Relative));
+        }
 
           
     }

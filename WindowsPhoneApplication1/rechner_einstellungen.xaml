@@ -1,0 +1,45 @@
+﻿<phone:PhoneApplicationPage 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+	x:Class="WindowsPhoneApplication1.rechner_einstellungen"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}"
+	Orientation="Portrait"
+	shell:SystemTray.IsVisible="True">
+	<phone:PhoneApplicationPage.ApplicationBar>
+		<shell:ApplicationBar>
+			<shell:ApplicationBarIconButton x:Name="fertig" IconUri="/icons/appbar.check.rest.png" Text="Fertig" Click="fertig_Click" />
+			<shell:ApplicationBarIconButton x:Name="abbrechen" IconUri="/icons/appbar.cancel.rest.png" Text="Abbrechen"/>
+		</shell:ApplicationBar>
+	</phone:PhoneApplicationPage.ApplicationBar>
+
+	<!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		
+		<!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+			<TextBlock x:Name="ApplicationTitle" Text="MyAlcApp" Style="{StaticResource PhoneTextNormalStyle}"/>
+			<TextBlock x:Name="PageTitle" Text="einstellungen" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+		</StackPanel>
+
+		<!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Margin="8,42,16,119" Grid.RowSpan="2">
+			<TextBlock HorizontalAlignment="Left" Margin="8,120,0,0" TextWrapping="Wrap" Text="Gewicht" VerticalAlignment="Top" FontSize="36"/>
+			<TextBox x:Name="weight" Margin="8,168,127,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" />
+			<TextBlock HorizontalAlignment="Left" Margin="8,228,0,0" TextWrapping="Wrap" FontSize="36" Height="47" VerticalAlignment="Top"><Run Text="Männlic"/><Run Text="h"/><LineBreak/><Run/><LineBreak/><Run Text="h"/><LineBreak/><Run/></TextBlock>
+			<TextBlock Margin="0,228,127,0" TextWrapping="Wrap" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" FontSize="36" RenderTransformOrigin="1.488,0.125" HorizontalAlignment="Right"><Run Text="Weiblich"/><LineBreak/><Run/></TextBlock>
+			<RadioButton x:Name="maennlich" Content="" Margin="52,0,0,180" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="63"/>
+			<RadioButton x:Name="weiblich" Content="" Margin="0,0,162,180" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="64"/>
+		</Grid>
+	</Grid>
+</phone:PhoneApplicationPage>
