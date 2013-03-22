@@ -27,6 +27,16 @@
 					<Button x:Name="PromillButton" Content="Promillerechner" Margin="32,168,105,228" Click="NavigationPromillButton_Click"/>
 				</Grid>
 			</controls:PanoramaItem>
+			<controls:PanoramaItem Header="Sammlung">
+				<Grid>
+					<TextBlock HorizontalAlignment="Left" Height="29" Margin="8,21,0,0" TextWrapping="Wrap" Text="vorhandene:" VerticalAlignment="Top" Width="123"/>
+					<TextBlock HorizontalAlignment="Left" Height="33" Margin="20,198,0,0" TextWrapping="Wrap" Text="fehlende:" VerticalAlignment="Top" Width="89"/>
+					<Button Content="Alle" HorizontalAlignment="Left" Height="75" Margin="29,81,0,0" VerticalAlignment="Top" Width="149"/>
+					<Button Content="Auswahl" HorizontalAlignment="Right" Height="75" Margin="0,81,53,0" VerticalAlignment="Top" Width="149"/>
+					<Button HorizontalAlignment="Right" Height="63" Margin="0,0,28,80" VerticalAlignment="Bottom" Width="118" Content="Alle"/>
+					<Button Content="+" HorizontalAlignment="Right" Height="68" Margin="0,0,19,8" VerticalAlignment="Bottom" Width="98"/>
+				</Grid>
+			</controls:PanoramaItem>
 		</controls:Panorama>
 	</Grid>
 </phone:PhoneApplicationPage>

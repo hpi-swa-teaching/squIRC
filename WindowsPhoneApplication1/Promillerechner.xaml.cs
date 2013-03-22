@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class Promille : PhoneApplicationPage
+    public partial class Promille1 : PhoneApplicationPage
     {
-        public Promille()
+        public Promille1()
         {
             InitializeComponent();
         }
