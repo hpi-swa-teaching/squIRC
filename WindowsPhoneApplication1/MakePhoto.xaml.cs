@@ -13,11 +13,18 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class PhonePage2 : PhoneApplicationPage
+    public partial class MakePhoto : PhoneApplicationPage
     {
-        public PhonePage2()
+        public MakePhoto()
         {
             InitializeComponent();
         }
+
+        private void FertigButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Zur Bibiliothek hinzugefügt");
+            this.NavigationService.Navigate(new Uri("/MainPanoramaPage.xaml", UriKind.Relative));
+        }
+
     }
 }

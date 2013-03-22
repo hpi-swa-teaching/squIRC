@@ -19,5 +19,9 @@ namespace WindowsPhoneApplication1
         {
             InitializeComponent();
         }
+        private void ButtonAdd_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/Neues_Getraenk.xaml", UriKind.Relative));
+        }
     }
 }

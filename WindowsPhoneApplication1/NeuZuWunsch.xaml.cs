@@ -13,11 +13,15 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class NeuZuWunsch : PhoneApplicationPage
+    public partial class AddWish : PhoneApplicationPage
     {
-        public NeuZuWunsch()
+        public AddWish()
         {
             InitializeComponent();
+        }
+        private void MakeFotoButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/MakePhoto.xaml", UriKind.Relative));
         }
     }
 }

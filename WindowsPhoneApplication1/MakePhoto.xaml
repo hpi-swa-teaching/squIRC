@@ -6,7 +6,7 @@
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
-	x:Class="WindowsPhoneApplication1.PhonePage2"
+	x:Class="WindowsPhoneApplication1.MakePhoto"
 	FontFamily="{StaticResource PhoneFontFamilyNormal}"
 	FontSize="{StaticResource PhoneFontSizeNormal}"
 	Foreground="{StaticResource PhoneForegroundBrush}"
@@ -28,10 +28,9 @@
 
 		<!--ContentPanel - place additional content here-->
 		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-			<Button Content="" HorizontalAlignment="Left" Height="80" Margin="20,0,0,20" VerticalAlignment="Bottom" Width="80"/>
-			<Button Content="" Height="80" Margin="134,0,207,20" VerticalAlignment="Bottom"/>
+            <Button Content="|Ö|" Height="80" Margin="134,0,207,20" VerticalAlignment="Bottom"/>
 			<Button Content="Button" HorizontalAlignment="Right" Height="63" Margin="0,8,8,0" VerticalAlignment="Top" Width="61"/>
-			<Button Content="FERTIG" HorizontalAlignment="Right" Height="80" Margin="0,0,25,20" VerticalAlignment="Bottom" Width="133"/>
+			<Button x:Name="FertigButton" Content="FERTIG" HorizontalAlignment="Right" Height="80" Margin="0,0,25,20" VerticalAlignment="Bottom" Width="133" Click="FertigButton_Click" />
 		</Grid>
 	</Grid>
 </phone:PhoneApplicationPage>

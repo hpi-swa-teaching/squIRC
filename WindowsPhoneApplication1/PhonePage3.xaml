@@ -5,8 +5,8 @@
 	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
-	x:Class="WindowsPhoneApplication1.NeueFL1"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+	x:Class="WindowsPhoneApplication1.PhonePage3"
 	FontFamily="{StaticResource PhoneFontFamilyNormal}"
 	FontSize="{StaticResource PhoneFontSizeNormal}"
 	Foreground="{StaticResource PhoneForegroundBrush}"
@@ -23,15 +23,18 @@
 		<!--TitlePanel contains the name of the application and page title-->
 		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
 			<TextBlock x:Name="ApplicationTitle" Text="MyAlcApp" Style="{StaticResource PhoneTextNormalStyle}"/>
-			<TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"><Run Text="Neue Flasche"/><Run Text="?"/></TextBlock>
+			<TextBlock x:Name="PageTitle" Text="Alle Flaschen" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
 		</StackPanel>
 
 		<!--ContentPanel - place additional content here-->
 		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-			<Button x:Name="ZuBestandButton" Content="zu Bestand" HorizontalAlignment="Left" Height="186" Margin="33,86,0,0" VerticalAlignment="Top" Width="179" Click="ZuBestandButton_Click" />
-            <Button x:Name="ZuWunschButton" Content="zu Wunsch" HorizontalAlignment="Right" Height="186" Margin="0,86,31,0" VerticalAlignment="Top" Width="185" Click="ZuWunschButton_Click"/>
-            <Button x:Name="AbbrechenButton" Content="Abbrechen" Height="90" Margin="102,0,91,202" VerticalAlignment="Bottom" RenderTransformOrigin="0.513,0.722" Click="AbbrechenButton_Click"/>
+			<TextBlock HorizontalAlignment="Left" Height="35" Margin="90,53,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="109"/>
+			<TextBlock Height="35" Margin="222,53,137,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+			<TextBlock HorizontalAlignment="Right" Height="35" Margin="0,53,19,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="89"/>
+			<TextBlock HorizontalAlignment="Left" Margin="190,40,0,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
+			<TextBlock HorizontalAlignment="Right" Margin="0,40,124,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
+			<TextBlock HorizontalAlignment="Left" Margin="77,40,0,193" TextWrapping="Wrap" Text="||||||||||||||||||||||||||||" Width="9"/>
+			<TextBlock Height="25" Margin="15,55,4,0" TextWrapping="Wrap" Text="_____________________________________________________________" VerticalAlignment="Top"/>
 		</Grid>
-		<Button Content="Button" HorizontalAlignment="Right" Height="0" Margin="0,0,-187,168" Grid.Row="1" VerticalAlignment="Bottom" Width="3"/>
 	</Grid>
 </phone:PhoneApplicationPage>

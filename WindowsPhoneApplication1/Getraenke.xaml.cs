@@ -23,7 +23,7 @@ namespace WindowsPhoneApplication1
         private void anderes_Click(object sender, RoutedEventArgs e)
         {
 
-            NavigationService.Navigate(new Uri("/anderes_getränk.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Anderes_Getraenk.xaml", UriKind.Relative));
         }
 
         private void Bier_Click(object sender, RoutedEventArgs e)

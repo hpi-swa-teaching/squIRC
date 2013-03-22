@@ -14,8 +14,8 @@
 	shell:SystemTray.IsVisible="True">
 	<phone:PhoneApplicationPage.ApplicationBar>
 		<shell:ApplicationBar Mode="Default">
-			<shell:ApplicationBarIconButton IconUri="/icons/appbar.check.rest.png" Text="Ok"/>
-			<shell:ApplicationBarIconButton IconUri="/icons/appbar.cancel.rest.png" Text="Abbrechen"/>
+			<shell:ApplicationBarIconButton IconUri="/icons/appbar.add.rest.png" Text="anderes" />
+			<shell:ApplicationBarIconButton IconUri="/icons/appbar.favs.addto.rest.png" Text="hinzufügen" />
 		</shell:ApplicationBar>
 	</phone:PhoneApplicationPage.ApplicationBar>
 

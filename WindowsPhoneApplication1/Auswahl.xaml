@@ -6,7 +6,7 @@
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
-	x:Class="WindowsPhoneApplication1.NeueFL1"
+	x:Class="WindowsPhoneApplication1.PhonePage1"
 	FontFamily="{StaticResource PhoneFontFamilyNormal}"
 	FontSize="{StaticResource PhoneFontSizeNormal}"
 	Foreground="{StaticResource PhoneForegroundBrush}"
@@ -22,16 +22,16 @@
 		
 		<!--TitlePanel contains the name of the application and page title-->
 		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-			<TextBlock x:Name="ApplicationTitle" Text="MyAlcApp" Style="{StaticResource PhoneTextNormalStyle}"/>
-			<TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"><Run Text="Neue Flasche"/><Run Text="?"/></TextBlock>
+			<TextBlock x:Name="ApplicationTitle" Style="{StaticResource PhoneTextNormalStyle}"><Run Text="M"/><Run Text="yAlcApp"/></TextBlock>
+			<TextBlock x:Name="PageTitle" Text="Auswahl" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
 		</StackPanel>
 
 		<!--ContentPanel - place additional content here-->
 		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-			<Button x:Name="ZuBestandButton" Content="zu Bestand" HorizontalAlignment="Left" Height="186" Margin="33,86,0,0" VerticalAlignment="Top" Width="179" Click="ZuBestandButton_Click" />
-            <Button x:Name="ZuWunschButton" Content="zu Wunsch" HorizontalAlignment="Right" Height="186" Margin="0,86,31,0" VerticalAlignment="Top" Width="185" Click="ZuWunschButton_Click"/>
-            <Button x:Name="AbbrechenButton" Content="Abbrechen" Height="90" Margin="102,0,91,202" VerticalAlignment="Bottom" RenderTransformOrigin="0.513,0.722" Click="AbbrechenButton_Click"/>
+			<Button HorizontalAlignment="Left" Height="112" Margin="35,72,0,0" VerticalAlignment="Top" Width="188" Content="Datum"/>
+			<Button Content="Bewertung" HorizontalAlignment="Right" Height="112" Margin="0,72,24,0" VerticalAlignment="Top" Width="191"/>
+			<Button Content="Standort" HorizontalAlignment="Left" Height="112" Margin="35,0,0,158" VerticalAlignment="Bottom" Width="188"/>
+			<Button Content="Button" HorizontalAlignment="Right" Height="112" Margin="0,0,24,158" VerticalAlignment="Bottom" Width="191"/>
 		</Grid>
-		<Button Content="Button" HorizontalAlignment="Right" Height="0" Margin="0,0,-187,168" Grid.Row="1" VerticalAlignment="Bottom" Width="3"/>
 	</Grid>
 </phone:PhoneApplicationPage>

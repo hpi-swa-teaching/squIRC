@@ -14,7 +14,7 @@
 	shell:SystemTray.IsVisible="True" BorderBrush="Black">
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar>
-            <shell:ApplicationBarIconButton IconUri="/icons/appbar.add.rest.png" Text="Hinzufügen"/>
+            <shell:ApplicationBarIconButton IconUri="/icons/appbar.add.rest.png" Text="Hinzufügen" Click="ButtonAdd_Click"/>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 
@@ -36,7 +36,7 @@
             <Button x:Name="Bier" Content="Bier" HorizontalAlignment="Left" Margin="8,8,0,0" VerticalAlignment="Top" Height="176" Width="176"/>
             <Button x:Name="Wein" Content="Wein" HorizontalAlignment="Right" Margin="0,8,92,0" VerticalAlignment="Top" Width="176" Height="176"/>
             <Button x:Name="Vodka" HorizontalAlignment="Left" Margin="8,0,0,171" VerticalAlignment="Bottom" Width="176" Height="176" d:LayoutOverrides="HorizontalAlignment" Content="Vodka"/>
-            <Button x:Name="anderes" Content="anderes" VerticalAlignment="Top" Margin="188,188,92,0" Width="176" Height="176" Click="anderes_Click" />
+            <Button x:Name="anderes" Content="anderes" VerticalAlignment="Top" Margin="188,188,92,0" Width="176" Height="176" />
         </Grid>
     </Grid>
 </phone:PhoneApplicationPage>

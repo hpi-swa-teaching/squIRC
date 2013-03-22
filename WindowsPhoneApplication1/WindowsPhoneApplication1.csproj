@@ -60,14 +60,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NeuZuWunsch.xaml.cs">
+      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Anderes_Getraenk.xaml.cs">
       <DependentUpon>Anderes_Getraenk.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Gatraenke.xaml.cs">
-      <DependentUpon>Gatraenke.xaml</DependentUpon>
+    <Compile Include="Getraenk.xaml.cs">
+      <DependentUpon>Getraenk.xaml</DependentUpon>
     </Compile>
     <Compile Include="Neues_Getraenk.xaml.cs">
       <DependentUpon>Neues_Getraenk.xaml</DependentUpon>
@@ -92,6 +95,11 @@
     </Compile>
     <Compile Include="rechner_einstellungen.xaml.cs">
       <DependentUpon>rechner_einstellungen.xaml</DependentUpon>
+    <Compile Include="PhonePage2.xaml.cs">
+      <DependentUpon>PhonePage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PhonePage3.xaml.cs">
+      <DependentUpon>PhonePage3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Verlauf.xaml.cs">
       <DependentUpon>Verlauf.xaml</DependentUpon>
@@ -105,6 +113,9 @@
     <Compile Include="BehalteOnlineBild.xaml.cs">
       <DependentUpon>BehalteOnlineBild.xaml</DependentUpon>
     </Compile>
+	<Compile Include="NeuZuWunsch.xaml.cs">
+      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -112,11 +123,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="NeuZuWunsch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Anderes_Getraenk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Gatraenke.xaml">
+    <Page Include="Getraenk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -129,6 +144,11 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="rechner_einstellungen.xaml">
+    <Page Include="PhonePage2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PhonePage3.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -143,10 +163,6 @@
     <Page Include="PhonePage1.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="NeuZuWunsch.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="neuFL.xaml">
       <SubType>Designer</SubType>
@@ -188,6 +204,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="icons\appbar.check.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.favs.addto.rest.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SplashScreenImage.jpg" />

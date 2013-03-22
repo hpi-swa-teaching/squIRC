@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -13,20 +13,11 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class NeuFL : PhoneApplicationPage
+    public partial class PhonePage1 : PhoneApplicationPage
     {
-        public NeuFL()
+        public PhonePage1()
         {
             InitializeComponent();
-        }
-
-        private void Kategorie_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
-        }
-        private void ZuFotoButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new Uri("/MakePhoto.xaml", UriKind.Relative));
         }
     }
 }
