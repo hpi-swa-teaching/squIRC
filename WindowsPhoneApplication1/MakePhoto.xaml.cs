@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class PhonePage2 : PhoneApplicationPage
+    public partial class MakePhoto : PhoneApplicationPage
     {
-        public PhonePage2()
+        public MakePhoto()
         {
             InitializeComponent();
         }
