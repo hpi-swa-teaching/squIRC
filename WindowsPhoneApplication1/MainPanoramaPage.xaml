@@ -16,15 +16,15 @@
 
 	<!--LayoutRoot contains the root grid where all other page content is placed-->
 	<Grid x:Name="LayoutRoot">
-		<controls:Panorama Title="MyAlcApp" Margin="-8,0,8,0">
+		<controls:Panorama Title="MyAlcApp" Margin="0,8,0,-8">
 
 			<!--Panorama item one-->
 
 			<!--Panorama item two-->
 			<controls:PanoramaItem Header="Statistiken">
 				<Grid>
-					<Button Height="100" Margin="32,23,105,0" VerticalAlignment="Top" Content="Verlauf" FontSize="29.333"/>
-					<Button Content="Promillerechner" Margin="32,168,105,228"/>
+					<Button x:Name="VerlaufButton" Height="100" Margin="32,23,105,0" VerticalAlignment="Top" Content="Verlauf" FontSize="29.333" Click="VerlaufButton_Click"/>
+					<Button x:Name="PromillButton" Content="Promillerechner" Margin="32,168,105,228" Click="NavigationPromillButton_Click"/>
 				</Grid>
 			</controls:PanoramaItem>
 		</controls:Panorama>

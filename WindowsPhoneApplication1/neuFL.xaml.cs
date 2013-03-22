@@ -11,11 +11,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace Challenge
+namespace WindowsPhoneApplication1
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class NeuFL : PhoneApplicationPage
     {
-        public MainPage()
+        public NeuFL()
         {
             InitializeComponent();
         }

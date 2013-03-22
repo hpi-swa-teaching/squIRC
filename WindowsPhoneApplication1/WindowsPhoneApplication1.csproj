@@ -66,8 +66,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Gatränke+.xaml.cs">
-      <DependentUpon>Gatränke+.xaml</DependentUpon>
+    <Compile Include="Gatraenke.xaml.cs">
+      <DependentUpon>Gatraenke.xaml</DependentUpon>
     </Compile>
     <Compile Include="Neues_Getraenk.xaml.cs">
       <DependentUpon>Neues_Getraenk.xaml</DependentUpon>
@@ -113,7 +113,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Gatränke+.xaml">
+    <Page Include="Gatraenke.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -160,6 +160,14 @@
     <Page Include="MainPanoramaPage.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MakePhoto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BehalteOnlineBild.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
