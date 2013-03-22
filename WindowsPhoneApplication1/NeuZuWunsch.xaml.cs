@@ -19,5 +19,9 @@ namespace WindowsPhoneApplication1
         {
             InitializeComponent();
         }
+        private void MakeFotoButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/MakePhoto.xaml", UriKind.Relative));
+        }
     }
 }
