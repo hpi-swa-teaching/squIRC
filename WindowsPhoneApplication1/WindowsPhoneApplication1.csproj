@@ -93,12 +93,6 @@
     <Compile Include="BehalteOnlineBild.xaml.cs">
       <DependentUpon>BehalteOnlineBild.xaml</DependentUpon>
     </Compile>
-    <Compile Include="neuFL.xaml.cs">
-      <DependentUpon>neuFL.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="neueFL1.xaml.cs">
-      <DependentUpon>neueFL1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +135,14 @@
     <Page Include="MainPanoramaPage.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MakePhoto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BehalteOnlineBild.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
