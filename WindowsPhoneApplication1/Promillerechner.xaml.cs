@@ -30,9 +30,14 @@ namespace WindowsPhoneApplication1
             var promillegehalt = concentration / (mass * reduction);
             promillegehalt = Math.Round(promillegehalt, 2);
 
-            Promille_Wert.Text = promillegehalt.ToString();
+            Promille_Wert.Text = promillegehalt.ToString() + "‰"; 
 
         }
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/Getraenke.xaml", UriKind.Relative));
+        }
+
 
   
 

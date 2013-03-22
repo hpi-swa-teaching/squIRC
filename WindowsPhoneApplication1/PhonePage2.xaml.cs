@@ -13,12 +13,11 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class Anderes_Getraenk : PhoneApplicationPage
+    public partial class PhonePage2 : PhoneApplicationPage
     {
-        public Anderes_Getraenk()
+        public PhonePage2()
         {
             InitializeComponent();
         }
     }
-    
 }
