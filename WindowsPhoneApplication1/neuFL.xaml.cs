@@ -22,7 +22,7 @@ namespace WindowsPhoneApplication1
 
         private void Kategorie_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-          
+            
         }
         private void ZuFotoButton_Click(object sender, RoutedEventArgs e)
         {

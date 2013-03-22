@@ -23,7 +23,7 @@
 		<!--TitlePanel contains the name of the application and page title-->
 		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
 			<TextBlock x:Name="ApplicationTitle" Text="MyAlcApp" Style="{StaticResource PhoneTextNormalStyle}"/>
-			<TextBlock x:Name="PageTitle" Text="Fehlende Flasche Nr. 3" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="48"/>
+			<TextBlock x:Name="PageTitle" Text="Fehlende Flasche" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="48"/>
 		</StackPanel>
 
 		<!--ContentPanel - place additional content here-->
@@ -34,8 +34,8 @@
 			<TextBox HorizontalAlignment="Right" Height="76" Margin="0,144,24,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
 			<TextBlock HorizontalAlignment="Left" Height="63" Margin="24,233,0,0" TextWrapping="Wrap" Text="Kategorie:" VerticalAlignment="Top" Width="204"/>
 			<TextBox HorizontalAlignment="Left" Margin="8,255,0,312" TextWrapping="Wrap" Width="220"/>
-			<Button Content="Zu Bestand Hinzufügen" Height="90" Margin="82,0,61,167" VerticalAlignment="Bottom"/>
-			<Button Content="Meine Sammlung" Height="82" Margin="211,0,0,8" VerticalAlignment="Bottom"/>
+			<Button Content="Zu Bestand Hinzufügen" Height="90" Margin="82,0,46,167" VerticalAlignment="Bottom"/>
+			<Button Content="Meine Sammlung" Height="82" Margin="190,0,0,8" VerticalAlignment="Bottom"/>
 		</Grid>
 	</Grid>
 </phone:PhoneApplicationPage>
