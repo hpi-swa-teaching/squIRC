@@ -35,8 +35,8 @@
 			<TextBox Height="72" Margin="159,186,20,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 			<TextBox HorizontalAlignment="Right" Height="12" Margin="0,59,44,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="5"/>
 			<Button HorizontalAlignment="Left" Height="111" Margin="12,0,0,31" VerticalAlignment="Bottom" Width="180" Content="Foto online &#xd;&#xa;suchen"/>
-			<Button Content="FERTIG" HorizontalAlignment="Right" Height="111" Margin="0,0,20,31" VerticalAlignment="Bottom" Width="146"/>
-			<Button x:Name="MakeFotoButton" Content="|ö|" Height="111" Margin="200,0,166,31" VerticalAlignment="Bottom" />
+            <Button Content="FERTIG" HorizontalAlignment="Right" Height="111" Margin="0,0,20,31" VerticalAlignment="Bottom" Width="146" Click="FertigButton_Click" />
+            <Button x:Name="MakeFotoButton" Content="|ö|" Height="111" Margin="200,0,166,31" VerticalAlignment="Bottom" Click="MakeFotoButton_Click"/>
 			<ListBox Height="44" Margin="169,109,30,0" VerticalAlignment="Top" Foreground="White"/>
 		</Grid>
 	</Grid>
