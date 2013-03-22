@@ -13,11 +13,17 @@ using Microsoft.Phone.Controls;
 
 namespace My_Alc_App
 {
-    public partial class PhonePage1 : PhoneApplicationPage
+    public partial class MainPage : PhoneApplicationPage
     {
-        public PhonePage1()
+        public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void anderes_Click(object sender, RoutedEventArgs e)
+        {
+          
+            NavigationService.Navigate(new Uri("/anderes_getränk.xaml", UriKind.Relative));
         }
     }
 }

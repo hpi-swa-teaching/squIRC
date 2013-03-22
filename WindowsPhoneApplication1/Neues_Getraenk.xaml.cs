@@ -11,11 +11,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace WindowsPhoneApplication1
+namespace My_Alc_App
 {
-    public partial class Page1 : PhoneApplicationPage
+    public partial class Neues_Getraenk : PhoneApplicationPage
     {
-        public Page1()
+        public Neues_Getraenk()
         {
             InitializeComponent();
         }

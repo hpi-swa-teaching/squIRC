@@ -12,38 +12,38 @@
 	Foreground="{StaticResource PhoneForegroundBrush}"
 	Orientation="Portrait"
 	shell:SystemTray.IsVisible="True">
-    <phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar>
-            <shell:ApplicationBarIconButton IconUri="/icons/appbar.check.rest.png" Text="Fertig"/>
-            <shell:ApplicationBarIconButton IconUri="/icons/appbar.cancel.rest.png" Text="Abbrechen"/>
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+	<phone:PhoneApplicationPage.ApplicationBar>
+		<shell:ApplicationBar>
+			<shell:ApplicationBarIconButton IconUri="/icons/appbar.check.rest.png" Text="Fertig"/>
+			<shell:ApplicationBarIconButton IconUri="/icons/appbar.cancel.rest.png" Text="Abbrechen"/>
+		</shell:ApplicationBar>
+	</phone:PhoneApplicationPage.ApplicationBar>
 
-    <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+	<!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		
+		<!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+			<TextBlock x:Name="ApplicationTitle" Text="MyAlcApp" Style="{StaticResource PhoneTextNormalStyle}"/>
+			<TextBlock x:Name="PageTitle" Text="neues Getränk" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+		</StackPanel>
 
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="MyAlcApp" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="neues Getränk" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
-
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="34,8,-10,-8">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="36"/>
-        </Grid>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="36" Grid.Row="1" Margin="14,247,0,296"><Run Text="Standartgrößen"/><LineBreak/><Run/></TextBlock>
-        <TextBox x:Name="name" TextWrapping="Wrap" VerticalAlignment="Top" Margin="14,43,121,0" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="34,119,0,0" Grid.Row="1"><Run FontSize="36" Text="Vol "/><Run FontSize="36" Text="%"/></TextBlock>
-        <TextBox x:Name="vol_prozent" TextWrapping="Wrap" VerticalAlignment="Top" Margin="14,171,121,0" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="groeßen" TextWrapping="Wrap" Margin="14,0,121,160" Grid.Row="1" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment"/>
-        <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="l" VerticalAlignment="Bottom" FontSize="48" Margin="0,0,95,168" Grid.Row="1" d:LayoutOverrides="VerticalAlignment"/>
-        <Button x:Name="add" Content="+" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,24,163" Grid.Row="1" Width="71" d:LayoutOverrides="VerticalAlignment" RenderTransformOrigin="0.521,0.406"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Standartgrößen" FontSize="36" Margin="34,251,0,236" Grid.Row="1" d:LayoutOverrides="Height"/>
-    </Grid>
+		<!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="34,8,-10,-8">
+			<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="36"/>
+		</Grid>
+		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="36" Grid.Row="1" Margin="14,247,0,296"><Run Text="Standartgrößen"/><LineBreak/><Run/></TextBlock>
+		<TextBox x:Name="name" TextWrapping="Wrap" VerticalAlignment="Top" Margin="14,43,121,0" Grid.Row="1"/>
+		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="34,119,0,0" Grid.Row="1"><Run FontSize="36" Text="Vol "/><Run FontSize="36" Text="%"/></TextBlock>
+		<TextBox x:Name="vol_prozent" TextWrapping="Wrap" VerticalAlignment="Top" Margin="14,171,121,0" Grid.Row="1"/>
+		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+		<TextBox x:Name="groeßen" TextWrapping="Wrap" Margin="14,0,121,160" Grid.Row="1" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment"/>
+		<TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="l" VerticalAlignment="Bottom" FontSize="48" Margin="0,0,95,168" Grid.Row="1" d:LayoutOverrides="VerticalAlignment"/>
+		<Button x:Name="add" Content="+" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,24,163" Grid.Row="1" Width="71" d:LayoutOverrides="VerticalAlignment" RenderTransformOrigin="0.521,0.406"/>
+		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Standartgrößen" FontSize="36" Margin="34,251,0,236" Grid.Row="1" d:LayoutOverrides="Height"/>
+	</Grid>
 </phone:PhoneApplicationPage>
