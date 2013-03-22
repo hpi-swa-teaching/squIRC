@@ -11,11 +11,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace WindowsPhoneApplication2
+namespace WindowsPhoneApplication1
 {
-    public partial class PhonePage3 : PhoneApplicationPage
+    public partial class Verlauf : PhoneApplicationPage
     {
-        public PhonePage3()
+        public Verlauf()
         {
             InitializeComponent();
         }

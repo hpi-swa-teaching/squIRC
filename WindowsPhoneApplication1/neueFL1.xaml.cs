@@ -11,7 +11,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace Challenge
+namespace WindowsPhoneApplication1
 {
     public partial class NeueFL1 : PhoneApplicationPage
     {
