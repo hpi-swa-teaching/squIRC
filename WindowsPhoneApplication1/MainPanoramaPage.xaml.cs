@@ -38,5 +38,10 @@ namespace WindowsPhoneApplication1
         {
             this.NavigationService.Navigate(new Uri("/PhonePage1.xaml", UriKind.Relative));
         }
+
+        private void AlleButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/PhonePage3.xaml", UriKind.Relative));
+        }
     }
 }

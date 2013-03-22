@@ -24,8 +24,6 @@ namespace WindowsPhoneApplication1
         {
             
         }
-
-
         private void WeiterButton_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new Uri("/MakePhoto.xaml", UriKind.Relative));

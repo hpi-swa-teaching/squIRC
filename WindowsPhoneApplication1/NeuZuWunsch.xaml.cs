@@ -23,7 +23,7 @@ namespace WindowsPhoneApplication1
         {
             this.NavigationService.Navigate(new Uri("/MakePhoto.xaml", UriKind.Relative));
         }
-        private void Fertig_Click(object sender, RoutedEventArgs e)
+        private void FertigButton_Click(object sender, RoutedEventArgs e)
         {            
             MessageBox.Show("Zur Bibiliothek hinzugefügt");
             this.NavigationService.Navigate(new Uri("/MainPanoramaPage.xaml", UriKind.Relative));

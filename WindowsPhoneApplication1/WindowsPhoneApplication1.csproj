@@ -112,6 +112,9 @@
     <Compile Include="BehalteOnlineBild.xaml.cs">
       <DependentUpon>BehalteOnlineBild.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NeuZuWunsch.xaml.cs">
+      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

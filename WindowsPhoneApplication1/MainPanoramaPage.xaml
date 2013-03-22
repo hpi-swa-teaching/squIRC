@@ -31,10 +31,11 @@
 				<Grid>
 					<TextBlock HorizontalAlignment="Left" Height="29" Margin="8,21,0,0" TextWrapping="Wrap" Text="vorhandene:" VerticalAlignment="Top" Width="123"/>
 					<TextBlock HorizontalAlignment="Left" Height="33" Margin="20,198,0,0" TextWrapping="Wrap" Text="fehlende:" VerticalAlignment="Top" Width="89"/>
-					<Button x:Name="AlleButton" Content="Alle" HorizontalAlignment="Left" Height="75" Margin="29,81,0,0" VerticalAlignment="Top" Width="149" />
+					<Button x:Name="AlleButton" Content="Alle" HorizontalAlignment="Left" Height="75" Margin="29,81,0,0" VerticalAlignment="Top" Width="149" Click="AlleButton_Click" />
 					<Button x:Name="AuswahlButton" Content="Auswahl" HorizontalAlignment="Right" Height="75" Margin="0,81,53,0" VerticalAlignment="Top" Width="149" />
-					<Button HorizontalAlignment="Right" Height="63" Margin="0,0,28,80" VerticalAlignment="Bottom" Width="118" Content="Alle"/>
-                    <Button x:Name="NeueFlascheButton" Content="+" HorizontalAlignment="Right" Height="68" Margin="0,0,19,8" VerticalAlignment="Bottom" Width="98" Click="NeueFlascheButton_Click" />
+					<Button HorizontalAlignment="Left" Height="75" Margin="29,0,0,145" VerticalAlignment="Bottom" Width="149" Content="Alle"/>
+                    <Button x:Name="NeueFlascheButton" Content="+" Height="87" Margin="158,0,164,7" VerticalAlignment="Bottom" Click="NeueFlascheButton_Click" FontSize="26.667" />
+                    <TextBlock Height="27" Margin="20,0,8,94" TextWrapping="Wrap" VerticalAlignment="Bottom"><Run Text="______________________________________________"/><Run Text="_____________"/></TextBlock>
 				</Grid>
 			</controls:PanoramaItem>
 		</controls:Panorama>
