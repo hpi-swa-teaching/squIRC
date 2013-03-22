@@ -25,5 +25,9 @@ namespace WindowsPhoneApplication1
             listBox1.Items.Insert(4, "Bierflaschen","Schnapsflaschen","Weinflaschen","Sonstige");
 
         }
+        private void ZuFotoButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/MakePhoto.xaml", UriKind.Relative));
+        }
     }
 }
