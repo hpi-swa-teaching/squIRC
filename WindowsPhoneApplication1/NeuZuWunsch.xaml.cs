@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
 {
-    public partial class NeuZuWunsch : PhoneApplicationPage
+    public partial class AddWish : PhoneApplicationPage
     {
-        public NeuZuWunsch()
+        public AddWish()
         {
             InitializeComponent();
         }

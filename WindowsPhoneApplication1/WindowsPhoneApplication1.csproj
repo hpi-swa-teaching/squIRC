@@ -60,6 +60,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NeuZuWunsch.xaml.cs">
+      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Anderes_Getraenk.xaml.cs">
       <DependentUpon>Anderes_Getraenk.xaml</DependentUpon>
     </Compile>
@@ -109,6 +112,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="NeuZuWunsch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Anderes_Getraenk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -136,10 +143,6 @@
     <Page Include="PhonePage1.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="NeuZuWunsch.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="neuFL.xaml">
       <SubType>Designer</SubType>

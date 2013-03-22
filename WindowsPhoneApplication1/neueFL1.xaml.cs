@@ -20,8 +20,8 @@ namespace WindowsPhoneApplication1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        private void Button_Click(object sender, RoutedEventArgs e) {
+
             this.NavigationService.Navigate(new Uri("/NeuZuWunsch.xaml", UriKind.Relative));
         }
 
