@@ -19,18 +19,22 @@ namespace WindowsPhoneApplication1
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void Button_Click(object sender, RoutedEventArgs e) {
 
             this.NavigationService.Navigate(new Uri("/NeuZuWunsch.xaml", UriKind.Relative));
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+=======
+        private void ZuBestandButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("/NeuFL.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("/neuFL.xaml", UriKind.Relative));
+>>>>>>> 08a43d43e335c8806dee1ff938e73d99f66180b9
         }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void ZuWunschButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/NeuZuWunsch.xaml", UriKind.Relative));
+        }
+        private void AbbrechenButton_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new Uri("/MainPanoramaPage.xaml", UriKind.Relative));
         }
