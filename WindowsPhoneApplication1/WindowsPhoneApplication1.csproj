@@ -38,6 +38,7 @@
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -95,7 +96,7 @@
     </Compile>
     <Compile Include="rechner_einstellungen.xaml.cs">
       <DependentUpon>rechner_einstellungen.xaml</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="PhonePage2.xaml.cs">
       <DependentUpon>PhonePage2.xaml</DependentUpon>
     </Compile>
@@ -113,9 +114,6 @@
     </Compile>
     <Compile Include="BehalteOnlineBild.xaml.cs">
       <DependentUpon>BehalteOnlineBild.xaml</DependentUpon>
-    </Compile>
-	<Compile Include="NeuZuWunsch.xaml.cs">
-      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
