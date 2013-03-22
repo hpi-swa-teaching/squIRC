@@ -12,7 +12,6 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
 namespace WindowsPhoneApplication1
-
 {
     public partial class Anderes_Getraenk : PhoneApplicationPage
     {
