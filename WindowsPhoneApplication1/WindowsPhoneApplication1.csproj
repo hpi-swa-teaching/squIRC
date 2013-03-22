@@ -96,6 +96,9 @@
     <Compile Include="PhonePage2.xaml.cs">
       <DependentUpon>PhonePage2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PhonePage3.xaml.cs">
+      <DependentUpon>PhonePage3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Verlauf.xaml.cs">
       <DependentUpon>Verlauf.xaml</DependentUpon>
     </Compile>
@@ -107,6 +110,9 @@
     </Compile>
     <Compile Include="BehalteOnlineBild.xaml.cs">
       <DependentUpon>BehalteOnlineBild.xaml</DependentUpon>
+    </Compile>
+	<Compile Include="NeuZuWunsch.xaml.cs">
+      <DependentUpon>NeuZuWunsch.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -136,6 +142,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="PhonePage2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PhonePage3.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
