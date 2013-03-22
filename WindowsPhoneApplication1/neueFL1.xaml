@@ -28,9 +28,9 @@
 
 		<!--ContentPanel - place additional content here-->
 		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-			<Button Content="zu Bestand" HorizontalAlignment="Left" Height="186" Margin="33,86,0,0" VerticalAlignment="Top" Width="179"/>
-			<Button Content="zu Wunsch" HorizontalAlignment="Right" Height="186" Margin="0,86,31,0" VerticalAlignment="Top" Width="185"/>
-			<Button Content="Abbrechen" Height="90" Margin="102,0,91,202" VerticalAlignment="Bottom" RenderTransformOrigin="0.513,0.722"/>
+			<Button Content="zu Bestand" HorizontalAlignment="Left" Height="186" Margin="33,86,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click_1" />
+			<Button Content="zu Wunsch" HorizontalAlignment="Right" Height="186" Margin="0,86,31,0" VerticalAlignment="Top" Width="185" Click="Button_Click" />
+			<Button Content="Abbrechen" Height="90" Margin="102,0,91,202" VerticalAlignment="Bottom" RenderTransformOrigin="0.513,0.722" Click="Button_Click_2" />
 		</Grid>
 		<Button Content="Button" HorizontalAlignment="Right" Height="0" Margin="0,0,-187,168" Grid.Row="1" VerticalAlignment="Bottom" Width="3"/>
 	</Grid>
