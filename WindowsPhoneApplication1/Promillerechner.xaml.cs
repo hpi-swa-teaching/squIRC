@@ -55,8 +55,8 @@ namespace WindowsPhoneApplication1
 
                     string currResult = reader.ReadLine();
                     string[] data = currResult.Split(';');
-                    MessageBox.Show(data[0]);
-                    MessageBox.Show(data[1]);
+                   // MessageBox.Show(data[0]);
+                    //MessageBox.Show(data[1]);
                     //string[] data = currResult.Split(';');
 
                     mass = double.Parse(data[0]);
