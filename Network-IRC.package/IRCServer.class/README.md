@@ -1,0 +1,1 @@
+The Servers class variable holds server definitions.  This used to be held on the connection class.

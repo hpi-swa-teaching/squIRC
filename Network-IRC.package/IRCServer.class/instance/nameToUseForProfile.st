@@ -1,0 +1,3 @@
+access
+nameToUseForProfile
+	^self nameToUseWithSeperator: ' '

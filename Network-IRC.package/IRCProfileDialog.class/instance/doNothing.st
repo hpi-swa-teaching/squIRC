@@ -1,0 +1,2 @@
+common entry
+doNothing

@@ -1,0 +1,3 @@
+colors
+channelListRowHighlight
+	^ Color brown

@@ -1,0 +1,3 @@
+private
+currentTimeValue
+	^ Time totalSeconds

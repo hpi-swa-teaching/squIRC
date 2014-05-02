@@ -1,0 +1,3 @@
+as yet unclassified
+channelsBrowser: aIRCChannelListBrowserEnhanced
+	channelsBrowser _ aIRCChannelListBrowserEnhanced

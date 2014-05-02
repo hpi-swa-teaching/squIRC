@@ -1,0 +1,3 @@
+profiles
+vertPaneMargin
+	^ 5

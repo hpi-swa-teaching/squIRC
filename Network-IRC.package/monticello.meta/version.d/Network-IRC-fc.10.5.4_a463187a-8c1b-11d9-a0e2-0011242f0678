@@ -1,0 +1,1 @@
+(name 'Network-IRC-fc.10.5.4'message 'Better catching of end of url. Should get all of the common posibilities. ie> ]).,>?"''Now marks multiple url''s on a single line.'id 'a463187a-8c1b-11d9-a0e2-0011242f0678'date '3 March 2005'time '2:37:13 pm'author 'fc'ancestors ((id '111e62b8-8aca-11d9-a4a5-0011242f0678'))stepChildren ())

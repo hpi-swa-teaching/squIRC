@@ -1,0 +1,1 @@
+Abstract gui layer for IRC windows.

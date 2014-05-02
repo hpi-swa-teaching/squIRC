@@ -1,0 +1,15 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ColorTrapCharacter",
+		"TextColorMap" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IRCClientColors",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "Network-IRC-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Servers" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"serverName",
+		"address",
+		"ports",
+		"group",
+		"port" ],
+	"name" : "IRCServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

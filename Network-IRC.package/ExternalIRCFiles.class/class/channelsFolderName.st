@@ -1,0 +1,3 @@
+channels list
+channelsFolderName
+	^'channels'

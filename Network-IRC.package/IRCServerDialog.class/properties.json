@@ -1,0 +1,18 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"selectedGroupIndex",
+		"selectedServerIndex",
+		"selectedPortIndex",
+		"serversDict",
+		"parentDialog" ],
+	"name" : "IRCServerDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

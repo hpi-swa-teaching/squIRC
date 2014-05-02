@@ -1,0 +1,3 @@
+actions
+newConsole
+	model newConsole

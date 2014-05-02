@@ -1,0 +1,3 @@
+profiles
+fixAllBadProfileKeys
+	IRCConnectionProfile fixAllBadProfileKeys

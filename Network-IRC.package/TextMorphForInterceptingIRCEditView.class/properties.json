@@ -1,0 +1,16 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"intercepts",
+		"interceptActive",
+		"interceptor" ],
+	"name" : "TextMorphForInterceptingIRCEditView",
+	"pools" : [
+		 ],
+	"super" : "TextMorphForEditView",
+	"type" : "normal" }
