@@ -1,4 +1,4 @@
-as yet unclassified
+dialog creation
 openForAddWithOptions: options 
 	"Get a server first."
 	editing := false.

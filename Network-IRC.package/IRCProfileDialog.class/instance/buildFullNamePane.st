@@ -1,4 +1,4 @@
-full name
+property-fullname
 buildFullNamePane
 	^ self
 		entryPane: 'Full Name'

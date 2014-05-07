@@ -1,4 +1,4 @@
-as yet unclassified
+debug
 example
 	"IRCProfileDialog example"
 	| profile dlg |

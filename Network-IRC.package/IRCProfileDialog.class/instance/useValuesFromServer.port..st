@@ -1,4 +1,4 @@
-remote window actions
+property-serveraddress
 useValuesFromServer: anIRCServer port: portNumber 
 	"We have a valid choice from the server dialog. Open our own  
 	window and get busy."

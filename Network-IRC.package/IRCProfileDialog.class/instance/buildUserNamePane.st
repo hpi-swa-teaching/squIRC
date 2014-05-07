@@ -1,4 +1,4 @@
-user name
+property-username
 buildUserNamePane
 	^ self
 		entryPane: 'User Name'

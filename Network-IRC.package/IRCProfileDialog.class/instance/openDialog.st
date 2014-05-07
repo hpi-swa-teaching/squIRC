@@ -1,4 +1,4 @@
-as yet unclassified
+dialog creation
 openDialog
 	"private"
 	"Get here after we do the server dialog window."

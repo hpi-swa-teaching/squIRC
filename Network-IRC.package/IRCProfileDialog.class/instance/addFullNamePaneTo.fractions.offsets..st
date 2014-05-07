@@ -1,4 +1,4 @@
-as yet unclassified
+dialog creation
 addFullNamePaneTo: parentMorph fractions: fractions offsets: offsets 
 	| pane |
 	pane := self buildFullNamePane.

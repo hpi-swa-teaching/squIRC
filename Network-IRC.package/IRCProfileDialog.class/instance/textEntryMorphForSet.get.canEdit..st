@@ -1,17 +1,17 @@
 common entry
-textEntryMorphForSet: setSymbol get: getSymbol canEdit: boolean 
-	| textEntry classToUse colorToUse |
-	classToUse := boolean
+textEntryMorphForSet: t1 get: t2 canEdit: t3 
+	| t4 t5 t6 |
+	t5 := t3
 				ifTrue: [PluggableTextMorph]
-				ifFalse: [PluggableIRCTextMorph].
-	colorToUse := boolean
+				ifFalse: [PluggableTextMorph].
+	t6 := t3
 				ifTrue: [Color white]
 				ifFalse: [Color transparent].
-	textEntry := classToUse
+	t4 := t5
 				on: self
-				text: getSymbol
-				accept: setSymbol.
-	textEntry color: colorToUse;
+				text: t2
+				accept: t1.
+	t4 color: t6;
 		 acceptOnCR: true;
 		 hideScrollBarsIndefinitely.
-	^ textEntry
+	^ t4

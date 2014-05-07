@@ -1,4 +1,4 @@
-remote window actions
+property-serveraddress
 serverButton
 	"From dialog"
 	| dlg |

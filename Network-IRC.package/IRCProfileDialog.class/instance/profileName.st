@@ -1,3 +1,3 @@
-profile name
+property-profilename
 profileName
 	^ profile name

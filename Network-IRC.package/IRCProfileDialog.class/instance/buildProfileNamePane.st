@@ -1,4 +1,4 @@
-profile name
+property-profilename
 buildProfileNamePane
 	^ self
 		entryPane: 'Profile Name'

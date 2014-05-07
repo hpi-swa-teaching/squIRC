@@ -1,4 +1,4 @@
-as yet unclassified
+dialog creation
 buildDialogOn: window 
 	| coll rowHeight rowSpacing offset rowPosn frac off |
 	coll := OrderedCollection new.

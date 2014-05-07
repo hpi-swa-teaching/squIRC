@@ -1,3 +1,3 @@
-remote window actions
+dialog lifecycle
 hideWindow
 	self topView hide

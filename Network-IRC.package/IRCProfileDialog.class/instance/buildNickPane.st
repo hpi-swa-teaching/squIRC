@@ -1,4 +1,4 @@
-nick
+property-nick
 buildNickPane
 	^ self
 		entryPane: 'Nick'

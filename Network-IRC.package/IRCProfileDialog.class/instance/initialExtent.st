@@ -1,3 +1,3 @@
-as yet unclassified
+dialog creation
 initialExtent
 	^ 500 @ 260

@@ -1,4 +1,4 @@
-server address
+property-serveraddress
 buildServerAddressPane
 	| alignPane btn offset |
 	offset := 90.

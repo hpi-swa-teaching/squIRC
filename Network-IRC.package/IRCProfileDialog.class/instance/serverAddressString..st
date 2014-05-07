@@ -1,3 +1,3 @@
-server address
+property-serveraddress
 serverAddressString: aString 
 	^ false

@@ -1,4 +1,4 @@
-as yet unclassified
+dialog creation
 openDialogLabeled: aString
 	| dialogue |
 	dialogue := SystemWindow new.
