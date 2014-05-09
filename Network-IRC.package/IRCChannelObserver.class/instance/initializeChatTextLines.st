@@ -1,3 +1,3 @@
 channel pane text
 initializeChatTextLines
-	chatTextLines _ IRCTextLines new initialize
+	chatTextLines := IRCTextLines new initialize
