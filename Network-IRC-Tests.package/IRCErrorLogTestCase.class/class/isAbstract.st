@@ -1,3 +1,3 @@
-as yet unclassified
+Testing
 isAbstract
 	^ false
