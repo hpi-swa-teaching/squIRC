@@ -4,9 +4,14 @@ userNameColorFromHash: aString
 	| color hash hue saturation value |
 	
 	hash := aString hash.
-	hue := (hash \\ 36) * 10.
-	saturation := ((hash \\ 5) * 5 + 75) / 100.0.
-	value := ((hash \\ 10) * 5 + 25) / 100.0.
+	hue := (hash \\ self numberOfUserColors / self numberOfUserColors ) * 360.
+	
+	saturation := (hash \\ self numberOfUserColorSaturations / self numberOfUserColorSaturations) * 
+		(self maxUserColorSaturation - self minUserColorSaturation)  + self minUserColorSaturation.
+		
+	value := (hash \\ self numberOfUserColorValues / self numberOfUserColorValues) * 
+		(self maxUserColorValue - self minUserColorValue)  + self minUserColorValue.
+		
 	color := Color h: hue s: saturation v: value.
 	
 	^ color

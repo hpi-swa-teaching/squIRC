@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IRCErrorLogTestCase",
+	"pools" : [
+		 ],
+	"super" : "IRCTestCase",
+	"type" : "normal" }

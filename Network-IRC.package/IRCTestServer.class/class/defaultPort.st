@@ -1,0 +1,3 @@
+private
+defaultPort
+	^IRCConnectionProfile defaultDefaultPort
