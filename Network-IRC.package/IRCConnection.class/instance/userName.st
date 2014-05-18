@@ -1,3 +1,4 @@
 access
 userName
-	^userName
+
+	^IRCConnectionProfile currentProfile userName

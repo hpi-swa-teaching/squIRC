@@ -1,4 +1,4 @@
 access
 address: aString
 
-	address _ aString
+	address := aString

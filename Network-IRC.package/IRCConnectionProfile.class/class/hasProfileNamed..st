@@ -1,3 +1,4 @@
-profiles
-hasProfileNamed: aString 
-	^ self profiles includesKey: aString
+profile management
+hasProfileNamed: aName
+
+	^ (self getProfileNamed: aName) isNil not

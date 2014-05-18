@@ -1,4 +1,4 @@
 access
 port: aNumber
-	port _ aNumber.
-	^true
+	
+	IRCConnectionProfile currentProfile port: aNumber

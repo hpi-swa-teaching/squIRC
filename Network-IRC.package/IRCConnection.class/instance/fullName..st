@@ -1,4 +1,4 @@
 access
 fullName: aString 
-	fullName := aString asString.
-	^true
+	
+	IRCConnectionProfile currentProfile fullName: aString asString.

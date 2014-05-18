@@ -1,3 +1,4 @@
 access
 recentChannelName
+
 	^recentChannelName

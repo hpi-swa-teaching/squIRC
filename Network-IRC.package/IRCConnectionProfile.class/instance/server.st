@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 server
-	server = nil ifTrue: [server _ IRCServer defaultServer].
+
 	^server

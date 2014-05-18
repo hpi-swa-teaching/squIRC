@@ -1,6 +1,7 @@
 local action buttons
-profileSelected
+okaySelected
 	| targetName |
+	self entryMorphs do: [:entry | entry accept].
 	editing
 		ifTrue: [parentDialog editedProfile: profile]
 		ifFalse: [targetName := profile name.

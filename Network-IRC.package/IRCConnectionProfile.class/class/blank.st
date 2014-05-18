@@ -1,0 +1,4 @@
+initialization
+blank
+
+	^self new

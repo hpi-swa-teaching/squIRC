@@ -1,13 +1,14 @@
 common entry
 entryPane: aString set: setSymbol get: getSymbol canEdit: boolean rightEdgeOffset: offset 
-	| tagMorph editMorph buttonColumnWidth alignPane |
+	| tagMorph entryMorph buttonColumnWidth alignPane |
 	buttonColumnWidth := 90.
 	tagMorph := self entryTagMorph: aString.
-	editMorph := self
+	entryMorph := self
 				textEntryMorphForSet: setSymbol
 				get: getSymbol
 				canEdit: boolean.
-	editMorph borderColor: Color transparent.
+	entryMorph borderColor: Color transparent.
+	self entryMorphs add: entryMorph.
 	buttonColumnWidth := 90.
 	alignPane := AlignmentMorph newRow hResizing: #spaceFill;
 				 vResizing: #spaceFill;
@@ -21,7 +22,7 @@ entryPane: aString set: setSymbol get: getSymbol canEdit: boolean rightEdgeOffse
 				fractions: (0 @ 0 corner: 0 @ 1)
 				offsets: (0 @ 0 corner: buttonColumnWidth @ 0));
 		
-		addMorph: editMorph
+		addMorph: entryMorph
 		fullFrame: (LayoutFrame
 				fractions: (0 @ 0 corner: 1 @ 1)
 				offsets: (buttonColumnWidth + 4 @ 0 corner: offset negated @ 0)).

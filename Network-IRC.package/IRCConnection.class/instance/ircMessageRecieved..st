@@ -1,10 +1,10 @@
 naval mode
 ircMessageRecieved: aMessage 
 	| sender newLine |
-	sender _ aMessage sender
+	sender := aMessage sender
 				ifNil: [self nick].
-	sender _ IRCProtocolMessage cleanSenderString: sender.
-	newLine _ (Text
+	sender := IRCProtocolMessage cleanSenderString: sender.
+	newLine := (Text
 				string: sender
 				emphasis: (Array with: TextEmphasis bold))
 				, ': ' , aMessage text , String cr.

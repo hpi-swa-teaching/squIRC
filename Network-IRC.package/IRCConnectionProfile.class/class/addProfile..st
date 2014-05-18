@@ -1,5 +1,8 @@
-profiles
-addProfile: anIRCProfile 
-	(self profiles includesKey: anIRCProfile name)
-		ifTrue: [^ self inform: 'Profile "' , anIRCProfile name , '" already defined.'].
-	self profiles at: anIRCProfile name put: anIRCProfile
+profile management
+addProfile: aProfile
+	"adds aProfile to the the profile list 
+		but refuses to do so, if a profile of the same name already exists"
+
+	self profiles detect: [:candidate | candidate equalsByName: aProfile]
+					ifFound: [:targetProfile | self inform: 'Profile "' , aProfile name , '" already defined.']
+					ifNone: [self profiles add: aProfile]

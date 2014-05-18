@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 server: anIRCServer
 	server _ anIRCServer

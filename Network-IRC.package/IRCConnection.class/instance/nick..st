@@ -1,4 +1,4 @@
 access
 nick: aString 
-	nick := aString asString.
-	^ true
+	
+	IRCConnectionProfile currentProfile nick: aString asString

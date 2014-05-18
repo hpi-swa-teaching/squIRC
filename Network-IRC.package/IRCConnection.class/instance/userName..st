@@ -1,4 +1,4 @@
 access
-userName: aText 
-	userName := aText asString.
-	^ true
+userName: aString 
+	
+	IRCConnectionProfile currentProfile userName: aString

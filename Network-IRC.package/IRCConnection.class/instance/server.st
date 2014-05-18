@@ -1,3 +1,4 @@
 access
 server
-	^server ifNil: [ '(not set)' ]
+
+	^IRCConnectionProfile currentProfile server

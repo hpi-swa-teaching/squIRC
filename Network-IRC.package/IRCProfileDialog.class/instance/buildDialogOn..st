@@ -1,6 +1,9 @@
 dialog creation
 buildDialogOn: window 
 	| coll rowHeight rowSpacing offset rowPosn frac off |
+	
+	self entryMorphs removeAll: self entryMorphs copy.
+	
 	coll := OrderedCollection new.
 	coll add: #addProfileNamePaneTo:fractions:offsets:;
 		 add: #addNickPaneTo:fractions:offsets:;

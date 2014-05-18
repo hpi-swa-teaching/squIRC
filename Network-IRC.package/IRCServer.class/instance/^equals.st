@@ -1,6 +1,6 @@
 access
 = anIRCServer 
-	anIRCServer == nil ifTrue: [^false].
+	anIRCServer ifNil: [^false].
 	^ ((self nameToUseForProfile = anIRCServer nameToUseForProfile
 				and: [self address = anIRCServer address])
 			and: [self group = anIRCServer group])

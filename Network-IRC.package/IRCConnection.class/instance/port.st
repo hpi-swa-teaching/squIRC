@@ -1,3 +1,4 @@
-as yet unclassified
+access
 port
-	^port
+	
+	^IRCConnectionProfile currentProfile port

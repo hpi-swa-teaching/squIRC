@@ -1,4 +1,4 @@
 access
 portAsString: aString 
-	port := aString asString asNumber.
-	^ true
+	
+	IRCConnectionProfile currentProfile port: aString asString asNumber

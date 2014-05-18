@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 options
+	
 	^IRCOptionsManagement savedOptions

@@ -1,3 +1,4 @@
 access
 nick
-	^nick ifNil: [ '(not set)' ]
+
+	^IRCConnectionProfile currentProfile nick

@@ -1,5 +1,4 @@
+accessing
 profiles
-profiles
-	"IRCConnectionProfile profiles"
-	Profiles == nil ifTrue: [self initializeProfiles].
-	^ Profiles
+
+	^Profiles ifNil: [Profiles := OrderedCollection new]

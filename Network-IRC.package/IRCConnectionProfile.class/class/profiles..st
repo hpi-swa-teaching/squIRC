@@ -1,3 +1,4 @@
-profiles
-profiles: aDictionary 
-	Profiles _ aDictionary
+accessing
+profiles: anOrderedCollection 
+
+	Profiles := anOrderedCollection
