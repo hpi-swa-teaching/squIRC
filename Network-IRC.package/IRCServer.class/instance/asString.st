@@ -1,4 +1,8 @@
 as yet unclassified
 asString
+|string|
 
-	^Text fromString: self address, ':', self port
+	string := self address, ':' ,self port.
+	self serverName
+		ifNil: 	 [^string]
+		ifNotNil: [^self serverName, '=', string]

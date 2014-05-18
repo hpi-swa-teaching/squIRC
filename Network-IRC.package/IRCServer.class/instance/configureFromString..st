@@ -1,13 +1,19 @@
 parse mIRC entries
 configureFromString: aString 
-	| tempString groupName theServerName serverAddress portNumbers |
-	tempString := self extractGroupAndServerStringFrom: aString.
-	groupName := self extractGroupNameFrom: tempString.
-	theServerName := self extractServerNameFrom: tempString.
-	tempString := self extractServerAddressAndPortStringFrom: aString.
-	serverAddress := self extractServerAddressFrom: tempString.
-	portNumbers := self extractPortsFrom: tempString.
-	self address: serverAddress.
-	self group: groupName.
-	self ports: portNumbers.
-	self serverName: theServerName
+	|currStrings tempservname|
+	currStrings := aString subStrings: '='.
+	currStrings size = 1
+		ifTrue: [tempservname:= nil.
+					currStrings := (currStrings at: 1) subStrings: ':']
+		ifFalse: [currStrings size = 2 
+							ifTrue: [tempservname:= (currStrings at: 1).
+										currStrings := (currStrings at: 2) subStrings: ':']
+		].		
+	currStrings size = 2
+		ifFalse: [^nil]. "COMPLAIN"
+		
+		self serverName: tempservname.
+		self address: (currStrings at: 1).
+		self port: (currStrings at: 2).
+		self ports: {self port}.
+		self group: self class userDefinedServersGroup.
