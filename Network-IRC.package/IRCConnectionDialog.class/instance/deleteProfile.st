@@ -1,8 +1,6 @@
 profiles
 deleteProfile
-	| key |
-	profilesIndex == nil
-		ifTrue: [^ nil].
-	key := profilesIndex.
-	IRCConnectionProfile removeProfileNamed: key.
+
+	self profilesIndex ifNil: [^nil].
+	IRCConnectionProfile removeProfileAt: self profilesIndex.
 	self changed: #profileDescriptions

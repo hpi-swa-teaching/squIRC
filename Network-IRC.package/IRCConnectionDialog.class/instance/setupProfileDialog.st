@@ -1,8 +1,8 @@
 profiles
 setupProfileDialog
-	| dlg |
-	dlg := IRCProfileDialog new.
-	dlg parentDialog: self.
-	dlg referenceConnection: connection.
-	self hideWindow.
-	^dlg
+	
+	self hideWindow.	
+	^(IRCProfileDialog new)
+			parentDialog: self;
+			referenceConnection: connection;
+			yourself

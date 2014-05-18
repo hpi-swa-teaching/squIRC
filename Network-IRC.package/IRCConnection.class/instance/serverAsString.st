@@ -1,4 +1,4 @@
 access
 serverAsString
 	
-	IRCConnectionProfile currentProfile server asString
+	^IRCConnectionProfile currentProfile server asString

@@ -6,9 +6,9 @@ connectToSever
 	socket
 		ifNotNil: [socket destroy].
 	self reset.
-	addr := NetNameResolver addressForName: server.
+	addr := NetNameResolver addressForName: (self server).
 	addr
 		ifNil: [^ false].
 	socket := Socket new.
-	socket connectTo: addr port: port.
+	socket connectTo: addr port: (self port).
 	^ true

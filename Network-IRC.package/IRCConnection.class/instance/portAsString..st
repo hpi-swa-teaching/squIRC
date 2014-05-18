@@ -1,4 +1,4 @@
 access
 portAsString: aString 
 	
-	IRCConnectionProfile currentProfile port: aString asString asNumber
+	IRCConnectionProfile currentProfile server port: aString asString asNumber

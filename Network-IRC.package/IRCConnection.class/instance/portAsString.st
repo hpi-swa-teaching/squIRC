@@ -1,4 +1,4 @@
 access
 portAsString
 
-	^IRCConnectionProfile currentProfile port printString
+	^IRCConnectionProfile currentProfile server port printString

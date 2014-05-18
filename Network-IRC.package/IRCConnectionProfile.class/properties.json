@@ -4,7 +4,9 @@
 		 ],
 	"classvars" : [
 		"CurrentProfile",
-		"Profiles" ],
+		"Profiles",
+		"ProfilesSorted",
+		"ProfilesSortedValid" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"name",

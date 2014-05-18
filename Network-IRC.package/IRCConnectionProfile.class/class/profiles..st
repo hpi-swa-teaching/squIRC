@@ -1,4 +1,5 @@
 accessing
 profiles: anOrderedCollection 
 
-	Profiles := anOrderedCollection
+	Profiles := anOrderedCollection.
+	self profileNamesSortedSetInvalid
