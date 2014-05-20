@@ -1,1 +1,0 @@
-(name 'Network-IRC-sbw.4'message 'Added mechanism to support channel observers in their own windows.Some refactoring related to channel observer windows.'id '20da6c0a-bdb1-11d8-b4f9-00039310d532'date '13 June 2004'time '10:15:46 pm'author 'sbw'ancestors ((id '7113f836-bb92-11d8-b35f-00039310d532'))stepChildren ())

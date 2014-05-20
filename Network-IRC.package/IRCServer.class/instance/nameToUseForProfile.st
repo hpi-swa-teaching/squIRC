@@ -1,3 +1,0 @@
-access
-nameToUseForProfile
-	^self nameToUseWithSeperator: ' '

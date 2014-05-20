@@ -1,3 +1,0 @@
-profiles
-vertPaneMargin
-	^ 5

@@ -1,3 +1,0 @@
-constants
-inputHeight
-	^ 25

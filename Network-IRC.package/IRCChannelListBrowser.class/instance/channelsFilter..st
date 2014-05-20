@@ -1,3 +1,0 @@
-access
-channelsFilter: anIRCChannelFilter
-	channelsFilter _ anIRCChannelFilter

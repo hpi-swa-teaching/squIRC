@@ -1,3 +1,0 @@
-API
-optionKeys
-	^ self defaultOptionKeys

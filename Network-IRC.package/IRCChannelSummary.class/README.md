@@ -1,1 +1,0 @@
-very basic info on an IRC channel; specifically, that returned by a LIST command

@@ -1,1 +1,0 @@
-(name 'Network-IRC-fc.10.7.6'message 'Fixed bug in private message chats. Lines with IRC ''actions'' produce walkback.'id '413799c1-c9bb-4b97-bc6b-974faf7fb48d'date '9 November 2005'time '2:19:47 pm'author 'fc'ancestors ((id 'b09814d2-d051-429b-bfa4-2b31aacfdd88'))stepChildren ())

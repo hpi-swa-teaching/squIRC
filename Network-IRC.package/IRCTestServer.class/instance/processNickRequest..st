@@ -1,3 +1,0 @@
-private
-processNickRequest: anIRCProtocolMessage 
-	nickEncountered _ anIRCProtocolMessage arguments first

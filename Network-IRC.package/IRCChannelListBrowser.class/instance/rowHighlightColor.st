@@ -1,3 +1,0 @@
-constants
-rowHighlightColor
-	^ IRCClientColors channelListRowHighlight

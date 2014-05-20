@@ -1,3 +1,0 @@
-actions
-talkTo
-	model talkTo

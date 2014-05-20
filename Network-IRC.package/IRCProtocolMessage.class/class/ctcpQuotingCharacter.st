@@ -1,3 +1,0 @@
-ctcp quoting - private
-ctcpQuotingCharacter
-	^ $\

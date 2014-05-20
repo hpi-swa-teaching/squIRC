@@ -1,3 +1,0 @@
-as yet unclassified
-referenceConnection: anIRCConnectionEnhanced
-	referenceConnection _ anIRCConnectionEnhanced

@@ -1,1 +1,0 @@
-(name 'Network-IRC-sbw.7'message '20 June 2004 sbwBug fix associated with joining channel explicitly.  I had a method from anotherpackage accidently included.'id '144461d5-c2fd-11d8-99f5-00039310d532'date '20 June 2004'time '4:02:02 pm'author 'sbw'ancestors ((id '87f5456c-c1f1-11d8-a63d-00039310d532'))stepChildren ())

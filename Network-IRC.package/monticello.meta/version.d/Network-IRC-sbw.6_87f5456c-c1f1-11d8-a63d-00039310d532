@@ -1,1 +1,0 @@
-(name 'Network-IRC-sbw.6'message 'Modified behavior of tabbed channel panes so that when one is closed the next left pane is activated.  It used to always select the console pane after closing a channel pane.'id '87f5456c-c1f1-11d8-a63d-00039310d532'date '19 June 2004'time '8:06:51 am'author 'sbw'ancestors ((id '20da6c0a-bdb1-11d8-b4f9-00039310d532'))stepChildren ())

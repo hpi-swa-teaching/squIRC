@@ -1,3 +1,0 @@
-profiles
-profilesIndex
-	^profilesIndex

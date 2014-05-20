@@ -1,4 +1,0 @@
-colors
-numberOfUserColorValues
-
-	^10

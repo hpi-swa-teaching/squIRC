@@ -1,1 +1,0 @@
-(name 'Network-IRC-sbw.2'message 'Bug fixed.  Problem where quit message could be received but originating client did not send arguments.'id 'e5c49eb0-bb48-11d8-8e0c-00039310d532'date '10 June 2004'time '8:44:37 pm'author 'sbw'ancestors ((id 'c4f9e8ae-bb47-11d8-8e0c-00039310d532'))stepChildren ())

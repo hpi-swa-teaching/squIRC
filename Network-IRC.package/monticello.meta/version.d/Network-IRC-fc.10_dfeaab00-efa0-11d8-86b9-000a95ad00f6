@@ -1,1 +1,0 @@
-(name 'Network-IRC-fc.10'message 'Reworkeed chanel joining. Combined channel creation and joining into one pulldown menu. Menu will track all channels joind since start of IRCe  invocation..'id 'dfeaab00-efa0-11d8-86b9-000a95ad00f6'date '16 August 2004'time '12:25:23 pm'author 'fc'ancestors ((id '67db1c22-e8aa-11d8-8276-000a95ad00f6'))stepChildren ())

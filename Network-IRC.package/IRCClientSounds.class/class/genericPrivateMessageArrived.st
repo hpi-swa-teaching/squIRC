@@ -1,3 +1,0 @@
-API
-genericPrivateMessageArrived
-	self playSoundFor: #genericPrivateMessageSound

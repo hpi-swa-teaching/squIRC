@@ -1,3 +1,0 @@
-colors
-channelTopicPaneEnabled
-	^ Color white

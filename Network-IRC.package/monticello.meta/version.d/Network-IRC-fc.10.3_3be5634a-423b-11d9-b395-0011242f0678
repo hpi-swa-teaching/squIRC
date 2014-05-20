@@ -1,1 +1,0 @@
-(name 'Network-IRC-fc.10.3'message 'Continue cleanup of channel menu code. Raise a warning if the user tries to connect to a channel before connecting to a server.'id '3be5634a-423b-11d9-b395-0011242f0678'date '29 November 2004'time '2:16:55 pm'author 'fc'ancestors ((id '3db3590e-1f7d-11d9-baf1-0011242f0678'))stepChildren ())

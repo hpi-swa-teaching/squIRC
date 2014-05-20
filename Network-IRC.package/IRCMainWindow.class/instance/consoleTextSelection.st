@@ -1,3 +1,0 @@
-console
-consoleTextSelection
-	^ model consoleTextSelection

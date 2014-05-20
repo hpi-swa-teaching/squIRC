@@ -1,3 +1,0 @@
-colors
-profilesRowHighlight
-	^ Color blue

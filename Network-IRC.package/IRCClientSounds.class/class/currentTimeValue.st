@@ -1,3 +1,0 @@
-private
-currentTimeValue
-	^ Time totalSeconds

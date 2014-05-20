@@ -1,1 +1,0 @@
-(name 'Network-IRC-fc.10.7.0'message 'Added space after colon when using tab key to complete nick.Removed colon after nick when message is of type ACTION.'id 'ce79de5d-d5e3-11d9-a68d-0011247bc5c0'date '5 June 2005'time '1:03:58 pm'author 'fc'ancestors ((id 'f9566847-ac2f-11d9-a8ed-0011247bc5c0'))stepChildren ())

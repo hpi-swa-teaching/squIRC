@@ -1,3 +1,0 @@
-factored swapper
-frontMostPaneIsCloseable
-	^ gui frontMostPaneIsCloseable

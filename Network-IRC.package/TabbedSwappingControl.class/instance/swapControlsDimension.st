@@ -1,3 +1,0 @@
-constants
-swapControlsDimension
-	^20

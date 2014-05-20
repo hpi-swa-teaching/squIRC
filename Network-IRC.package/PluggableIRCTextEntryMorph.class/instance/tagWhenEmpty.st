@@ -1,3 +1,0 @@
-accessing
-tagWhenEmpty
-	^tagWhenEmpty

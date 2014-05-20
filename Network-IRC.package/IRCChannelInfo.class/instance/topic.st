@@ -1,3 +1,0 @@
-access
-topic
-	^topic ifNil: ['']

@@ -1,3 +1,0 @@
-profiles
-horizPaneMargin
-	^ 12

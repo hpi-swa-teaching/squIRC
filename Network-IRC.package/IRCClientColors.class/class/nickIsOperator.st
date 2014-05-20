@@ -1,3 +1,0 @@
-colors
-nickIsOperator
-	^ Color red

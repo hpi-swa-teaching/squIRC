@@ -1,3 +1,0 @@
-access
-portAsString
-	^port printString

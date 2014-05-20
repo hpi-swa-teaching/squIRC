@@ -1,3 +1,0 @@
-profiles
-profileActionButtonColor
-	^Color paleTan muchLighter
