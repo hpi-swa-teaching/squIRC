@@ -20,10 +20,8 @@ ircMessageRecieved: aMessage
 		ifTrue: ["message is going out"
 			messageText addAttribute: IRCClientColors transmittedMessage]
 		ifFalse: ["message is coming in"
-			(self message: messageText contains: connection nick)
-				ifTrue: [IRCClientSounds channelNickMessageArrived.
-					"messageText addAttribute: IRCClientColors messageContainsNick"
-					messageText allBold]].
+			self highlightUserMentionIn: messageText].
+	
 	actionFlag
 		ifTrue: [ newLine :=  nickText , ' ', (Text string: messageText asString   attributes: IRCClientColors messageContainsAction), String cr]
 		ifFalse: [ newLine := nickText , ' : ' , messageText , String cr. ].
