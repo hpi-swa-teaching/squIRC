@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IRCClientColorsTestCase",
+	"pools" : [
+		 ],
+	"super" : "IRCTestCase",
+	"type" : "normal" }

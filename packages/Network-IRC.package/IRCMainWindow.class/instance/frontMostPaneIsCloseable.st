@@ -1,0 +1,3 @@
+swapper
+frontMostPaneIsCloseable
+	^self swapper frontMostPaneIsCloseable

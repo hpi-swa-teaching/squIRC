@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"isAbstract" : "sbw 5/8/2004 15:42" },
+	"instance" : {
+		"profile1" : "sbw 5/27/2004 18:27",
+		"profile2" : "sbw 5/27/2004 18:27",
+		"server1" : "sbw 5/18/2004 10:39",
+		"setUp" : "sbw 5/22/2004 11:10",
+		"tProfileOperations" : "sbw 5/22/2004 11:22",
+		"tProfileOptions" : "sbw 5/18/2004 22:52",
+		"tearDown" : "sbw 5/22/2004 11:10",
+		"testBasicProfileValues" : "sbw 5/18/2004 10:52",
+		"testProfileOperations" : "sbw 5/22/2004 11:11",
+		"verifyDefaultValuesUsing:" : "sbw 5/18/2004 10:31" } }

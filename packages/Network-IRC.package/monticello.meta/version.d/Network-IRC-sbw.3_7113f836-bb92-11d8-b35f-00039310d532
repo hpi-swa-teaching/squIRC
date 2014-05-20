@@ -1,0 +1,1 @@
+(name 'Network-IRC-sbw.3'message 'Added optional time stamped messages in channels observer.Fixed a problem where sounds were not playing.'id '7113f836-bb92-11d8-b35f-00039310d532'date '11 June 2004'time '5:31:04 am'author 'sbw'ancestors ((id 'e5c49eb0-bb48-11d8-8e0c-00039310d532'))stepChildren ())

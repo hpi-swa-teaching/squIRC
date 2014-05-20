@@ -1,0 +1,24 @@
+{
+	"category" : "Network-IRC-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultFullName",
+		"DefaultNick",
+		"DefaultPort",
+		"DefaultServer",
+		"DefaultUserName",
+		"Profiles" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"nick",
+		"server",
+		"options",
+		"fullName",
+		"userName" ],
+	"name" : "IRCConnectionProfile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

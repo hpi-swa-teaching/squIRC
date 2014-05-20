@@ -1,0 +1,3 @@
+private
+rootFolderName
+	^'irc'

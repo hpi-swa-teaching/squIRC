@@ -1,0 +1,3 @@
+slash commands translation
+processJoinCommand
+	self stripOffFirstArgument

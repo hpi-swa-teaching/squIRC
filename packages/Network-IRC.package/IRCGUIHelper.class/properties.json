@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IRCGUIHelper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

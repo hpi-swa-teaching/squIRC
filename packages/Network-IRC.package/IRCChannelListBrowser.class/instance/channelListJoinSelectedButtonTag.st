@@ -1,0 +1,3 @@
+constants
+channelListJoinSelectedButtonTag
+	^ 'Join Selected'

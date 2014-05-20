@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addIntercept:" : "sbw 2/23/2002 12:49",
+		"clearInterceptActive" : "sbw 2/23/2002 16:17",
+		"flushIntercepts" : "sbw 2/23/2002 12:52",
+		"giveInterceptedEventToModel:" : "sbw 3/13/2002 15:35",
+		"initialize" : "sbw 2/23/2002 12:48",
+		"initializeIntercepts" : "sbw 2/23/2002 12:47",
+		"interceptActive" : "sbw 2/23/2002 16:18",
+		"intercepts" : "sbw 2/23/2002 12:48",
+		"keyStroke:" : "sbw 2/24/2002 13:56",
+		"removeIntercept:" : "sbw 2/23/2002 12:50",
+		"setInterceptActive" : "sbw 2/23/2002 16:18" } }

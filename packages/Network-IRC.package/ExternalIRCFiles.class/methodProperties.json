@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"channelsFolderName" : "sbw 5/23/2004 22:16",
+		"ensureErrorsFolder" : "sbw 5/30/2004 09:15",
+		"ensureRootFolder" : "sbw 5/23/2004 22:21",
+		"ensureServersFolder" : "sbw 5/23/2004 22:26",
+		"ensuredLogFilePathForServerAddress:channelName:" : "sbw 5/24/2004 18:08",
+		"errorsFolder" : "sbw 5/30/2004 09:14",
+		"errorsFolderName" : "sbw 5/30/2004 09:13",
+		"folderForChannelLogsOnServerAddress:" : "sbw 5/24/2004 18:08",
+		"folderForChannelsListOnServerAddress:" : "sbw 5/24/2004 18:09",
+		"folderForServerAddress:" : "sbw 5/24/2004 17:49",
+		"initialize" : "sbw 5/30/2004 09:16",
+		"logsFolderName" : "sbw 5/23/2004 22:17",
+		"profilesFolderName" : "sbw 5/23/2004 22:16",
+		"rootFolder" : "sbw 5/23/2004 22:22",
+		"rootFolderName" : "sbw 5/23/2004 22:11",
+		"serversFolder" : "sbw 5/23/2004 22:30",
+		"serversFolderName" : "sbw 5/23/2004 22:16" },
+	"instance" : {
+		"nothingHappensOnInstanceSide" : "sbw 5/23/2004 22:11" } }

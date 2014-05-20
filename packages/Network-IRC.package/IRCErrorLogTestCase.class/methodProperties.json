@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"isAbstract" : "sbw 5/30/2004 09:41" },
+	"instance" : {
+		"message" : "sbw 5/30/2004 09:45",
+		"testBasicLog" : "sbw 5/30/2004 09:59",
+		"testClassSpecificLog" : "sbw 5/30/2004 10:00" } }

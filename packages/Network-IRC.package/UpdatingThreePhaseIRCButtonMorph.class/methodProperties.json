@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"checkBox" : "sbw 5/21/2004 23:00",
+		"initialize" : "sbw 5/21/2004 23:22",
+		"radioButton" : "sbw 5/21/2004 23:01" },
+	"instance" : {
+		"getArgument:" : "sbw 3/3/2002 11:59",
+		"getNewBoolean" : "sbw 3/3/2002 12:06" } }
