@@ -4,14 +4,14 @@ refreshUserList
 	|oldName |
 
 	(userIndex > 0) ifTrue: [
-		oldName _ userList at: userIndex ].
+		oldName := userList at: userIndex ].
 
-	userList _ channel memberNames asSortedCollection asArray.
-	userIndex _ 0.
+	userList := channel memberNames asSortedCollection asArray.
+	userIndex := 0.
 
 	oldName ifNotNil: [
 		"try to select the same user again"
-		userIndex _ userList indexOf: oldName ].
+		userIndex := userList indexOf: oldName ].
 
 	self changed: #userList.
 	self changed: #userIndex.

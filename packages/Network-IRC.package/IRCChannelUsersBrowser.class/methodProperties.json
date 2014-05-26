@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"onChannel:" : "ls 9/17/1998 09:20",
-		"openOnChannel:" : "ls 9/17/1998 09:20" },
+		"onChannel:" : "am 5/26/2014 17:34",
+		"openOnChannel:" : "am 5/26/2014 17:34" },
 	"instance" : {
-		"onChannel:" : "ls 9/17/1998 09:17",
-		"openAsMorph" : "sbw 5/11/2004 21:50",
-		"openView" : "ls 9/17/1998 09:18",
-		"refreshUserList" : "ls 9/17/1998 09:22",
-		"selectedUser" : "ls 9/17/1998 09:42",
-		"talkTo" : "sbw 5/13/2004 08:08",
-		"update:" : "ls 9/17/1998 09:17",
-		"userIndex" : "ls 9/17/1998 09:16",
-		"userIndex:" : "ls 9/17/1998 09:25",
+		"onChannel:" : "am 5/26/2014 17:29",
+		"openAsMorph" : "am 5/26/2014 17:29",
+		"openView" : "am 5/26/2014 17:30",
+		"refreshUserList" : "am 5/26/2014 17:31",
+		"selectedUser" : "am 5/26/2014 17:33",
+		"talkTo" : "am 5/26/2014 17:32",
+		"update:" : "am 5/26/2014 17:32",
+		"userIndex" : "am 5/26/2014 17:32",
+		"userIndex:" : "am 5/26/2014 17:32",
 		"userList" : "ls 9/17/1998 09:16" } }

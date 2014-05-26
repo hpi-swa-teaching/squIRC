@@ -1,4 +1,4 @@
 as yet unclassified
 selectedUser: obj 
-	selectedUser _ obj.
+	selectedUser := obj.
 	self changed: #channelUsersFormatted

@@ -1,5 +1,6 @@
-as yet unclassified
+accessing
 userIndex: anInteger
 	"change which user is selected"
-	userIndex _ anInteger.
+	
+	userIndex := anInteger.
 	self changed: #userIndex.
