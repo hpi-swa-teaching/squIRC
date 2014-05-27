@@ -1,7 +1,8 @@
 as yet unclassified
 openWindows
-	| success |
+	"| success |
 	success := self firstTimePromptsCheck.
 	success
 		ifTrue: [self openView; openDirectMessagesObserver]
-		ifFalse: [self inform: 'Open could not continue.']
+		ifFalse: [self inform: 'Open could not continue.']"
+	self openView; openDirectMessagesObserver.

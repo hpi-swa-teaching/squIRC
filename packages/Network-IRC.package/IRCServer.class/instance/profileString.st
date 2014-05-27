@@ -1,4 +1,4 @@
-printing
+string representation
 profileString
 	| stream |
 	stream _ ReadWriteStream on: ''.

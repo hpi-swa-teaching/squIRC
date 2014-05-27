@@ -1,5 +1,4 @@
 exit management
 cancelSelected
-	"Make the server selection invalid and close our window."
-	selectedServerIndex _ 0.
+	"Simply close our window."
 	self topView delete

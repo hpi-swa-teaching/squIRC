@@ -1,3 +1,4 @@
-as yet unclassified
-options: dict
-	options _ dict
+accessing
+options: aDictionary
+
+	options := aDictionary

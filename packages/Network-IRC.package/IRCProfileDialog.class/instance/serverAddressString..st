@@ -1,3 +1,4 @@
 property-serveraddress
-serverAddressString: aString 
-	^ false
+serverAddressString: aString
+
+	self profile server configureFromString: aString asString

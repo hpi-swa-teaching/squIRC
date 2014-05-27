@@ -1,4 +1,4 @@
-access
+current profile
 fullName: aString 
-	fullName := aString asString.
-	^true
+	
+	self currentProfile fullName: aString asString.

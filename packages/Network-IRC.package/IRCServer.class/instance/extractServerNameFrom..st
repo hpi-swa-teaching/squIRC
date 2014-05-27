@@ -1,4 +1,4 @@
-parse mIRC entries
+mIRC lines
 extractServerNameFrom: aString 
 	| start index end |
 	start := 1.

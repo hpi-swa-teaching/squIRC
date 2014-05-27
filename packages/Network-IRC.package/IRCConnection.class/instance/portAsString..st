@@ -1,4 +1,4 @@
-access
+current profile
 portAsString: aString 
-	port := aString asString asNumber.
-	^ true
+	
+	self currentProfile server port: aString asString asNumber

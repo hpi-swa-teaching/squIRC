@@ -1,4 +1,4 @@
-access
+accessing
 group: aString
 
-	group _ aString
+	group := aString

@@ -6,7 +6,7 @@ connect
 	success
 		ifFalse: [^ false].
 	self
-		sendMessage: (IRCProtocolMessage fromString: 'NICK ' , nick).
+		sendMessage: (IRCProtocolMessage fromString: 'NICK ' , self nick).
 	self
-		sendMessage: (IRCProtocolMessage fromString: 'USER ' , userName , ' * * :' , fullName).
+		sendMessage: (IRCProtocolMessage fromString: 'USER ' , self userName , ' * * :' , self fullName).
 	^ success

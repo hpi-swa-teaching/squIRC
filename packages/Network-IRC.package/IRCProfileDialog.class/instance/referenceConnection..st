@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 referenceConnection: anIRCConnectionEnhanced
-	referenceConnection _ anIRCConnectionEnhanced
+
+	referenceConnection := anIRCConnectionEnhanced

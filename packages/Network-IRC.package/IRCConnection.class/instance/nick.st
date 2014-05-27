@@ -1,3 +1,4 @@
-access
+current profile
 nick
-	^nick ifNil: [ '(not set)' ]
+
+	^self currentProfile nick

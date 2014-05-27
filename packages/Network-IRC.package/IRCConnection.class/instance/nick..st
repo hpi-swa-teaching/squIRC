@@ -1,4 +1,4 @@
-access
+current profile
 nick: aString 
-	nick := aString asString.
-	^ true
+	
+	self currentProfile nick: aString asString

@@ -1,3 +1,4 @@
-access
+current profile
 fullName
-	^fullName
+
+	^self currentProfile fullName

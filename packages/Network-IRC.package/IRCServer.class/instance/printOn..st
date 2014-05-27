@@ -1,4 +1,4 @@
-printing
+string representation
 printOn: aStream 
 	super printOn: aStream.
 	aStream

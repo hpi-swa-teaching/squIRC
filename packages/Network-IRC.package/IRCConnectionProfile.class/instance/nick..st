@@ -1,4 +1,4 @@
-as yet unclassified
-nick: t1
+accessing
+nick: aString
 
-	nick := t1
+	nick := aString

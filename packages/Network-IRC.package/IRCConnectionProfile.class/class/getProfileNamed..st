@@ -1,5 +1,5 @@
-profiles
-getProfileNamed: aString 
-	(self profiles includesKey: aString)
-		ifFalse: [^ nil].
-	^ self profiles at: aString
+profile management
+getProfileNamed: aName
+	
+	^self profiles detect: [:candidate | candidate equalsName: aName]
+					ifNone: [nil]

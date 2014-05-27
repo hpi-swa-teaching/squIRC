@@ -1,4 +1,4 @@
-access
-server: aString 
-	server := aString asString.
-	^ true
+current profile
+server: anIRCServer 
+	
+	self currentProfile server: anIRCServer

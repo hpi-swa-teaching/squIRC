@@ -1,4 +1,4 @@
-parse mIRC entries
+mIRC lines
 extractGroupNameFrom: aString 
 	| start colonPos end |
 	start := 1.

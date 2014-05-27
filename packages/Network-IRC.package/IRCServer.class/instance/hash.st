@@ -1,3 +1,4 @@
-access
+accessing
 hash
-	^ self nameToUseForProfile hash + self address hash + self group hash + self ports hash
+
+	^self name hash + self address hash + self group hash + self ports hash

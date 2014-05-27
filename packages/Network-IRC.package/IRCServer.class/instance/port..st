@@ -1,3 +1,4 @@
-access
-port: num
-	port _ num
+accessing
+port: aNumber
+
+	port := aNumber

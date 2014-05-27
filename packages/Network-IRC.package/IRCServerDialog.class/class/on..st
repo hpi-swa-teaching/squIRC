@@ -1,3 +1,6 @@
-as yet unclassified
-on: list 
-	^self new serversDict: list
+dialog-creation
+on: anIRCServer
+
+	^(self new)
+			selectedServer: anIRCServer;
+			yourself

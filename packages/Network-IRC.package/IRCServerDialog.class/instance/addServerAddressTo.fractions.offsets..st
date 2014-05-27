@@ -1,15 +1,15 @@
-as yet unclassified
+gui-creation
 addServerAddressTo: parentMorph fractions: fractions offsets: offsets 
-	| alignMorph labelMorph addressMorph |
-	alignMorph _ AlignmentMorph newRow hResizing: #spaceFill;
+| alignMorph labelMorph addressMorph |
+	alignMorph := AlignmentMorph newRow hResizing: #spaceFill;
 				 vResizing: #spaceFill;
 				 layoutInset: 0;
 				 borderWidth: 2;
 				 layoutPolicy: ProportionalLayout new.
-	labelMorph _ TextMorph new.
+	labelMorph := TextMorph new.
 	labelMorph contents: 'Server Address: ' asText allBold;
 		 lock.
-	addressMorph _ TextMorph new.
+	addressMorph := TextMorph new.
 	addressMorph contents: self noServerAddress asText;
 		 setNameTo: 'serverAddress'.
 	alignMorph

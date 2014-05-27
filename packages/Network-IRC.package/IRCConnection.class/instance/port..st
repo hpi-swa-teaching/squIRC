@@ -1,4 +1,4 @@
-access
+current profile
 port: aNumber
-	port _ aNumber.
-	^true
+	
+	self currentProfile port: aNumber

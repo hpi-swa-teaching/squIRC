@@ -1,4 +1,4 @@
-parse mIRC entries
+mIRC lines
 extractServerAddressAndPortStringFrom: aString 
 	| start index offset end |
 	start := 1.

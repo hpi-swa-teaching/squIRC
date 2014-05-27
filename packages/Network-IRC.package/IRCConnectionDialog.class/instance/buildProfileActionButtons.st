@@ -1,4 +1,4 @@
-profiles
+profiles-gui
 buildProfileActionButtons
 	| alignMorph btn |
 	alignMorph := AlignmentMorph newRow.

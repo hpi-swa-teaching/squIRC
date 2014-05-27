@@ -22,7 +22,7 @@ processPrivmsg: aMessage
 			^ self].
 	"If the recipient is a nick, or if the message did not originate from a user,
 	broadcast to all private message subscribers."
-	(recipient asIRCLowercase = nick asIRCLowercase
+	(recipient asIRCLowercase = self nick asIRCLowercase
 			or: [sender isNil])
 		ifTrue: ["We need to do a copy here before we start looping since the  
 			collection size can grow while we are processing."

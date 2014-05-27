@@ -1,3 +1,4 @@
 property-serveraddress
 serverAddressString
-	^ profile server address
+
+	^ profile server asString

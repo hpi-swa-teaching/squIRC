@@ -3,12 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DefaultFullName",
-		"DefaultNick",
-		"DefaultPort",
-		"DefaultServer",
-		"DefaultUserName",
-		"Profiles" ],
+		"CurrentProfile",
+		"Profiles",
+		"ProfilesSorted",
+		"ProfilesSortedValid" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"name",

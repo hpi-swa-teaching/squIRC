@@ -1,4 +1,5 @@
 profiles
-profilesIndex: string 
-	profilesIndex _ string.
+profilesIndex: anInteger
+
+	profilesIndex := anInteger.
 	self changed: #profilesIndex

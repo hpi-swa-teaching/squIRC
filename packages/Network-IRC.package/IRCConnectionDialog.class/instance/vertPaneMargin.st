@@ -1,3 +1,3 @@
-profiles
+profiles-gui
 vertPaneMargin
 	^ 5

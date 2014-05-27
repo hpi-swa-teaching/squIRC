@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 name: aString
-	"The name of thiss profile."
-	name _ aString
+
+	name := aString

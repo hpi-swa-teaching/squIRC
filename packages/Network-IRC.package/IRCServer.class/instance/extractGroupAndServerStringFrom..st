@@ -1,4 +1,4 @@
-parse mIRC entries
+mIRC lines
 extractGroupAndServerStringFrom: aString 
 	| index start end |
 	index := aString indexOf: $= startingAt: 1.

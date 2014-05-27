@@ -1,3 +1,4 @@
-as yet unclassified
-parentDialog: morph 
-	parentDialog _ morph
+accessing
+parentDialog: morph
+ 
+	parentDialog := morph

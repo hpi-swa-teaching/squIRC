@@ -1,5 +1,4 @@
-as yet unclassified
+accessing
 fullName
-	fullName == nil
-		ifTrue: [nick := self class defaultFullName].
-	^ fullName
+
+	^fullName

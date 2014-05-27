@@ -1,10 +1,11 @@
 property-serveraddress
-useValuesFromServer: anIRCServer port: portNumber 
+useValuesFromServer: anIRCServer port: portNumber
 	"We have a valid choice from the server dialog. Open our own  
 	window and get busy."
+	
+	self break.
 	anIRCServer port: portNumber.
-	profile server: anIRCServer.
-	profile name: anIRCServer nameToUseForProfile.
-	self topView isNil
-		ifTrue: [self openDialog]
-		ifFalse: [self showWindow; changed: #profileName; changed: #serverAddressString]
+	self profile server: anIRCServer.
+	self topView
+		ifNil: [self openDialog]
+		ifNotNil: [self showWindow; changed: #profileName; changed: #serverAddressString]

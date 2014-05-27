@@ -1,4 +1,4 @@
-access
+accessing
 ports: aCollection
 
-	ports _ aCollection
+	ports := aCollection

@@ -1,4 +1,4 @@
-parse mIRC entries
+mIRC lines
 extractPortsFrom: aString 
 	"The only safe way to do this is scan from the tail looking for a 
 	non-digit char that is not a comma or dash."

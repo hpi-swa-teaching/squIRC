@@ -1,4 +1,4 @@
-profiles
+profiles-gui
 buildProfilesPane
 	| aPane |
 	aPane := AlignmentMorph newColumn beSticky; borderWidth: 0.

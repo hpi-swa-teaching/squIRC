@@ -1,5 +1,6 @@
 profiles
-addProfile: aConnectionProfile 
+addProfile: aConnectionProfile
+
 	IRCConnectionProfile addProfile: aConnectionProfile.
 	self updateProfilesList.
 	self changed: #profileDescriptions.

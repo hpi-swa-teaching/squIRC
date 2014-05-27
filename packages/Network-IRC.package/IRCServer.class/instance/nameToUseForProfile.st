@@ -1,3 +1,3 @@
-access
+string representation
 nameToUseForProfile
 	^self nameToUseWithSeperator: ' '

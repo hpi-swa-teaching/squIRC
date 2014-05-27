@@ -1,4 +1,4 @@
-access
+string representation
 nameToUseWithSeperator: sepString
 	| part2 part1 |
 	part2 := self serverName withBlanksTrimmed.

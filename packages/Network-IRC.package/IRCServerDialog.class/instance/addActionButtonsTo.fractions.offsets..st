@@ -1,4 +1,4 @@
-as yet unclassified
+gui-creation
 addActionButtonsTo: parentMorph fractions: fractions offsets: offsets 
 	| buttons alignMorph btn |
 	buttons _ self buttonRow.

@@ -1,3 +1,4 @@
 profiles
 profilesIndex
-	^profilesIndex
+
+	^profilesIndex ifNil: [profilesIndex := 1]

@@ -1,5 +1,4 @@
-as yet unclassified
+accessing
 nick
-	nick
-		ifNil: [nick := self class defaultNick].
-	^ nick
+
+	^nick

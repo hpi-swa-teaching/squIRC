@@ -1,3 +1,4 @@
-access
+current profile
 portAsString
-	^port printString
+
+	^self currentProfile server port printString

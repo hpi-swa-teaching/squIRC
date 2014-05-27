@@ -1,4 +1,4 @@
-access
-userName: aText 
-	userName := aText asString.
-	^ true
+current profile
+userName: aString 
+	
+	self currentProfile userName: aString

@@ -1,3 +1,4 @@
 dialog lifecycle
 hideWindow
-	self topView hide
+
+	self topView ifNotNil: [self topView hide]

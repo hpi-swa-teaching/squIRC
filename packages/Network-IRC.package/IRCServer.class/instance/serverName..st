@@ -1,4 +1,4 @@
-access
+accessing
 serverName: aString
 
-	serverName _ aString
+	serverName := aString

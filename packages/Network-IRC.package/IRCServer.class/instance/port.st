@@ -1,4 +1,4 @@
-access
+accessing
 port
-	port == nil ifTrue: [port _ self defaultPort].
-	^port
+
+	^port ifNil: [port := self defaultPort]

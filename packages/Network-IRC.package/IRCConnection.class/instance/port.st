@@ -1,3 +1,4 @@
-as yet unclassified
+current profile
 port
-	^port
+	
+	^self currentProfile server port

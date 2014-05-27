@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"selectedGroupIndex",
-		"selectedServerIndex",
-		"selectedPortIndex",
+		"selectedServer",
 		"serversDict",
-		"parentDialog" ],
+		"parentDialog",
+		"selectedGroupIndex" ],
 	"name" : "IRCServerDialog",
 	"pools" : [
 		 ],

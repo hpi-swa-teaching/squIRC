@@ -1,4 +1,4 @@
-as yet unclassified
+gui-creation
 addGroupListTo: parentMorph fractions: fractions offsets: offsets 
 	| alignMorph topOffset listMorph labelMorph |
 	topOffset _ 12.

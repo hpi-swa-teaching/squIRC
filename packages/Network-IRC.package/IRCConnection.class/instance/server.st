@@ -1,3 +1,4 @@
-access
+current profile
 server
-	^server ifNil: [ '(not set)' ]
+
+	^self currentProfile server
