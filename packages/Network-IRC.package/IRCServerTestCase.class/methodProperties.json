@@ -6,7 +6,6 @@
 		"removeAddedServers" : "sbw 5/9/2004 12:48",
 		"setUp" : "sbw 5/9/2004 12:46",
 		"tearDown" : "sbw 5/9/2004 12:29",
-		"testDefaultServer" : "sbw 5/9/2004 12:20",
 		"testServerCreationFromAlternativenetString" : "sbw 5/9/2004 12:21",
 		"testServerCreationFromAsylumnetString" : "sbw 5/9/2004 12:22",
 		"testServerCreationFromDALnetString" : "sbw 5/9/2004 12:22",
