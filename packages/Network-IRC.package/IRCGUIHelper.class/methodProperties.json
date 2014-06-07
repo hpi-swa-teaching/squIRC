@@ -2,6 +2,7 @@
 	"class" : {
 		"addBackLabel:toEntryField:" : "sbw 4/3/2005 09:55",
 		"basicHeight" : "ld 5/24/2014 20:28",
+		"dialogBackgroundColor" : "am 6/7/2014 17:25",
 		"entryFieldRowFor:tag:backLabel:textGetter:textSetter:color:tagColumnWidth:tagPad:tagInset:" : "sbw 3/16/2005 20:34",
 		"textEntryMorphOn:textGetter:textSetter:" : "fc 4/13/2005 11:17",
 		"textTagField:" : "sbw 3/16/2005 07:27" },

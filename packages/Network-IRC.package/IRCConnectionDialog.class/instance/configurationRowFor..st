@@ -7,7 +7,7 @@ configurationRowFor: specArray
 				backLabel: specArray second
 				textGetter: specArray third
 				textSetter: specArray fourth
-				color: self configurationPaneBackgroundColor
+				color: IRCGUIHelper dialogBackgroundColor
 				tagColumnWidth: 60
 				tagPad: 20
 				tagInset: 2.

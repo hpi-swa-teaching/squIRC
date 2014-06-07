@@ -7,7 +7,7 @@ addConfigurationControlsTo: aPane
 	rowPosn := offset copy.
 	topOffset := 24.
 	rowPosn := rowPosn + (0 @ topOffset).
-	aPane color: self configurationPaneBackgroundColor.
+	aPane color: IRCGUIHelper dialogBackgroundColor.
 	str := StringMorph
 				contents: 'These are your current parameter values'
 				font: (StrikeFont familyName: 'NewYork' size: 12).

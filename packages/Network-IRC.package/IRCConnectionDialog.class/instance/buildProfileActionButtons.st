@@ -2,7 +2,7 @@ profiles-gui
 buildProfileActionButtons
 	| alignMorph btn |
 	alignMorph := AlignmentMorph newRow.
-	alignMorph beSticky; layoutInset: 5 @ 3; cellInset: 6; clipSubmorphs: true; borderWidth: 0; color: self profilesPaneBackgroundColor.
+	alignMorph beSticky; layoutInset: 5 @ 3; cellInset: 6; clipSubmorphs: true; borderWidth: 0; color: IRCGUIHelper dialogBackgroundColor.
 	self profileButtonSpecs
 		do: [:spec | 
 			btn := PluggableButtonMorph
