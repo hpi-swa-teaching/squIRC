@@ -1,5 +1,5 @@
 instance creation
-from: aString 
+fromString: aString 
 
 	^(self new)
 		configureFromString: aString;

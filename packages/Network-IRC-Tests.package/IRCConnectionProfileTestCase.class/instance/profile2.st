@@ -5,7 +5,7 @@ profile2
 	profile fullName: 'profile2 <profile2@squeak.org>';
 		 name: 'profile number two';
 		 nick: 'prof2';
-		 server: self server1;
+		 server: self serverFromString;
 		 userName: 'prof2';
 		 options: IRCOptionsManagement savedOptions.
 	^ profile

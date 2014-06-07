@@ -1,4 +1,4 @@
 test
 addLocalHost
 	"IRCServer addLocalHost"
-	self addServer: (self from: 'Local HostSERVER:localhost:6667')
+	self addServer: (self fromString: 'Local Host=localhost:6667')

@@ -5,7 +5,7 @@ profile1
 	profile fullName: 'profile1 <profile1@squeak.org>';
 		 name: 'profile name';
 		 nick: 'profNick';
-		 server: self server1;
+		 server: self serverFromMIRC;
 		 userName: 'prof1';
 		 options: IRCOptionsManagement savedOptions.
 	^ profile

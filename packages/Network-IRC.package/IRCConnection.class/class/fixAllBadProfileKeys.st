@@ -1,3 +1,0 @@
-profiles
-fixAllBadProfileKeys
-	IRCConnectionProfile fixAllBadProfileKeys

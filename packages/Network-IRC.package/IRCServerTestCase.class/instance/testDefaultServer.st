@@ -3,7 +3,7 @@ testDefaultServer
 	| server |
 	server := IRCServer defaultServer.
 	self
-		should: [server serverName = 'Open Projects Net'];
+		should: [server serverName = 'Freenode'];
 		
 		should: [server address = 'irc.freenode.net'];
 		

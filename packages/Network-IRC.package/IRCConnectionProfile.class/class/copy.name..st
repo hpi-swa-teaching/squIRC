@@ -1,4 +1,4 @@
-initialization
+instance creation
 copy: anOtherProfile name: aName
 
 	^(self new)

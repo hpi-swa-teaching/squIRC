@@ -2,7 +2,7 @@ tests
 testServerCreationFromAsylumnetString
 	| string server |
 	string := 'n24=Asylumnet: EU, UK, LondonSERVER:london.uk.eu.asylumnet.org:7070,7777,6660,6663,6666,6669,7000GROUP:asylumnet'.
-	server := IRCServer from: string.
+	server := IRCServer fromMIRCLine: string.
 	self
 		should: [server serverName = 'EU, UK, London'];
 		

@@ -2,7 +2,7 @@ tests
 testServerCreationFromGammaforceString
 	| string server |
 	string := 'n149=Gammaforce: US, SphinxSERVER:sphinx.or.us.gammaforce.org:6660,6663,6669GROUP:gammaforce'.
-	server := IRCServer from: string.
+	server := IRCServer fromMIRCLine: string.
 	self
 		should: [server serverName = 'US, Sphinx'];
 		

@@ -2,7 +2,7 @@ tests
 testServerCreationFromDALnetString
 	| string server |
 	string := 'n1=Random US DALnet serverSERVER:irc.dal.net:7000GROUP:01'.
-	server := IRCServer from: string.
+	server := IRCServer fromMIRCLine: string.
 	self
 		should: [server serverName = 'Random US DALnet server'];
 		

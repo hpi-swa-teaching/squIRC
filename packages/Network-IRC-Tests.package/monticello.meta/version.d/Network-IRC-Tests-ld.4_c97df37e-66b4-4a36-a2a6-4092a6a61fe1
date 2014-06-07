@@ -1,0 +1,1 @@
+(name 'Network-IRC-Tests-ld.4'message 'update IRCConnectionProfileTests so they won''t expect a DefaultProfile anymore'id 'c97df37e-66b4-4a36-a2a6-4092a6a61fe1'date '7 June 2014'time '2:50:47.704 pm'author 'ld'ancestors ((id 'ccba0427-4e50-484e-8a7c-1f4f04da4b45'))stepChildren ())

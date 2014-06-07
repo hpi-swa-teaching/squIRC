@@ -2,7 +2,7 @@ tests
 testServerCreationFromEfnetString
 	| string server |
 	string := 'n103=EFnet: EU, NO, OsloSERVER:oslo efnet.telia.no:6667GROUP:efnet'.
-	server := IRCServer from: string.
+	server := IRCServer fromMIRCLine: string.
 	self
 		should: [server serverName = 'EU, NO, Oslo'];
 		
