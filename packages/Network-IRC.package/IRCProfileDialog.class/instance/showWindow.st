@@ -1,4 +1,4 @@
 dialog lifecycle
 showWindow
 
-	self topView ifNotNil: [self topView show]
+	self topView ifNotNil: [self topView show].

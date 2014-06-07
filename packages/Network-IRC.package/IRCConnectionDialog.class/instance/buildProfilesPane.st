@@ -2,7 +2,7 @@ profiles-gui
 buildProfilesPane
 	| aPane |
 	aPane := AlignmentMorph newColumn beSticky; borderWidth: 0.
-	aPane color: self profilesPaneBackgroundColor;
+	aPane color: IRCGUIHelper dialogBackgroundColor;
 		 layoutPolicy: ProportionalLayout new.
 	aPane
 		addMorph: self buildProfileActionButtons

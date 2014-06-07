@@ -6,7 +6,7 @@ buildOptionsPane
 				 vResizing: #spaceFill;
 				 layoutInset: 0;
 				 borderWidth: 0;
-				 color: self optionsPaneBackgroundColor;
+				 color: IRCGUIHelper dialogBackgroundColor;
 				 layoutPolicy: ProportionalLayout new.
 	self addOptionPaneHeaderTo: aPane offset: indentLevel @ 0.
 	fullList := IRCOptionsManagement optionKeys asSortedCollection.
