@@ -1,14 +1,14 @@
 {
-	"category" : "Network-IRC-Tests",
+	"category" : "BaselineOfProject14",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"channelObserver" ],
-	"name" : "IRCChannelObserverTestCase",
+		 ],
+	"name" : "BaselineOfProject14",
 	"pools" : [
 		 ],
-	"super" : "IRCTestCase",
+	"super" : "Object",
 	"type" : "normal" }
