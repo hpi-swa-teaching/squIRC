@@ -1,0 +1,4 @@
+accessing
+lastSelectedProfile: anIRCConnectionProfile
+
+	LastSelectedProfile := anIRCConnectionProfile
