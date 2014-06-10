@@ -2,7 +2,7 @@ mIRC colors
 initializeTextColorMap
 	"Be sure to reinitialize the color map if you make edits here."
 	"IRCClientColors initializeTextColorMap"
-	TextColorMap _ Dictionary new.
+	TextColorMap := Dictionary new.
 	TextColorMap
 		at: 0
 		put: (TextColor color: Color white);

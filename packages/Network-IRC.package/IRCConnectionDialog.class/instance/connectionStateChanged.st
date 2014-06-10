@@ -1,5 +1,5 @@
 as yet unclassified
 connectionStateChanged
-	connectedState _ connection connected.
+	connectedState := connection connected.
 	self showConfigDenial: connectedState.
 	self disableProfileSelectButton: connectedState.

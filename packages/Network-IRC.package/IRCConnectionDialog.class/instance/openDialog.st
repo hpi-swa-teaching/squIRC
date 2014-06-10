@@ -2,10 +2,10 @@ as yet unclassified
 openDialog
 	"open a dialogue for making new connections"
 	| dialogue swappingControl configurationPaneName |
-	configurationPaneName _ 'Current Configuration'.
-	dialogue _ SystemWindow new.
+	configurationPaneName := 'Current Configuration'.
+	dialogue := SystemWindow new.
 	dialogue model: self.
-	swappingControl _ self buildSwapper.
+	swappingControl := self buildSwapper.
 	self
 		addPane: self buildConfigurationPane
 		toSwapper: swappingControl

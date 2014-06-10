@@ -1,0 +1,3 @@
+default defaults
+defaultDefaultNick
+	^'channelNickname'

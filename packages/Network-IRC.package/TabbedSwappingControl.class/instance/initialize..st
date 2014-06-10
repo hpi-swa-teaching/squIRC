@@ -7,6 +7,6 @@ initialize: orientation
 		 borderWidth: 0;
 		 borderColor: Color transparent;
 		 layoutPolicy: ProportionalLayout new.
-	tabs _ Set new.
+	tabs := Set new.
 	self orientation: orientation.
 	self addTabControlPane

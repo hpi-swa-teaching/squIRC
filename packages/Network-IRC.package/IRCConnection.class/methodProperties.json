@@ -2,6 +2,7 @@
 	"class" : {
 		"features" : "sbw 6/4/2004 06:11",
 		"featuresString" : "sbw 6/10/2004 20:21",
+		"fixAllBadProfileKeys" : "sbw 5/17/2004 20:05",
 		"handyExpressions" : "sbw 6/3/2004 20:21",
 		"handyExpressionsString" : "sbw 6/3/2004 20:20",
 		"initialize" : "ld 6/7/2014 13:48",
@@ -64,6 +65,7 @@
 		"emptyOutProtocolMessagesToSend" : "fc 1/12/2005 13:16",
 		"endOfURL:startingAt:" : "fc 3/3/2005 14:26",
 		"filteredChannelList:" : "sbw 3/11/2005 19:16",
+		"firstTimePromptsCheck" : "sbw 5/23/2004 13:31",
 		"frontMost" : "sbw 5/8/2004 16:54",
 		"frontMostPaneIsCloseable" : "sbw 5/8/2004 16:54",
 		"fullName" : "ld 5/27/2014 11:02",
