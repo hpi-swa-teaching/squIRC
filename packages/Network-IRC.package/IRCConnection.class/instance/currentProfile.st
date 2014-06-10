@@ -1,4 +1,5 @@
 current profile
 currentProfile
 
-	^currentProfile ifNil: [currentProfile := IRCConnectionProfile blank]
+	^currentProfile ifNil: [currentProfile := IRCConnectionProfile
+																	lastSelectedProfile]
