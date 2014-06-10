@@ -2,7 +2,7 @@ local action buttons
 buttonRow
 	| aRow btn |
 	aRow := AlignmentMorph newRow beSticky.
-	aRow color: self dialogBackgroundColor.
+	aRow color: IRCGUIHelper dialogBackgroundColor.
 	aRow layoutInset: 30 @ 1;
 		 cellInset: 34.
 	self buttonSpecs

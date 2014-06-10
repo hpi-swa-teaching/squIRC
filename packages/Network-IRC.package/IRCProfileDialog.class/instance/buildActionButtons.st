@@ -1,12 +1,12 @@
 local action buttons
 buildActionButtons
 	| buttons alignMorph |
-	buttons _ self buttonRow.
+	buttons := self buttonRow.
 	Preferences alternativeWindowLook
 		ifTrue: [buttons
 				submorphsDo: [:m | m borderWidth: 2;
 						 borderColor: #raised]].
-	alignMorph _ AlignmentMorph newRow hResizing: #spaceFill;
+	alignMorph := AlignmentMorph newRow hResizing: #spaceFill;
 				 vResizing: #shrinkWrap;
 				 layoutInset: 0;
 				 borderWidth: 0;

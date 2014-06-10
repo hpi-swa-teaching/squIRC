@@ -2,7 +2,7 @@
 	"class" : {
 		"on:" : "sbw 2/19/2002 17:01" },
 	"instance" : {
-		"addConfigurationControlsTo:" : "am 6/7/2014 17:27",
+		"addConfigurationControlsTo:" : "ld 6/10/2014 16:29",
 		"addOptionPaneHeaderTo:offset:" : "sbw 5/27/2004 19:48",
 		"addOptionsList:to:fractions:offsets:" : "sbw 5/27/2004 20:29",
 		"addPane:toSwapper:paneName:default:" : "sbw 2/28/2002 07:25",
