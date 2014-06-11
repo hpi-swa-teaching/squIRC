@@ -1,12 +1,17 @@
 initialization
 buildMorphicWindow
-	| buttonHeight consolePane |
-	buttonHeight := self buttonHeight.
-	self
-		addActionButtonsWithFractions: (0 @ 0 corner: 1 @ 0)
-		offsets: (0 @ 0 corner: 0 @ buttonHeight).
-	swapper := self buildSwapper.
-	self
+	| buttonHeight consolePane rootPane |
+	
+	rootPane := IRCGUIHelper columnContainer.
+	
+	buttonHeight := IRCGUIHelper rowHeight.
+	rootPane
+		addMorph: self buildActionButtons
+		fullFrame: (LayoutFrame
+							fractions: (0 @ 0 corner: 1 @ 0)
+							offsets: (0 @ 0 corner: 0 @ buttonHeight)).
+	self swapper: self buildSwapper.
+	rootPane
 		addMorph: self swapper
 		fullFrame: (LayoutFrame
 				fractions: (0 @ 0 corner: 1 @ 1)
@@ -19,6 +24,9 @@ buildMorphicWindow
 		closeable: false
 		swapModel: self.
 	self swapper defaultPaneName: 'console'.
-	self swapper fillWithRamp: self paneColorRamp oriented: 6;
-		
-		setMoverButtonColors: self moverButtonColor
+	self swapper setMoverButtonColors: self moverButtonColor.
+	
+	self addMorph: rootPane
+			fullFrame: (LayoutFrame
+				fractions: (0 @ 0 corner: 1 @ 1)
+				offsets: (0 @ 0 corner: 0 @ 0)).

@@ -1,4 +1,4 @@
-list layout
+list panes
 rowHeight
 
 	^22

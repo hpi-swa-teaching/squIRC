@@ -1,4 +1,4 @@
-actions
+actionButtons
 notifyConfigDialogConnectState
 	self connectDialog isNil
 		ifTrue: [^ nil]

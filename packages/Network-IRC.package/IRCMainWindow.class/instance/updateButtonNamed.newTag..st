@@ -1,4 +1,4 @@
-buttons
+actionButtons
 updateButtonNamed: aString newTag: newTag 
 	| btn |
 	btns isNil
@@ -10,5 +10,5 @@ updateButtonNamed: aString newTag: newTag
 	"Need to do something about the connect button and we could do that  
 	here..."
 	aString = 'connect'
-		ifTrue: [self updateIndicator.
+		ifTrue: ["self updateIndicator."
 			self notifyConfigDialogConnectState]

@@ -1,4 +1,4 @@
-list layout
+list panes
 columnContainer
 
 	^(AlignmentMorph newColumn)

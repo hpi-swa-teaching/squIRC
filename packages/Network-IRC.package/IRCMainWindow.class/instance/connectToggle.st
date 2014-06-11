@@ -1,4 +1,4 @@
-actions
+actionButtons
 connectToggle
 	| titleString |
 	titleString _ IRCMainWindow baseWindowTitle.

@@ -1,4 +1,4 @@
-actions
+actionButtons
 openMotd
 	| paneName alignMorph textView updateButton buttonHeight |
 	buttonHeight := 22.

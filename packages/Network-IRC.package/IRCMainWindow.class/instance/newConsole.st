@@ -1,3 +1,3 @@
-actions
+actionButtons
 newConsole
 	model newConsole

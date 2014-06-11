@@ -13,5 +13,5 @@ showPaneNamed: paneName
 	self highlightPaneTabNamed: paneName.
 	frontMost := pane.
 	frontMost show; changed.
-	self owner isNil
-		ifFalse: [self owner activate]
+	"self owner isNil
+		ifFalse: [self owner activate]"

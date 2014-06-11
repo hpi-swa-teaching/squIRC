@@ -1,4 +1,4 @@
-list layout
+list panes
 listPaneFor: aLineGeneratorList on: aModel
 	| pane row insX insY height spacing|
 	

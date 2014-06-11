@@ -24,7 +24,6 @@ openDialog
 	dialogue
 		addMorph: swappingControl
 		frame: (0 @ 0 extent: 1 @ 1).
-	swappingControl color: Color white darker darker.
 	swappingControl goBehind.
 	swappingControl showPaneNamed: configurationPaneName.
 	dialogue setLabel: 'setup for IRC cllient'.
