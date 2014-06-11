@@ -1,4 +1,4 @@
-local action buttons
+action buttons
 windowIsClosing
 	parentDialog isNil
 		ifTrue: [^ nil].

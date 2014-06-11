@@ -1,5 +1,5 @@
 entry field
-entryFieldRowFor: target tag: tag backLabel: backLabel textGetter: getterSymbol textSetter: setterSymbol color: aColor tagColumnWidth: tagWidth tagPad: tagPad tagInset: tagInset 
+entryFieldRowFor: target tag: tag backLabel: backLabel textGetter: getterSymbol textSetter: setterSymbol color: aColor tagColumnWidth: tagWidth tagInset: tagInset 
 	| descMorph textEntry alignPane |
 	descMorph := self textTagField: tag.
 	textEntry := self
@@ -17,7 +17,7 @@ entryFieldRowFor: target tag: tag backLabel: backLabel textGetter: getterSymbol 
 		addMorph: descMorph
 		fullFrame: (LayoutFrame
 				fractions: (0 @ 0 corner: 0 @ 1)
-				offsets: (tagPad @ (2 + tagInset) corner: tagPad + tagWidth @ 0));
+				offsets: (tagInset @ (tagInset) corner: tagWidth @ 0));
 		
 		addMorph: textEntry
 		fullFrame: (LayoutFrame

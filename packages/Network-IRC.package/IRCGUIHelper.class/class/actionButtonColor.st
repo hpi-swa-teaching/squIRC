@@ -1,0 +1,4 @@
+buttons
+actionButtonColor
+
+	^Color veryVeryLightGray

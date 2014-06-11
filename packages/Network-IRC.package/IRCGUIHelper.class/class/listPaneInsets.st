@@ -1,4 +1,4 @@
 list layout
-insets
+listPaneInsets
 
 	^10 @ 10

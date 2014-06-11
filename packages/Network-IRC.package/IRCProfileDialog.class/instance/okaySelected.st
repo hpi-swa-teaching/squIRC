@@ -1,4 +1,4 @@
-local action buttons
+action buttons
 okaySelected
 	| targetName |
 	self entryMorphs do: [:entry | entry accept].

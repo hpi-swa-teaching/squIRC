@@ -1,14 +1,21 @@
 {
 	"class" : {
+		"actionButtonColor" : "ld 6/11/2014 20:26",
+		"actionButtonOn:label:action:balloonText:" : "ld 6/11/2014 20:27",
 		"addBackLabel:toEntryField:" : "sbw 4/3/2005 09:55",
-		"basicHeight" : "ld 5/24/2014 20:28",
+		"cellSpacing" : "ld 6/11/2014 21:50",
+		"columnContainer" : "ld 6/11/2014 20:35",
 		"dialogBackgroundColor" : "am 6/7/2014 17:25",
-		"entryFieldRowFor:tag:backLabel:textGetter:textSetter:color:tagColumnWidth:tagPad:tagInset:" : "sbw 3/16/2005 20:34",
-		"insets" : "ld 6/10/2014 16:57",
-		"listPaneFor:from:" : "ld 6/10/2014 17:06",
+		"entryFieldRowFor:tag:backLabel:textGetter:textSetter:color:tagColumnWidth:tagInset:" : "ld 6/11/2014 12:18",
+		"entryFieldRowFor:tag:backLabel:textGetter:textSetter:color:tagColumnWidth:tagPad:tagInset:" : "ld 6/11/2014 12:16",
+		"listPaneFor:on:" : "ld 6/11/2014 21:48",
+		"listPaneInsets" : "ld 6/11/2014 21:43",
+		"rowContainer" : "ld 6/11/2014 20:35",
 		"rowHeight" : "ld 6/10/2014 16:58",
+		"rowPaneFor:on:" : "ld 6/11/2014 21:51",
 		"rowSpacing" : "ld 6/10/2014 16:58",
 		"textEntryMorphOn:textGetter:textSetter:" : "fc 4/13/2005 11:17",
-		"textTagField:" : "sbw 3/16/2005 07:27" },
+		"textTagField:" : "sbw 3/16/2005 07:27",
+		"toggleButtonOn:label:state:action:offColor:onColor:balloonText:" : "ld 6/11/2014 20:29" },
 	"instance" : {
 		 } }
