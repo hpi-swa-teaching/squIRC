@@ -1,9 +1,12 @@
 profiles
 selectProfile
-
+	| profile |
+	
 	(connectedState or: 
 		[self profilesIndex isNil]) 
 		ifTrue: [^nil].
-	self connection 
-			loadProfile: (IRCConnectionProfile 
-									getProfileAt: self profilesIndex)
+	profile := IRCConnectionProfile 
+								getProfileAt: self profilesIndex.
+	
+	IRCConnectionProfile lastSelectedProfile: profile.
+	self connection loadProfile: profile
