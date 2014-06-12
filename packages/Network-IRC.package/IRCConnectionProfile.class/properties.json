@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"LastSelectedProfile",
 		"Profiles",
 		"ProfilesSorted",
 		"ProfilesSortedValid" ],

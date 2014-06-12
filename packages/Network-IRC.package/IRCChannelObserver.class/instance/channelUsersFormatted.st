@@ -9,10 +9,10 @@ channelUsersFormatted
 	channel operatorIndexes
 		do: [:index | index > 0
 				ifTrue: [(newList at: index)
-						contents: '@ ' , (newList at: index) contents]].
+						contents: '(Op) ' , (newList at: index) contents]].
 	channel voicedIndexes
 		do: [:index | index > 0
 				ifTrue: [(newList at: index)
-						contents: '+ ' , (newList at: index) contents]].
+						contents: '(Vo) ' , (newList at: index) contents]].
 	newList do: [:each | each color: (IRCClientColors userNameColorFromHash: each contents)].
 	^ newList

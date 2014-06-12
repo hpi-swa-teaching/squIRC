@@ -8,6 +8,8 @@
 		"dialogBackgroundColor" : "am 6/7/2014 17:25",
 		"entryFieldRowFor:tag:backLabel:textGetter:textSetter:color:tagColumnWidth:tagInset:" : "ld 6/11/2014 12:18",
 		"entryFieldRowFor:tag:backLabel:textGetter:textSetter:color:tagColumnWidth:tagPad:tagInset:" : "ld 6/11/2014 12:16",
+		"entryFieldRowFor:tag:backLabel:textGetter:textSetter:tagColumnWidth:" : "ld 6/12/2014 09:46",
+		"entryTagInset" : "ld 6/12/2014 09:46",
 		"listPaneFor:on:" : "ld 6/11/2014 21:48",
 		"listPaneInsets" : "ld 6/11/2014 21:43",
 		"rowContainer" : "ld 6/11/2014 20:35",

@@ -1,11 +1,10 @@
-configuration
+configuration-gui
 buildConfigurationPane
-	configurationPane := AlignmentMorph newColumn hResizing: #spaceFill;
-				 vResizing: #spaceFill;
-				 layoutInset: 0;
-				 borderWidth: 0;
-				 layoutPolicy: ProportionalLayout new.
-	self addConfigurationControlsTo: configurationPane.
-	self buildConfigurationDenialPane.
-	self connectionStateChanged.
-	^configurationPane
+
+	^IRCGUIHelper listPaneFor: 
+								{	#buildLabelPane .
+									#buildFullNamePane .
+									#buildNickPane .
+									#buildUserNamePane .
+									#buildServerAddressPane} 
+								on: self 

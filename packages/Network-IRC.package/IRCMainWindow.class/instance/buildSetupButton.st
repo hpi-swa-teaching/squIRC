@@ -4,5 +4,5 @@ buildSetupButton
 	^IRCGUIHelper 
 			actionButtonOn: self
 			label: 'setup'
-			action: #openSetupDialogue
+			action: #openSetupDialog
 			balloonText: 'Open up connection setup dialog'

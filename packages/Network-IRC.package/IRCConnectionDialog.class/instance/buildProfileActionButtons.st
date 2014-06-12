@@ -12,11 +12,8 @@ buildProfileActionButtons
 			Preferences alternativeWindowLook
 				ifTrue: [btn borderWidth: 2;
 						 borderColor: #raised].
-			btn label: spec first;
-					color: self profileActionButtonColor;
-					useRoundedCorners;
-					hResizing: #spaceFill;
-					vResizing: #spaceFill.
+			btn label: spec first.
+			btn color: self profileActionButtonColor.
 			btn onColor: Color white offColor: self profileActionButtonColor.
 			alignMorph addMorphBack: btn.
 			btn setBalloonText: spec fourth.
