@@ -1,7 +1,7 @@
 console
 consoleMenuSpecification 
 	| list |
-	list _ OrderedCollection new.
+	list := OrderedCollection new.
 	list
 		add: #('find (f)' #find);
 		add: #('find again (g)' #findAgain);

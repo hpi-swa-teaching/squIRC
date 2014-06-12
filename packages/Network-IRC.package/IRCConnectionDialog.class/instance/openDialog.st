@@ -26,5 +26,6 @@ openDialog
 		frame: (0 @ 0 extent: 1 @ 1).
 	swappingControl goBehind.
 	swappingControl showPaneNamed: configurationPaneName.
+	swappingControl color: IRCGUIHelper dialogBackgroundColor.
 	dialogue setLabel: 'setup for IRC cllient'.
 	dialogue openInWorld
