@@ -1,0 +1,2 @@
+public API
+okayToCloseAllPanes

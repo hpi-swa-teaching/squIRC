@@ -1,0 +1,3 @@
+actions
+openChannelList
+	model openChannelList

@@ -1,0 +1,3 @@
+console
+consoleText
+	^model consoleText

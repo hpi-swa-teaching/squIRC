@@ -1,0 +1,3 @@
+access
+topic
+	^topic ifNil: ['']

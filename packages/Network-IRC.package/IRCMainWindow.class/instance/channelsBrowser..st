@@ -1,0 +1,3 @@
+channels
+channelsBrowser: aIRCChannelListBrowserEnhanced 
+	channelsBrowser := aIRCChannelListBrowserEnhanced

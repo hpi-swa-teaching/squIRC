@@ -1,0 +1,2 @@
+slash commands translation
+processInvalidCommand

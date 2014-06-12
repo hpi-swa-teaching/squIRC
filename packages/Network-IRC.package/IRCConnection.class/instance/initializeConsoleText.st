@@ -1,0 +1,3 @@
+console text management
+initializeConsoleText
+	consoleTextLines _ IRCTextLines new initialize

@@ -1,0 +1,5 @@
+stored graphics
+initializeCachedForms
+	"IRCMainWindow initializeCachedForms"
+	self initializeConnectedForm.
+	self initializeDisconnectedForm

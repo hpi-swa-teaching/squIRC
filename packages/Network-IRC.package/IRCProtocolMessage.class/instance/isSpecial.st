@@ -1,0 +1,3 @@
+access
+isSpecial
+	^isSpecial

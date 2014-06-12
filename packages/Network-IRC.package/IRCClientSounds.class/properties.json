@@ -1,0 +1,15 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastSoundTime",
+		"Sounds" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IRCClientSounds",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

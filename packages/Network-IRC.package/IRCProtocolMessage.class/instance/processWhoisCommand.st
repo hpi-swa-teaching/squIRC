@@ -1,0 +1,3 @@
+slash commands translation
+processWhoisCommand
+	self stripOffFirstArgument

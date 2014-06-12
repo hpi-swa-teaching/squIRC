@@ -1,0 +1,18 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"connection",
+		"profilesIndex",
+		"configurationPane",
+		"denialPane",
+		"connectedState" ],
+	"name" : "IRCConnectionDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

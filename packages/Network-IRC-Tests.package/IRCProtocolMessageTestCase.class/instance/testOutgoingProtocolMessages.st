@@ -1,0 +1,4 @@
+tests
+testOutgoingProtocolMessages
+	self tMessageFormat8.
+	self tMessageFormat9

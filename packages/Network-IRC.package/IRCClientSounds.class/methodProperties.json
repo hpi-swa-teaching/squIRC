@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"advanceLastSoundTime" : "sbw 6/11/2004 05:06",
+		"channelNickMessageArrived" : "sbw 6/8/2004 22:16",
+		"channelNickMessageSound" : "sbw 6/8/2004 22:36",
+		"currentTimeValue" : "sbw 6/11/2004 04:54",
+		"generatePulseSound1" : "sbw 6/8/2004 22:31",
+		"generatePulseSound2" : "sbw 6/8/2004 22:33",
+		"generatePulseSound3" : "sbw 6/8/2004 22:35",
+		"genericPrivateMessageArrived" : "sbw 6/8/2004 22:16",
+		"genericPrivateMessageSound" : "sbw 6/8/2004 22:32",
+		"initialize" : "sbw 6/11/2004 04:56",
+		"initializeSoundsCaches" : "sbw 6/8/2004 22:37",
+		"lastSoundTime" : "sbw 5/27/2004 20:54",
+		"lastSoundTime:" : "sbw 5/27/2004 20:58",
+		"playSound:" : "sbw 6/8/2004 07:01",
+		"playSoundFor:" : "sbw 6/11/2004 04:52",
+		"readMe" : "sbw 6/10/2004 20:32",
+		"sounds" : "sbw 6/8/2004 22:22",
+		"specificPrivateMessageArrived" : "sbw 6/8/2004 22:17",
+		"specificPrivateMessageSound" : "sbw 6/8/2004 22:33" },
+	"instance" : {
+		 } }

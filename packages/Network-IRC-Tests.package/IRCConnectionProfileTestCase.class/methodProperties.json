@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"isAbstract" : "sbw 5/8/2004 15:42" },
+	"instance" : {
+		"profile1" : "ld 6/7/2014 14:37",
+		"profile2" : "ld 6/7/2014 14:37",
+		"serverFromMIRC" : "ld 6/7/2014 14:35",
+		"serverFromString" : "ld 6/7/2014 14:36",
+		"setUp" : "ld 6/7/2014 14:01",
+		"tProfileOperations" : "ld 6/7/2014 14:46",
+		"tProfileOptions" : "ld 6/7/2014 13:52",
+		"tearDown" : "sbw 5/22/2004 11:10",
+		"testProfileOperations" : "sbw 5/22/2004 11:11" } }

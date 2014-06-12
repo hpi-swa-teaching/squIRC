@@ -1,0 +1,3 @@
+stored graphics
+initializeDisconnectedForm
+	DisconnectedForm := self convertRectangleMorphToForm: self disconnectedFullSizeMorph

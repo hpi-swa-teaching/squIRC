@@ -1,0 +1,3 @@
+stored graphics
+initializeConnectedForm
+	ConnectedForm _ self convertRectangleMorphToForm: self connectedFullSizeMorph

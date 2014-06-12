@@ -1,0 +1,3 @@
+errors
+ensureErrorsFolder
+	self rootFolder assureExistenceOfPath: self errorsFolderName

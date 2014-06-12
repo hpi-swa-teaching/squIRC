@@ -1,0 +1,1 @@
+We will use instances of IRCChannelMember to hold information about and organize our channel members.
