@@ -4,13 +4,10 @@
 	"instance" : {
 		"profile1" : "ld 6/7/2014 14:37",
 		"profile2" : "ld 6/7/2014 14:37",
-		"server1" : "sbw 5/18/2004 10:39",
 		"serverFromMIRC" : "ld 6/7/2014 14:35",
 		"serverFromString" : "ld 6/7/2014 14:36",
 		"setUp" : "ld 6/7/2014 14:01",
 		"tProfileOperations" : "ld 6/7/2014 14:46",
 		"tProfileOptions" : "ld 6/7/2014 13:52",
 		"tearDown" : "sbw 5/22/2004 11:10",
-		"testBasicProfileValues" : "sbw 5/18/2004 10:52",
-		"testProfileOperations" : "sbw 5/22/2004 11:11",
-		"verifyDefaultValuesUsing:" : "sbw 5/18/2004 10:31" } }
+		"testProfileOperations" : "sbw 5/22/2004 11:11" } }

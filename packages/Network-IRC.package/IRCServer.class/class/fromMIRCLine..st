@@ -1,7 +1,7 @@
 instance creation
 fromMIRCLine: aString 
 
-	(self isValidMIRCLine: aString) ifTrue: [^nil].
+	(self isValidMIRCLine: aString) ifFalse: [^nil].
 	
 	^(self new)
 		configureFromMIRCLine: aString;
