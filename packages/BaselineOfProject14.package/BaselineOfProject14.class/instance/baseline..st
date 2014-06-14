@@ -5,12 +5,15 @@ baseline: spec
         for: #'common'
         do: [ 
             spec
-				package: 'VB-Regex';
-				package: 'Network-IRC' with: [spec requires: #('regex')];
-                		package: 'Network-IRC-Tests' with: [ spec requires: #('default') ].
+					package: 'Network-IRC' with: [spec requires: #('VB-Regex')];
+               package: 'Network-IRC-Tests' with: [ spec requires: #('default') ].
 				
             spec
-		    group: 'regex' with: #('VB-Regex');
-                group: 'default' with: #('Network-IRC');
-                group: 'Tests' with: #('Network-IRC-Tests');
-                group: 'TravisCI' with: #('Tests') ]
+               group: 'default' with: #('Network-IRC');
+               group: 'Tests' with: #('Network-IRC-Tests');
+               group: 'TravisCI' with: #('Tests').
+				spec
+					project: 'VB-Regex' with: [
+						spec
+							repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+							yourself]]
