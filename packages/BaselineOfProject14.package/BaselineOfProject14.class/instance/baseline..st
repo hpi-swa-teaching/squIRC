@@ -5,10 +5,10 @@ baseline: spec
         for: #'common'
         do: [ 
             spec
-					 package: 'Network-IRC-Model';
-					 package: 'Network-IRC-GUI';
-                package: 'Network-IRC-Tests' with: [ spec requires: #('default') ].
+				package: 'Network-IRC';
+                		package: 'Network-IRC-Tests' with: [ spec requires: #('default') ].
             spec
-                group: 'default' with: #('Network-IRC');
+                group: 'default' with: #('Network-IRC-GUI');
+		    group: 'default' with: #('Network-IRC-Model');
                 group: 'Tests' with: #('Network-IRC-Tests');
                 group: 'TravisCI' with: #('Tests') ]
