@@ -2,10 +2,7 @@ swapper
 buildSwapperPane
 
 	self swapper: 
-			((TabbedSwappingControl 
-					newSwapControlPaneOrientation: #top 
-					showMover: true)
+			((TabbedSwappingControl withMover: true)
 					defaultPaneName: 'console';
-					setMoverButtonColors: self moverButtonColor;
 					yourself).
-	^ self swapper
+	^self swapper

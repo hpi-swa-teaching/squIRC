@@ -9,4 +9,4 @@ addTabControlPane
 		ifTrue: [alignMorph borderWidth: 2]
 		ifFalse: [alignMorph borderWidth: 0].
 	self showMover
-		ifTrue: [self addTabControlMoversToParent: self layout: self tabControlMoversLayout]
+		ifTrue: [self buildMoverButtons layout: self tabControlMoversLayout]

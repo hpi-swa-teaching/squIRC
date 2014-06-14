@@ -1,4 +1,4 @@
-options
+options-gui
 addOptionsList: aList to: aPane fractions: frac offsets: off 
 	| rowHeight rowSpacing rowPosn button |
 	rowHeight := self optionRowHeight.

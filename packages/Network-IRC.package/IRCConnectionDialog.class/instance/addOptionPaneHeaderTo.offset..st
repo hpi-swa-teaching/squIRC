@@ -1,4 +1,4 @@
-options
+options-gui
 addOptionPaneHeaderTo: aPane offset: aPoint 
 	| str |
 	str := StringMorph

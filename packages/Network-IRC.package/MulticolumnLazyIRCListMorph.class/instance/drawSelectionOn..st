@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawSelectionOn: aCanvas
 
 " This is copied almost as is from our Super LazylistMorph. The only change is to the collor used for the highlighting. On Macs with display depth set to 16 the original highlighting was invisible."

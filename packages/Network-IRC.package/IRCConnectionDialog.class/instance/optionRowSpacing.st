@@ -1,3 +1,3 @@
-options
+options-gui
 optionRowSpacing
 	^20

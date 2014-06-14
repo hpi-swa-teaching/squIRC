@@ -1,3 +1,3 @@
-options
+options-gui
 optionRowHeight
 	^ 16

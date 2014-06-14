@@ -1,4 +1,4 @@
-as yet unclassified
+dialog creation
 openDialog
 	"open a dialogue for making new connections"
 	| dialogue swappingControl configurationPaneName |

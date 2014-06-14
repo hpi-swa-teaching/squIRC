@@ -1,9 +1,8 @@
 pane operations
 nameOfPaneToLeftOfFrontPane
-	| indexOfFrontPane indexOfLeftPane targetPane targetPaneName swapper subs |
+	| indexOfFrontPane indexOfLeftPane targetPane targetPaneName subs |
 	frontMost isNil
 		ifTrue: [^ nil].
-	swapper _ self findPaneNamed: 'swap'.
 	swapper isNil
 		ifTrue: [^ nil].
 	subs _ swapper submorphs.

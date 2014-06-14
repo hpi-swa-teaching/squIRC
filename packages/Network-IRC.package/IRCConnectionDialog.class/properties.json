@@ -8,9 +8,7 @@
 	"instvars" : [
 		"connection",
 		"profilesIndex",
-		"configurationPane",
-		"denialPane",
-		"connectedState" ],
+		"configurationPane" ],
 	"name" : "IRCConnectionDialog",
 	"pools" : [
 		 ],

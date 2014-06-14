@@ -1,4 +1,4 @@
-options
+options-gui
 buildOptionsPane
 	| aPane indentLevel fullList leftCount leftList rightList |
 	indentLevel := 160.

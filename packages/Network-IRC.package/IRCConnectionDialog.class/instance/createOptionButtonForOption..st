@@ -1,4 +1,4 @@
-options
+options-gui
 createOptionButtonForOption: aSymbol 
 	| button wrapper str |
 	wrapper := AlignmentMorph newRow height: self optionRowHeight.
