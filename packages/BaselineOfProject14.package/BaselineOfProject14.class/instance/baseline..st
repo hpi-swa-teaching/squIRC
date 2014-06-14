@@ -14,4 +14,4 @@ baseline: spec
                group: 'TravisCI' with: #('Tests').
 
 				spec
-					spec package: 'VB-Regex' with: [ spec repository: 'http://www.squeaksource.com/Regex']]
+					package: 'VB-Regex' with: [ spec repository: 'http://www.squeaksource.com/Regex']]
