@@ -2,6 +2,8 @@ initialization
 buildMorphicWindow
 	| buttonHeight consolePane rootPane |
 	
+	self model addDependent: self.
+	
 	rootPane := IRCGUIHelper columnContainer.
 	
 	buttonHeight := IRCGUIHelper rowHeight.
