@@ -5,7 +5,7 @@ addPaneNameToTabs: aString
 	swapper := self findPaneNamed: 'swap'.
 	swapper isNil
 		ifTrue: [^ nil].
-	btn := PluggableButtonIRCeMorph
+	btn := PluggableButtonMorph
 				on: [self showPaneNamed: aString]
 				getState: nil
 				action: #value.

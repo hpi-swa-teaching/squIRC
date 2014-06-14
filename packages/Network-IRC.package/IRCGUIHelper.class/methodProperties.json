@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"actionButtonColor" : "ld 6/11/2014 20:26",
-		"actionButtonOn:label:action:balloonText:" : "ld 6/11/2014 20:27",
+		"actionButtonOn:label:action:balloonText:" : "LD 6/14/2014 15:50",
 		"addBackLabel:toEntryField:" : "sbw 4/3/2005 09:55",
+		"buttonColor" : "LD 6/14/2014 15:50",
 		"cellSpacing" : "ld 6/11/2014 21:50",
 		"columnContainer" : "ld 6/11/2014 20:35",
 		"dialogBackgroundColor" : "am 6/7/2014 17:25",
@@ -19,6 +19,6 @@
 		"rowSpacing" : "ld 6/10/2014 16:58",
 		"textEntryMorphOn:textGetter:textSetter:" : "fc 4/13/2005 11:17",
 		"textTagField:" : "sbw 3/16/2005 07:27",
-		"toggleButtonOn:label:state:action:offColor:onColor:balloonText:" : "ld 6/11/2014 20:29" },
+		"toggleButtonOn:label:state:action:offColor:onColor:balloonText:" : "LD 6/14/2014 15:53" },
 	"instance" : {
 		 } }

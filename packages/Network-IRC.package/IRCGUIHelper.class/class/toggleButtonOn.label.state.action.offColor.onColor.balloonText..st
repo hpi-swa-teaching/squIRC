@@ -1,12 +1,14 @@
 buttons
-toggleButtonOn: aModel label: label state: aStateMsgIdentifier action: actionMsgIdentifier offColor: offColor onColor: onColor balloonText: balloonText
+toggleButtonOn: aModel label: aLabelMsg state: aStateMsg action: anActionMsg offColor: offColor onColor: onColor balloonText: balloonText
 
 	^(PluggableButtonMorph 
 			on: aModel
-			getState: aStateMsgIdentifier
-			action: actionMsgIdentifier)
-			label: label;
-			color: offColor;
+			getState: aStateMsg
+			action: anActionMsg
+			label: aLabelMsg)
+			color: ((aModel perform: aStateMsg) 
+							ifTrue: [onColor] 
+							ifFalse: [offColor]);
 			onColor: onColor 
 			offColor: offColor;
 			setBalloonText: balloonText;

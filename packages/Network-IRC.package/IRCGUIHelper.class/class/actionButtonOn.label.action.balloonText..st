@@ -6,9 +6,9 @@ actionButtonOn: aModel label: label action: actionMsgIdentifier balloonText: bal
 			getState: nil
 			action: actionMsgIdentifier)
 			label: label;
-			color: self actionButtonColor;
-			onColor: self actionButtonColor 
-			offColor: self actionButtonColor;
+			color: self buttonColor;
+			onColor: self buttonColor 
+			offColor: self buttonColor;
 			setBalloonText: balloonText;
 			useRoundedCorners;
 			yourself
