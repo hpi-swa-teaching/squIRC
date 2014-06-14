@@ -15,5 +15,6 @@ baseline: spec
 				spec
 					project: 'VB-Regex' with: [
 						spec
-							repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main';
+							requires: #('Core');
+							repository: 'http://www.squeaksource.com/Regex';
 							yourself]]
