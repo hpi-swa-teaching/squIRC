@@ -8,7 +8,6 @@ baseline: spec
 				package: 'Network-IRC';
                 		package: 'Network-IRC-Tests' with: [ spec requires: #('default') ].
             spec
-                group: 'default' with: #('Network-IRC-GUI');
-		    group: 'default' with: #('Network-IRC-Model');
+                group: 'default' with: #('Network-IRC');
                 group: 'Tests' with: #('Network-IRC-Tests');
                 group: 'TravisCI' with: #('Tests') ]
