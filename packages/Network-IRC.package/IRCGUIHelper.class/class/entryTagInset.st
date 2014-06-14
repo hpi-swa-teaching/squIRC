@@ -1,4 +1,4 @@
-entry field
+layout parameters
 entryTagInset
 
 	^10

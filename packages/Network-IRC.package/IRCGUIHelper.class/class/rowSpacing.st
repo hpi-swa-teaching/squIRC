@@ -1,4 +1,4 @@
-list panes
+layout parameters
 rowSpacing
 
 	^36

@@ -1,4 +1,4 @@
 layout parameters
-cellSpacing
+paneInsets
 
-	^22
+	^5 @ 5

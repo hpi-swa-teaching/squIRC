@@ -14,8 +14,8 @@ openCapturedView
 				layoutPolicy: ProportionalLayout new.
 	alignMorph color: Color white.
 	self buildMorphIn: alignMorph.
-	connection gui
-		addSwapPane: alignMorph
+	(connection gui swapper) 
+		addPane: alignMorph
 		named: paneName
 		hidden: false
 		closeable: true

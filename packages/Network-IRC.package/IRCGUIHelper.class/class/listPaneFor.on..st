@@ -1,12 +1,12 @@
-list panes
+layout helper
 listPaneFor: aLineGeneratorList on: aModel
 	| pane row insX insY height spacing|
 	
 	pane := self columnContainer.
 	
 	row := 0.
-	insX := self listPaneInsets x.
-	insY := self listPaneInsets y.
+	insX := self paneInsets x.
+	insY := self paneInsets y.
 	height := self rowHeight.
 	spacing := self rowSpacing.
 	

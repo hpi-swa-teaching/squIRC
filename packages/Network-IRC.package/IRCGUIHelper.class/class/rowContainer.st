@@ -1,4 +1,4 @@
-row panes
+layout helper
 rowContainer
 
 	^(AlignmentMorph newRow)

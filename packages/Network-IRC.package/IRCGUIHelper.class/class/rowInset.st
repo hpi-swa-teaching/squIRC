@@ -1,4 +1,4 @@
 layout parameters
-cellSpacing
+rowInset
 
-	^22
+	^2

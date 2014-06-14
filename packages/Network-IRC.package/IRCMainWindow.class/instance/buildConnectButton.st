@@ -7,8 +7,8 @@ buildConnectButton
 				label: #connectButtonLabel
 				state: #connected 
 				action: #connectToggle 
-				offColor: Color red 
-				onColor: Color green 
+				offColor: IRCGUIHelper buttonColor
+				onColor: Color paleGreen
 				balloonText: 'Connect/Disconnect IRC server'.
 	self addDependent: button.
 	^button

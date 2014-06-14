@@ -13,8 +13,8 @@ openMorphicView
 				 layoutPolicy: ProportionalLayout new.
 	alignMorph color: Color paleYellow.
 	self buildMorphIn: alignMorph.
-	connection gui
-		addSwapPane: alignMorph
+	(connection gui swapper) 
+		addPane: alignMorph
 		named: paneName
 		hidden: talkingTo isNil
 		closeable: talkingTo isNil not

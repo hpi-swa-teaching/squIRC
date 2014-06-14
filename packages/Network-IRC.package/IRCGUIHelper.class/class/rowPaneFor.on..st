@@ -1,4 +1,4 @@
-row panes
+layout helper
 rowPaneFor: aCellGeneratorList on: aModel
 	| pane cell frac spacing margin|
 	
@@ -7,7 +7,7 @@ rowPaneFor: aCellGeneratorList on: aModel
 	cell := 0.
 	frac := 1.0 / aCellGeneratorList size.
 	spacing := self cellSpacing / 2.
-	margin := self rowMargin.
+	margin := self rowInset.
 	
 	aCellGeneratorList 
 		do: [:selector | | childPane offsets |

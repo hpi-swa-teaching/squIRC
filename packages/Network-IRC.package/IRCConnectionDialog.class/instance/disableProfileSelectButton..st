@@ -10,4 +10,4 @@ disableProfileSelectButton: boolean
 		ifTrue: [^ nil].
 	boolean
 		ifTrue: [morph offColor: Color veryVeryLightGray]
-		ifFalse: [morph offColor: self profileActionButtonColor]
+		ifFalse: [morph offColor: IRCGUIHelper buttonColor]

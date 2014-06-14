@@ -4,4 +4,4 @@ openForAddWithOptions: options
 	editing := false.
 	profile := IRCConnectionProfile blank.
 	profile options: options.
-	self serverButton
+	self openDialogLabeled: 'add a profile'
