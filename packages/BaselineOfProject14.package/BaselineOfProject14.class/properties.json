@@ -10,5 +10,5 @@
 	"name" : "BaselineOfProject14",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
