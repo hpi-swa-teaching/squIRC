@@ -5,7 +5,5 @@ buildProfileNamePane
 						tag: 'Profile Name'  
 						backLabel: 'this profiles name...' 
 						textGetter: #profileName 
-						textSetter: #profileName: 
-						color: IRCGUIHelper dialogBackgroundColor
+						textSetter: #profileName:
 						tagColumnWidth: 100
-						tagInset: 7

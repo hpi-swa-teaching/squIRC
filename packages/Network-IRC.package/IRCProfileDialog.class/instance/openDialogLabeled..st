@@ -1,7 +1,7 @@
 dialog creation
 openDialogLabeled: aString
 	| dialog |
-	dialog := SystemWindow new.
+	dialog := IRCSystemWindow new.
 	dialog model: self.
 	self buildDialogOn: dialog.
 	dialog setLabel: aString.

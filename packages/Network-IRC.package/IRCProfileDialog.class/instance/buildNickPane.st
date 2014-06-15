@@ -5,7 +5,5 @@ buildNickPane
 						tag: 'Nick'  
 						backLabel: 'your nick...' 
 						textGetter: #nick 
-						textSetter: #nick: 
-						color: IRCGUIHelper dialogBackgroundColor
+						textSetter: #nick:
 						tagColumnWidth: 100
-						tagInset: 7

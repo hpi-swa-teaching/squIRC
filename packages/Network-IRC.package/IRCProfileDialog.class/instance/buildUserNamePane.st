@@ -5,7 +5,5 @@ buildUserNamePane
 						tag: 'User Name'  
 						backLabel: 'name to log on with...'
 						textGetter: #userName 
-						textSetter: #userName: 
-						color: IRCGUIHelper dialogBackgroundColor
+						textSetter: #userName:
 						tagColumnWidth: 100
-						tagInset: 7

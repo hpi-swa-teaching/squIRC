@@ -12,5 +12,4 @@ buildDialogOn: window
 												on: self.
 
 	window addMorph: alignMorph
-				fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)).
-	alignMorph color: IRCGUIHelper dialogBackgroundColor.
+				fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1))

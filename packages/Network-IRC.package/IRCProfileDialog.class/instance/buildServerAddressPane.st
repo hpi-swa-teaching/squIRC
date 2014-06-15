@@ -6,10 +6,8 @@ buildServerAddressPane
 						tag: 'Server Address'  
 						backLabel: 'server to connect to...' 
 						textGetter: #serverAddressString 
-						textSetter: #serverAddressString: 
-						color: IRCGUIHelper dialogBackgroundColor
-						tagColumnWidth: 100
-						tagInset: 7.
+						textSetter: #serverAddressString:
+						tagColumnWidth: 100.
 	button := IRCGUIHelper 
 					actionButtonOn: self
 	 				label: 'Choose Server' 

@@ -7,8 +7,5 @@ addTopicFilterControlTo: aPane
 				backLabel: 'topic filter'
 				textGetter: #topicFilter
 				textSetter: #topicFilter:
-				color: Color transparent
-				tagColumnWidth: 46
-				tagPad: 20
-				tagInset: 6.
+				tagColumnWidth: 46.
 	aPane addMorphBack: morph
