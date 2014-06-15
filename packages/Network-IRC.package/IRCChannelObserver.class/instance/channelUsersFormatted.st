@@ -6,6 +6,9 @@ channelUsersFormatted
 	| newList |
 	newList := self channelUsers
 				collect: [:each | StringMorph contents: each].
+				
+	newList do: [:each | each color: (IRCClientColors userNameColorFromHash: each contents)].
+	
 	channel operatorIndexes
 		do: [:index | index > 0
 				ifTrue: [(newList at: index)
@@ -14,5 +17,5 @@ channelUsersFormatted
 		do: [:index | index > 0
 				ifTrue: [(newList at: index)
 						contents: '+ ' , (newList at: index) contents]].
-	newList do: [:each | each color: (IRCClientColors userNameColorFromHash: each contents)].
+	
 	^ newList
