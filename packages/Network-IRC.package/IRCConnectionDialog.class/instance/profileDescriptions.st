@@ -3,4 +3,4 @@ profileDescriptions
 	
 	IRCConnectionProfile hasProfiles
 		ifTrue:  [^IRCConnectionProfile profileNamesSorted]
-		ifFalse: [^OrderedCollection new add: 'no profiles configured']
+		ifFalse: [^{ '[there are no profiles]' }]
