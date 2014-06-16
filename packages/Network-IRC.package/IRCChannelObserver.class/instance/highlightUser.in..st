@@ -17,5 +17,4 @@ highlightUser: aNickString in: aText
 				aText 	addAttribute: (TextColor color: (IRCClientColors userNameColorFromHash: aNickString)) 
 						from: matchLocation 
 						to: matchEnd.
-				startSearch := matchEnd]].
-		]
+				startSearch := matchEnd]]]
