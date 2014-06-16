@@ -1,8 +1,9 @@
 property-profilename
 buildProfileNamePane
-	^ self
-		entryPane: 'Profile Name'
-		set: #profileName:
-		get: #profileName
-		canEdit: true
-		rightEdgeOffset: 0
+
+	^IRCGUIHelper entryFieldRowFor: self 
+						tag: 'Profile Name'  
+						backLabel: 'this profiles name...' 
+						textGetter: #profileName 
+						textSetter: #profileName:
+						tagColumnWidth: 100

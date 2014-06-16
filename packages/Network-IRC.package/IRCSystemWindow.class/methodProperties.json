@@ -3,6 +3,7 @@
 		"includeInNewMorphMenu" : "sbw 6/3/2004 19:28",
 		"windowColorSpecification" : "sbw 5/12/2004 06:47" },
 	"instance" : {
+		"addMorph:fullFrame:" : "LD 6/14/2014 18:03",
 		"inform:" : "sbw 5/30/2004 10:08",
 		"informUser:during:" : "sbw 5/30/2004 10:06",
 		"paneColorRamp" : "sbw 5/27/2004 07:04" } }

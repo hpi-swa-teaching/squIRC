@@ -1,7 +1,8 @@
-local action buttons
+action buttons
 okaySelected
 	| targetName |
-	self entryMorphs do: [:entry | entry accept].
+	
+	self changed: #accept.
 	editing
 		ifTrue: [parentDialog ifNotNil: [:dialog | dialog editedProfile: profile]]
 		ifFalse: [targetName := profile name.

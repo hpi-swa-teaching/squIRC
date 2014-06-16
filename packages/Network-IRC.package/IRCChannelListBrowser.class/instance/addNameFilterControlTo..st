@@ -7,8 +7,5 @@ addNameFilterControlTo: aPane
 				backLabel: 'name filter'
 				textGetter: #nameFilter
 				textSetter: #nameFilter:
-				color: Color transparent
-				tagColumnWidth: 46
-				tagPad: 20
-				tagInset: 6.
+				tagColumnWidth: 46.
 	aPane addMorphBack: morph

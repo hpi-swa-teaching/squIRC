@@ -6,8 +6,8 @@ openCapturedView
 	alignMorph := AlignmentMorph newColumn beSticky; borderWidth: 0; layoutPolicy: ProportionalLayout new.
 	alignMorph color: Color paleTan.
 	self buildMorphIn: alignMorph.
-	connection gui
-		addSwapPane: alignMorph
+	(connection gui swapper) 
+		addPane: alignMorph
 		named: paneName
 		hidden: false
 		closeable: true

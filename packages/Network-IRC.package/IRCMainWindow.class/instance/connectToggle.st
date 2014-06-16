@@ -1,7 +1,7 @@
-actions
+actionButtons
 connectToggle
 	| titleString |
-	titleString _ IRCMainWindow baseWindowTitle.
+	titleString := IRCMainWindow baseWindowTitle.
 	model connectToggle ifTrue: [
-		titleString _ titleString, ' [' , model nick , ' @ ' , model server , ']'].
+		titleString := titleString, ' [' , model nick , ' @ ' , model server , ']'].
 	self setLabel: titleString

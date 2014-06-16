@@ -1,4 +1,4 @@
-local action buttons
+action buttons
 profileSelected
 	| targetName |
 	editing

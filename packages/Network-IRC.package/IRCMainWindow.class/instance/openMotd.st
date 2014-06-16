@@ -1,4 +1,4 @@
-actions
+actionButtons
 openMotd
 	| paneName alignMorph textView updateButton buttonHeight |
 	buttonHeight := 22.
@@ -32,8 +32,8 @@ openMotd
 				fractions: (0 @ 1 corner: 1 @ 1)
 				offsets: (0 @ buttonHeight negated corner: 0 @ 0)).
 	alignMorph color: Color white.
-	self
-		addSwapPane: alignMorph
+	(self swapper) 
+		addPane: alignMorph
 		named: paneName
 		hidden: false
 		closeable: true

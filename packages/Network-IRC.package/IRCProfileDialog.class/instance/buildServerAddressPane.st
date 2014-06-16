@@ -1,27 +1,25 @@
 property-serveraddress
 buildServerAddressPane
-	| alignPane btn offset |
-	offset := 90.
-	alignPane := self
-				entryPane: 'Server Address'
-				set: #serverAddressString:
-				get: #serverAddressString
-				canEdit: false
-				rightEdgeOffset: offset.
-	btn := PluggableButtonMorph
-				on: self
-				getState: nil
-				action: #serverButton.
-	Preferences alternativeWindowLook
-		ifTrue: [btn borderWidth: 2;
-				 borderColor: #raised].
-	btn label: 'Choose Server'.
-	btn useRoundedCorners.
-	btn color: Color veryVeryLightGray.
-	btn onColor: Color white offColor: Color veryVeryLightGray.
-	btn setBalloonText: 'Opens up a server list dialog.'.
-	alignPane addMorph: btn
+	| alignPane entryPane button buttonWidth |
+	buttonWidth := 90.
+	entryPane := IRCGUIHelper entryFieldRowFor: self 
+						tag: 'Server Address'  
+						backLabel: 'server to connect to...' 
+						textGetter: #serverAddressString 
+						textSetter: #serverAddressString:
+						tagColumnWidth: 100.
+	button := IRCGUIHelper 
+					actionButtonOn: self
+	 				label: 'Choose Server' 
+					action: #serverButton 
+					balloonText: 'Opens up a server list dialog.'.
+	alignPane := IRCGUIHelper rowContainer.
+	alignPane addMorph: entryPane
+					fullFrame: (LayoutFrame
+				fractions: (0 @ 0 corner: 1 @ 1)
+				offsets: (0 @ 0 corner: buttonWidth negated @ 0)).
+	alignPane addMorph: button
 		fullFrame: (LayoutFrame
 				fractions: (1 @ 0 corner: 1 @ 1)
-				offsets: (offset negated @ 0 corner: 0 @ 0)).
+				offsets: (buttonWidth negated @ 0 corner: 0 @ 0)).
 	^ alignPane

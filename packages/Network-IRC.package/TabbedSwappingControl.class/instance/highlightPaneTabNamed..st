@@ -1,20 +1,14 @@
 pane operations
 highlightPaneTabNamed: paneName 
-	| swapper btn coll pane btns |
+	| btn pane |
 	pane := self findPaneNamed: paneName.
 	pane isNil
 		ifTrue: [^ nil].
 	pane = frontMost
 		ifTrue: [^ nil].
-	swapper := self findPaneNamed: 'swap'.
-	swapper isNil
-		ifTrue: [^ nil].
 	self resetPaneTabColors.
-	btns := swapper submorphs
-				select: [:m | m isKindOf: PluggableButtonIRCeMorph].
-	coll := btns
-				select: [:m | m label asString = paneName].
-	coll isEmpty
-		ifTrue: [^ nil].
-	btn := coll first.
+	
+	btn := (self getSwapperButtonNamed: paneName) 
+							ifNil: [^nil] 
+							ifNotNil: [:coll | coll at: 1 ifAbsent: [^nil]].
 	btn offColor: self paneFocusedColor

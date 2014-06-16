@@ -1,8 +1,9 @@
 property-username
 buildUserNamePane
-	^ self
-		entryPane: 'User Name'
-		set: #userName:
-		get: #userName
-		canEdit: true
-		rightEdgeOffset: 0
+
+	^IRCGUIHelper entryFieldRowFor: self 
+						tag: 'User Name'  
+						backLabel: 'name to log on with...'
+						textGetter: #userName 
+						textSetter: #userName:
+						tagColumnWidth: 100

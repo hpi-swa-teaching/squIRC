@@ -7,15 +7,11 @@ addActionButtonsToButtonRow: aRow
 			getState := spec third.
 			getState = #none
 				ifTrue: [getState := nil].
-			btn := self actionButtonClass
-						on: self
-						getState: getState
-						action: spec second.
+			btn := IRCGUIHelper actionButtonOn: self label: btnLabel action: spec second balloonText: nil.
 			Preferences alternativeWindowLook
 				ifTrue: [btn borderWidth: 2;
 						 borderColor: #raised].
 			btn color: Color transparent;
-				 label: btnLabel;
 				 useRoundedCorners;
 				 vResizing: #spaceFill;
 				 hResizing: #shrinkWrap;

@@ -1,20 +1,11 @@
 pane operations
-removeTabNamed: aString 
-	| swapper btn buttons candidateMorphs |
-	swapper := self findPaneNamed: 'swap'.
-	swapper isNil
-		ifTrue: [^ false].
-	buttons := swapper submorphs
-				select: [:m | m isKindOf: PluggableButtonIRCeMorph].
-	candidateMorphs := buttons
-				select: [:m | m label = aString].
-	candidateMorphs isEmpty
-		ifTrue: [^ false].
-	candidateMorphs size > 1
-		ifTrue: [^ false].
-	btn := candidateMorphs first.
+removeTabNamed: paneName 
+	| btn |
+	btn := (self getSwapperButtonNamed: paneName) 
+							ifNil: [^nil] 
+							ifNotNil: [:coll | coll at: 1 ifAbsent: [^nil]].
 	tabs
-		remove: aString
+		remove: paneName
 		ifAbsent: [^ false].
 	btn delete.
 	^ true

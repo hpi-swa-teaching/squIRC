@@ -14,5 +14,4 @@ loadProfile: anIRCConnectionProfile
 	self changed: #server; changed: #serverAsString;
 		 changed: #nick;
 		 changed: #userName;
-		 changed: #fullName.
-	self updateGuiNick
+		 changed: #fullName

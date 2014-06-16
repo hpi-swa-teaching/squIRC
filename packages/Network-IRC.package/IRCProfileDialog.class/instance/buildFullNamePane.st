@@ -1,8 +1,9 @@
 property-fullname
 buildFullNamePane
-	^ self
-		entryPane: 'Full Name'
-		set: #fullName:
-		get: #fullName
-		canEdit: true
-		rightEdgeOffset: 0
+
+	^IRCGUIHelper entryFieldRowFor: self 
+						tag: 'Full Name'  
+						backLabel: 'your name...' 
+						textGetter: #fullName 
+						textSetter: #fullName: 
+						tagColumnWidth: 100

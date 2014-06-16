@@ -1,3 +1,0 @@
-profiles
-profileButtonHeight
-	^26

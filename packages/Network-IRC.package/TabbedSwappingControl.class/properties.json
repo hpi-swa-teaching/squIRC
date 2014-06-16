@@ -8,7 +8,7 @@
 	"instvars" : [
 		"frontMost",
 		"tabs",
-		"tabQuadrant",
+		"swapper",
 		"tabFeedbackColor",
 		"paneFocusedColor",
 		"defaultPaneName",

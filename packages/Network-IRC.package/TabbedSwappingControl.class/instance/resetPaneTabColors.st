@@ -1,9 +1,8 @@
 pane operations
 resetPaneTabColors
-	| swapper |
-	swapper := self findPaneNamed: 'swap'.
-	swapper isNil
+
+	self swapper isNil
 		ifTrue: [^ nil].
-	(swapper submorphs
-		select: [:m | m isKindOf: PluggableButtonIRCeMorph])
+	(self swapper submorphs
+		select: [:m | m isKindOf: PluggableButtonMorph])
 		do: [:btn | btn offColor: Color white]

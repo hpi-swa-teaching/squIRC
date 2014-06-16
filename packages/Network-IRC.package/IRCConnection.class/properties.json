@@ -28,7 +28,8 @@
 		"consoleMessagePlayback",
 		"dropped",
 		"gui",
-		"recentChannelName" ],
+		"recentChannelName",
+		"connectedInLastLoop" ],
 	"name" : "IRCConnection",
 	"pools" : [
 		 ],

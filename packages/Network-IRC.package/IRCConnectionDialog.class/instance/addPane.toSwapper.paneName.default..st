@@ -1,4 +1,4 @@
-as yet unclassified
+dialog creation
 addPane: pane toSwapper: swapper paneName: aString default: default 
 	swapper
 		addPane: pane

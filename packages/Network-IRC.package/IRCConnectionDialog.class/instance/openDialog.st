@@ -1,11 +1,11 @@
-as yet unclassified
+dialog creation
 openDialog
 	"open a dialogue for making new connections"
 	| dialogue swappingControl configurationPaneName |
-	configurationPaneName _ 'Current Configuration'.
-	dialogue _ SystemWindow new.
+	configurationPaneName := 'Current Configuration'.
+	dialogue := IRCSystemWindow new.
 	dialogue model: self.
-	swappingControl _ self buildSwapper.
+	swappingControl := self buildSwapper.
 	self
 		addPane: self buildConfigurationPane
 		toSwapper: swappingControl
@@ -24,8 +24,6 @@ openDialog
 	dialogue
 		addMorph: swappingControl
 		frame: (0 @ 0 extent: 1 @ 1).
-	swappingControl color: Color white darker darker.
-	swappingControl goBehind.
 	swappingControl showPaneNamed: configurationPaneName.
 	dialogue setLabel: 'setup for IRC cllient'.
 	dialogue openInWorld

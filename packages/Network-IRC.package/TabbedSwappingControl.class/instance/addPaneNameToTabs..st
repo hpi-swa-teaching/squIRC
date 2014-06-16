@@ -1,11 +1,10 @@
 private
 addPaneNameToTabs: aString 
 	"We're going to add the button too."
-	| swapper btn |
-	swapper := self findPaneNamed: 'swap'.
-	swapper isNil
+	| btn |
+	self swapper isNil
 		ifTrue: [^ nil].
-	btn := PluggableButtonIRCeMorph
+	btn := PluggableButtonMorph
 				on: [self showPaneNamed: aString]
 				getState: nil
 				action: #value.
@@ -15,6 +14,6 @@ addPaneNameToTabs: aString
 		 label: aString;
 		 onColor: Color white offColor: Color white;
 		 feedbackColor: self tabFeedbackColor.
-	swapper addMorphBack: btn.
+	self swapper addMorphBack: btn.
 	tabs add: aString.
-	^ btn
+	^btn

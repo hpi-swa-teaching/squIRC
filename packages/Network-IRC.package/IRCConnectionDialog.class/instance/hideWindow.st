@@ -1,3 +1,3 @@
-as yet unclassified
+dialog lifecycle
 hideWindow
 	self topView hide

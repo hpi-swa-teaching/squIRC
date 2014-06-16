@@ -1,3 +1,3 @@
-actions
+actionButtons
 talkTo
 	model talkTo

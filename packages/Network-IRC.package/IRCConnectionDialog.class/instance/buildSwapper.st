@@ -1,3 +1,4 @@
-as yet unclassified
+dialog creation
 buildSwapper
-	^ TabbedSwappingControl newSwapControlPaneOrientation: #top showMover: false
+	
+	^TabbedSwappingControl withMover: false

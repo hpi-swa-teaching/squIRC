@@ -1,3 +1,4 @@
-connect indicator
+actionButtons
 connected
+
 	^model connected

@@ -1,1 +1,0 @@
-(name 'Network-IRC-ld.14'message 'IRCConnectionProfile now remembers last selected profile to avoid initial ConnectionDialog unless absolutely necessary'id 'c493c670-be98-4510-815b-86ef59bc22c8'date '10 June 2014'time '2:20:39.3 pm'author 'ld'ancestors ((id '2259b5b8-5df1-45b3-ba93-b4d0e981f7ec') (id 'fa96584b-0f2c-474e-aed6-b77ad893ec77'))stepChildren ())
