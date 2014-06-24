@@ -1,5 +1,5 @@
 network IO
 sendMessage: aMessage 
-	"queue a message for sending"
-	protocolMessagesToSend addLast: aMessage.
-	^ true
+	
+	self protocolMessageQueue addLast: aMessage.
+	^true

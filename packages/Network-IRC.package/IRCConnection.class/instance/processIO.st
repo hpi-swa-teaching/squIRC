@@ -6,7 +6,6 @@ processIO
 	self updateConnectStatus.
 	self checkSocketStatusFromPollingLoop
 		ifFalse: [^ self].
-	"first do sending"
-	self emptyOutProtocolMessagesToSend.
-	"now do receiving"
-	self populateReceiveBufferFromPollingLoop
+	
+	self sendMessagesToSocket.
+	self receiveMessagesFromSocket

@@ -11,9 +11,9 @@
 	"instvars" : [
 		"currentProfile",
 		"socket",
-		"protocolMessagesToSend",
-		"sendBuffer",
-		"recieveBuffer",
+		"networkTextConverter",
+		"protocolMessageQueue",
+		"receiveBuffer",
 		"channelList",
 		"channelListBeingBuilt",
 		"motd",

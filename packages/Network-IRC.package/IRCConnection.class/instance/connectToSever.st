@@ -1,14 +1,14 @@
 network IO
 connectToSever
-	"Connect to a server. Answers true/false"
 	| addr |
+	
 	Socket initializeNetwork.
-	socket
-		ifNotNil: [socket destroy].
+	self socket ifNotNil: [self socket destroy].
 	self reset.
+	
 	addr := NetNameResolver addressForName: (self server address).
-	addr
-		ifNil: [^ false].
-	socket := Socket new.
-	socket connectTo: addr port: (self port).
-	^ true
+	addr ifNil: [^ false].
+	
+	self socket: Socket new.
+	self socket connectTo: addr port: (self port).
+	^self socket isConnected
