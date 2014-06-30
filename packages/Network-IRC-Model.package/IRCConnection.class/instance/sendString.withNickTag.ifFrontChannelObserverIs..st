@@ -2,6 +2,7 @@ msg process incoming
 sendString: aString withNickTag: nickTag ifFrontChannelObserverIs: channelName 
 	"Utility method. If you don't know the channelName just use nil."
 	| frontModel |
+	
 	self frontMost isNil
 		ifTrue: [^ nil].
 	self frontMost externalName = 'console'
