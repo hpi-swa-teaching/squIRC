@@ -1,0 +1,4 @@
+colors
+buttonColor
+
+	^Color veryVeryLightGray

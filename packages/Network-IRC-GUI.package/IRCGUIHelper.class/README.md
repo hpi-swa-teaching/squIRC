@@ -1,0 +1,1 @@
+Provides a common place for common IRC client GUI component building operations.

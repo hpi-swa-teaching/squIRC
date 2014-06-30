@@ -1,0 +1,37 @@
+{
+	"category" : "Network-IRC-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LocalMessageHandlers",
+		"MessageHandlers",
+		"OutgoingMessageHandlers",
+		"Tracing" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"currentProfile",
+		"socket",
+		"networkTextConverter",
+		"protocolMessageQueue",
+		"receiveBuffer",
+		"channelList",
+		"channelListBeingBuilt",
+		"motd",
+		"motdBeingBuilt",
+		"subscribedChannels",
+		"directMessageSubscribers",
+		"protocolMessageSubscribers",
+		"consoleTextLines",
+		"channelObservers",
+		"channelsBrowser",
+		"msgObserver",
+		"consoleMessagePlayback",
+		"dropped",
+		"gui",
+		"recentChannelName",
+		"connectedInLastLoop" ],
+	"name" : "IRCConnection",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

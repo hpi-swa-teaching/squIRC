@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"fromString:" : "sbw 3/1/2002 09:29" },
+	"instance" : {
+		"<" : "sbw 3/10/2002 22:15",
+		"=" : "sbw 3/1/2002 10:08",
+		"canChangeTopic" : "sbw 1/11/2003 08:49",
+		"channel" : "sbw 3/1/2002 09:20",
+		"channel:" : "sbw 3/1/2002 09:31",
+		"fromString:" : "fc 2/17/2005 20:01",
+		"hasVoice" : "sbw 3/1/2002 09:39",
+		"hash" : "sbw 3/1/2002 10:09",
+		"initialize" : "sbw 1/10/2003 19:36",
+		"isOperator" : "sbw 3/1/2002 09:38",
+		"modeChanged:" : "sbw 1/10/2003 19:45",
+		"nick" : "sbw 3/1/2002 09:20",
+		"nick:" : "sbw 3/1/2002 09:21",
+		"operator" : "sbw 3/1/2002 09:21",
+		"operator:" : "sbw 3/1/2002 09:21",
+		"printOn:" : "sbw 1/10/2003 19:29",
+		"topic" : "sbw 1/10/2003 19:37",
+		"topic:" : "sbw 1/10/2003 19:35",
+		"voice" : "sbw 3/1/2002 09:21",
+		"voice:" : "sbw 3/1/2002 09:21" } }

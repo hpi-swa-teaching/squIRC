@@ -1,0 +1,15 @@
+{
+	"category" : "Network-IRC-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"sender",
+		"recipient" ],
+	"name" : "IRCMessagePattern",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

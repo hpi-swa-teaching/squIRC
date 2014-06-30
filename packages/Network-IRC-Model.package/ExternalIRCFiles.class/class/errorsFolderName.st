@@ -1,0 +1,3 @@
+errors
+errorsFolderName
+	^ 'errors'

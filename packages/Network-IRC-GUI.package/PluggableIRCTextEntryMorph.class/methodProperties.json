@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawOn:" : "sbw 3/13/2005 01:00",
+		"tagWhenEmpty" : "sbw 3/13/2005 00:14",
+		"tagWhenEmpty:" : "sbw 3/13/2005 00:58",
+		"update:" : "ld 6/14/2014 23:26",
+		"wantsFrameAdornments" : "sbw 3/13/2005 00:13" } }

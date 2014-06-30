@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultLimit" : "sbw 6/7/2004 22:39" },
+	"instance" : {
+		"add:" : "sbw 6/7/2004 22:43",
+		"clear" : "sbw 6/7/2004 22:44",
+		"initialize" : "sbw 6/7/2004 22:42",
+		"limit" : "sbw 6/7/2004 22:40",
+		"limit:" : "sbw 6/7/2004 22:40",
+		"text" : "fc 10/7/2005 15:27",
+		"text:" : "sbw 6/7/2004 22:42",
+		"updateTextFromLines" : "sbw 6/7/2004 22:42" } }

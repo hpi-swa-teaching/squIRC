@@ -1,0 +1,1 @@
+(name 'Network-IRC-Model-ld.5'message 'add fallback for text conversion: use standard squeak encoding if malformed utf-8 is received'id '3cc5ada1-a02b-4629-a517-4d8e079255e1'date '30 June 2014'time '4:14:49.532 pm'author 'ld'ancestors ((id 'fecd71f5-8044-443d-bd8b-aec007ea5d31'))stepChildren ())

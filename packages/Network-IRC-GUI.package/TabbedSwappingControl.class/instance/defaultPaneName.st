@@ -1,0 +1,4 @@
+accessing
+defaultPaneName
+
+	^ defaultPaneName

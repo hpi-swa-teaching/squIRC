@@ -1,0 +1,4 @@
+accessing
+options
+	
+	^IRCOptionsManagement savedOptions
