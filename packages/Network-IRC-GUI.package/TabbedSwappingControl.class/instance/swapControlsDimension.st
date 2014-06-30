@@ -1,0 +1,3 @@
+constants
+swapControlsDimension
+	^20

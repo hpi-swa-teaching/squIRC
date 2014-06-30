@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRC-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ExternalIRCFiles",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

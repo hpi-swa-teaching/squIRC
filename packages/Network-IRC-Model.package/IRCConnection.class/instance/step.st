@@ -1,0 +1,3 @@
+private
+step
+	self processIO

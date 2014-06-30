@@ -1,0 +1,3 @@
+channel logs
+logsFolderName
+	^'logs'

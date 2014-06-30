@@ -1,0 +1,18 @@
+{
+	"category" : "Network-IRC-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"channel",
+		"nick",
+		"voice",
+		"operator",
+		"topic" ],
+	"name" : "IRCChannelMember",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

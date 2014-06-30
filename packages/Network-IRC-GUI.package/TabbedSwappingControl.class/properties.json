@@ -1,0 +1,20 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"frontMost",
+		"tabs",
+		"swapper",
+		"tabFeedbackColor",
+		"paneFocusedColor",
+		"defaultPaneName",
+		"showMover" ],
+	"name" : "TabbedSwappingControl",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+constants
+indicatorWidth
+	^ 32

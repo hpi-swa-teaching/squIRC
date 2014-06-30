@@ -1,0 +1,20 @@
+{
+	"category" : "Network-IRC-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ConnectedForm",
+		"DisconnectedForm" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"swapper",
+		"btns",
+		"channelsBrowser",
+		"motdPane",
+		"connectDialog",
+		"connecting" ],
+	"name" : "IRCMainWindow",
+	"pools" : [
+		 ],
+	"super" : "IRCSystemWindow",
+	"type" : "normal" }

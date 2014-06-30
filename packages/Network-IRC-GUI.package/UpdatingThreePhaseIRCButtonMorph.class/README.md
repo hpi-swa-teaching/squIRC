@@ -1,0 +1,1 @@
+allows for the #getSelector to use the get argument value if needed.
