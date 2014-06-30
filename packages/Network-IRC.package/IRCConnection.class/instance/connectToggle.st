@@ -8,7 +8,7 @@ connectToggle
 		ifTrue: [self manualDisconnect.
 			^false]
 		ifFalse: [dropped isNil
-				ifFalse: [dropped
+					ifFalse: [dropped
 						ifTrue: [reconnect := true]].
 			dropped := false.
 			success := self connect.

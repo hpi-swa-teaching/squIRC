@@ -6,17 +6,17 @@ processQuit: aMessage
 	(user includes: $!)
 		ifTrue: [user _ user copyFrom: 1 to: (user indexOf: $!)
 							- 1].
-	subscribedChannels
-		do: [:channel | (channel hasMember: user)
-				ifTrue: [channel removeMember: user]].
-	self channelObservers
-		do: [:obs | obs updateUsers].
 	(IRCOptionsManagement option: #showQuitsInChannel)
 		ifTrue: [textMessage _ user , ' has quit IRC.'.
 			aMessage arguments isEmpty ifFalse: [
 				textMessage _ textMessage, '  '
 						, (self markIfURL: (aMessage arguments at: 1) startingAt: 1)].
-			self
-				sendString: textMessage
-				withNickTag: self serverPrefixMessageNick
-				ifFrontChannelObserverIs: nil]
+			(self directMessageSubscribers select: [:each | each talkingTo = user]) 
+				do: [:each | each addToChatText: textMessage , Character cr asString].
+			(self channelObservers select: [:each | each channel hasMember: user]) 
+				do: [:each | each addTextToChannelPane: textMessage , 
+					Character cr asString usingUnpreparedNick: self serverPrefixMessageNick]].
+			
+	subscribedChannels do: [:channel | (channel hasMember: user)
+											ifTrue: [channel removeMember: user]].
+	self channelObservers do: [:obs | obs updateUsers].

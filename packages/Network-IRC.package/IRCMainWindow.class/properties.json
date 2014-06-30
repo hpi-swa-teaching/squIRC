@@ -11,7 +11,8 @@
 		"btns",
 		"channelsBrowser",
 		"motdPane",
-		"connectDialog" ],
+		"connectDialog",
+		"connecting" ],
 	"name" : "IRCMainWindow",
 	"pools" : [
 		 ],

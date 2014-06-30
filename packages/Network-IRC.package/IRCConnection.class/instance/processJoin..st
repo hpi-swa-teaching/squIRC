@@ -16,7 +16,6 @@ processJoin: aMessage
 		ifTrue: [^ nil].
 	(IRCOptionsManagement option: #showJoinsInChannel)
 		ifTrue: [textMessage := user , ' has joined the channel.'.
-			self
-				sendString: textMessage
-				withNickTag: self serverPrefixMessageNick
-				ifFrontChannelObserverIs: channelName]
+			(self channelObservers select: [:each | each channelName = channelName]) 
+				do: [:each | each addTextToChannelPane: textMessage , 
+					Character cr asString usingUnpreparedNick: self serverPrefixMessageNick]].

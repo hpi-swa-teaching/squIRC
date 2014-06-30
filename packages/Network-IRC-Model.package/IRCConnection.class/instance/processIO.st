@@ -6,6 +6,5 @@ processIO
 	self updateConnectStatus.
 	self checkSocketStatusFromPollingLoop
 		ifFalse: [^ self].
-	
 	self sendMessagesToSocket.
 	self receiveMessagesFromSocket

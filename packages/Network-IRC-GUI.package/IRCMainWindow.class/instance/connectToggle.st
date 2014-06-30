@@ -1,7 +1,16 @@
 actionButtons
 connectToggle
-	| titleString |
-	titleString := IRCMainWindow baseWindowTitle.
-	model connectToggle ifTrue: [
-		titleString := titleString, ' [' , model nick , ' @ ' , model server , ']'].
-	self setLabel: titleString
+
+	self currentlyConnecting ifFalse:
+		[model connected ifFalse:
+			[self currentlyConnecting: true.
+			self update: #connected].
+	
+		[model connectToggle ifTrue: 
+			[self setLabel: IRCMainWindow baseWindowTitle, 
+						' [' , model nick , ' @ ' , model server , ']']
+		ifFalse: 
+			[self setLabel: IRCMainWindow baseWindowTitle].
+	
+		self currentlyConnecting: false.
+		self update: #connected] fork]
