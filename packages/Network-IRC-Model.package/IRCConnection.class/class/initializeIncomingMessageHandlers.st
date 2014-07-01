@@ -1,8 +1,8 @@
-message handlers
-initializeMessageHandlers
-	"initilize the table mapping IRC commands to processing methods"
-	"IRCConnection initializeMessageHandlers"
-	MessageHandlers := Dictionary new.
+initialization
+initializeIncomingMessageHandlers
+	"initilize the table mapping incoming IRC commands to processing methods"
+	"IRCConnection initializeIncomingMessageHandlers"
+	IncomingMessageHandlers := Dictionary new.
 	{
 		{#ping.		#processPing:}.
 		{#join.		#processJoin:}.
@@ -31,5 +31,6 @@ initializeMessageHandlers
 		{372.		#processMotd:}.
 		{377.		#processMotd:}.
 		{375.		#processMotdStart:}.
-		{376.		#processMotdEnd:}
-	} do: [:pair | MessageHandlers at: pair first asString put: pair second]
+		{376.		#processMotdEnd:}.
+		
+	} do: [:pair | IncomingMessageHandlers at: pair first asString put: pair second]

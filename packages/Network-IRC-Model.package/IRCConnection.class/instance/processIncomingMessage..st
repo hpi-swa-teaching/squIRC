@@ -1,5 +1,5 @@
 private-message handling
-processMessage: aMessage 
+processIncomingMessage: aMessage 
 	| handler |
 	
 	self protocolMessageSubscribers

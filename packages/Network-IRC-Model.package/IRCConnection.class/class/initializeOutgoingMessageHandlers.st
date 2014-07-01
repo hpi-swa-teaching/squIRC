@@ -1,6 +1,6 @@
-message handlers
+initialization
 initializeOutgoingMessageHandlers
-	"initilize the table mapping /commands to processing methods. Note that  
+	"initilize the table mapping outgoing /commands to processing methods. Note that  
 	these conversion are all performed as IRCProtocolMessage instance  
 	methods."
 	"IRCConnection initializeOutgoingMessageHandlers"
@@ -11,5 +11,14 @@ initializeOutgoingMessageHandlers
 		{#nick.		#processNickCommand}.
 		{#join.		#processJoinCommand}.
 		{#part.		#processPartCommand}.
-		{#away.		#processAwayCommand}
+		{#away.		#processAwayCommand}.
+		
+		{#clear. #clearTextPane}. 
+		{#inspect. #inspect}. 
+		{#explore. #explore}. 
+		{#traceon. #traceOn}. 
+		{#traceoff. #traceOff}.
+		{#docs. #docs}.
+		{#playlist. #playlist}
+		
 	} do: [:pair | OutgoingMessageHandlers at: pair first asString put: pair second]

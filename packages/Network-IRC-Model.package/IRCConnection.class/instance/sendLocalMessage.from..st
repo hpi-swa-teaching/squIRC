@@ -2,7 +2,7 @@ msg process outgoing new
 sendLocalMessage: msg from: observer 
 	| handler |
 
-	handler _ self class localMessageHandlers
+	handler := self class localMessageHandlers
 				at: msg command
 				ifAbsent: [].
 	handler isNil ifFalse: [
