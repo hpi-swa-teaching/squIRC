@@ -1,3 +1,0 @@
-slash commands translation
-processAwayCommand
-	self stripOffFirstArgument

@@ -4,7 +4,7 @@ processIncomingMessage: aMessage
 	
 	self protocolMessageSubscribers
 		do: [:subscriber | subscriber ircProtocolMessage: aMessage].
-	handler := self class messageHandlers
+	handler := self class incomingMessageHandlers
 				at: aMessage command
 				ifAbsent: [].
 	handler
