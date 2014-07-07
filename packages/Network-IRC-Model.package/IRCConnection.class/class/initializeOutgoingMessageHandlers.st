@@ -10,6 +10,8 @@ initializeOutgoingMessageHandlers
 		{#nick.		#handleOutNickCommand:}.
 		{#join.		#handleOutJoinCommand:}.
 		{#away.	#handleOutAwayCommand:}.
+			
+		{#quote.	#handleOutQuoteCommand:}.
 		
 		{#clear. 	#handleOutClearCommand:}.
 		{#traceon. 	#handleOutTraceOnCommand:}. 
