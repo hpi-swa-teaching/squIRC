@@ -7,12 +7,14 @@ buildServerAddressPane
 						backLabel: 'server to connect to...' 
 						textGetter: #serverAddressString 
 						textSetter: #serverAddressString:
-						tagColumnWidth: 100.
+						tagColumnWidth: 100
+						name: 'TxtServer'.
 	button := IRCGUIHelper 
 					actionButtonOn: self
 	 				label: 'Choose Server' 
 					action: #serverButton 
-					balloonText: 'Opens up a server list dialog.'.
+					balloonText: 'Opens up a server list dialog.'
+					name: 'BtnServer'.
 	alignPane := IRCGUIHelper rowContainer.
 	alignPane addMorph: entryPane
 					fullFrame: (LayoutFrame

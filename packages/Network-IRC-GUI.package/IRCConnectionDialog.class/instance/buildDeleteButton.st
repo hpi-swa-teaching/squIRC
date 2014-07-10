@@ -5,3 +5,4 @@ buildDeleteButton
 						label: 'delete' 
 						action: #deleteProfile 
 						balloonText: 'Delete the selected profile'
+						name: 'BtnDelete'

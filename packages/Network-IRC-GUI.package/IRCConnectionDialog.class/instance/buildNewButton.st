@@ -5,3 +5,4 @@ buildNewButton
 						label: 'new' 
 						action: #addProfile 
 						balloonText: 'Add a new profile'
+						name: 'BtnNew'

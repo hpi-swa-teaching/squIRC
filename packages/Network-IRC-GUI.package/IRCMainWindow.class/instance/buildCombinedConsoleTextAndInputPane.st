@@ -21,7 +21,7 @@ buildCombinedConsoleTextAndInputPane
 		 color: Color white;
 		 addIntercept: Character arrowUp;
 		 addIntercept: Character arrowDown;
-		 name: self knownName, '.TxtConsole';
+		 name: 'TxtConsole';
 		 hideScrollBarsIndefinitely.
 	consolePane keysInputPane: inputPane.
 	alignMorph color: IRCClientColors consolePaneBackground;

@@ -10,6 +10,6 @@ buildDialogOn: window
 													#buildServerAddressPane .
 													#buildActionButtons } 
 												on: self.
-
+	window name: 'IRCDlgProfile'.
 	window addMorph: alignMorph
 				fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1))

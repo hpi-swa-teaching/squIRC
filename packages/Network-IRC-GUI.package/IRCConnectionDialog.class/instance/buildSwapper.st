@@ -1,5 +1,7 @@
 dialog creation
 buildSwapper
 	
-	^(TabbedSwappingControl withMover: false)
-		name: 'IRCDlgCon.Tab'
+	^(TabbedSwappingControl 
+			withMover: false)
+			name: 'Tab';
+			yourself

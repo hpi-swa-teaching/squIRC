@@ -7,3 +7,4 @@ buildUserNamePane
 						textGetter: #userName 
 						textSetter: #userName:
 						tagColumnWidth: 100
+						name: 'TxtUser'
