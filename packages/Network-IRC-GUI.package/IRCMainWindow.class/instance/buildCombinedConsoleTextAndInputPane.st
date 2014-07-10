@@ -13,7 +13,6 @@ buildCombinedConsoleTextAndInputPane
 				accept: nil
 				readSelection: #consoleTextSelection
 				menu: #consoleMenu:.
-	consolePane name: 'text'.
 	inputPane := PluggableInterceptingIRCTextMorph
 				on: model
 				text: nil
@@ -22,7 +21,7 @@ buildCombinedConsoleTextAndInputPane
 		 color: Color white;
 		 addIntercept: Character arrowUp;
 		 addIntercept: Character arrowDown;
-		 name: 'consoleInput';
+		 name: self knownName, '.TxtConsole';
 		 hideScrollBarsIndefinitely.
 	consolePane keysInputPane: inputPane.
 	alignMorph color: IRCClientColors consolePaneBackground;
