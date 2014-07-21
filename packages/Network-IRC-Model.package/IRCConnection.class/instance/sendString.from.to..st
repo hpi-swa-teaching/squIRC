@@ -9,27 +9,14 @@ sendString: aString from: observer to: idString
 			[:line | 
 			result ifTrue: 
 				"Needed to handle blank lines from, e.g., cut 'n' paste. "
-				[line isEmpty ifTrue: [line := ' '].
+				[line ifEmpty: [line := ' '].
 				result := line first = $/ 
 					ifTrue: 
-						[msg := self convertCmdToProtocolMessage: line idString: idString.
-						msg 
-							ifNil: [false]
-							ifNotNil: 
-								[msg isSpecial 
-										ifTrue: 
-											[self 
-												privmsgFrom: nil
-												to: idString
-												text: msg specialConvertedForm]
-										ifFalse: 
-											[self 
-												processOutgoingMessage: msg 
-												from: observer].].]
+						[msg := self convertCmdToProtocolMessage: line sendTo: idString]
 					ifFalse: 
-						[self 
-							privmsgFrom: nil
-							to: idString
-							text: line].
-				result ifTrue: [observer textWasSent: line]]]].
+						[msg:= self convertPrivToProtocolMessage: line sendTo: idString].
+				msg 
+					ifNil: [false]
+					ifNotNil: 
+						[self processOutgoingMessage: msg from: observer]]]].
 	^result

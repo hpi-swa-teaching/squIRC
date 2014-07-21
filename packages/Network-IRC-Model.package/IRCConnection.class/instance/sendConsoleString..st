@@ -9,11 +9,5 @@ sendConsoleString: aString
 							self addToConsole: 
 								'ERROR: Could not decode command: "' , aString , '"', String cr.
 							^false].
-			self processOutgoingMessage: msg from: self;
-			"[msg isLocal 
-				ifTrue: [self sendLocalMessage: msg from: observer]
-				ifFalse: 
-					[self checkLastActionsFor: msg.
-					self sendMessage: msg]]."
-				textWasSent: aString].
+			self processOutgoingMessage: msg from: self].
 	^true

@@ -8,4 +8,5 @@ processOutgoingMessage: aMessage from: anObserver
 					ifTrue: [anObserver perform: handler with: aMessage]
 					ifFalse: [self perform: handler with: aMessage]]
 				ifAbsent: [ self sendMessage: aMessage ].
-	anObserver textWasSent: aMessage
+	aMessage command = 'privmsg'
+		ifTrue: [self processPrivmsg: aMessage]

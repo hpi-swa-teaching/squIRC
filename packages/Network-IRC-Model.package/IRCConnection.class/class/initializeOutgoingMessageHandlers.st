@@ -13,9 +13,18 @@ initializeOutgoingMessageHandlers
 			
 		{#quote.	#handleOutQuoteCommand:}.
 		
+		"former local commands"
 		{#clear. 	#handleOutClearCommand:}.
 		{#traceon. 	#handleOutTraceOnCommand:}. 
 		{#traceoff. #handleOutTraceOffCommand:}.
-		{#docs. 	#handleOutDocsCommand:}
+		{#docs. 	#handleOutDocsCommand:}.
+		
+		"former special commands"
+		{#action.	#handleOutActionCommand:}.
+		{#dcc.		#handleOutDccCommand:}.
+		{#sed.		#handleOutSedCommand:}.
+		{#me.		#handleOutMeCommand:}.
+		{#finger.	#handleOutFingerCommand:}.
+		{#version.	#handleOutVersionCommand:}
 		
 	} do: [:pair | OutgoingMessageHandlers at: pair first asString put: pair second]

@@ -2,7 +2,7 @@
 	"class" : {
 		"sender:recipient:text:" : "ls 9/2/1998 17:15" },
 	"instance" : {
-		"initializeSender:recipient:text:" : "ls 9/2/1998 17:14",
+		"initializeSender:recipient:text:" : "AP 7/8/2014 10:24",
 		"recipient" : "ls 9/2/1998 17:15",
 		"sender" : "ls 9/2/1998 17:15",
 		"text" : "ls 9/2/1998 17:15",

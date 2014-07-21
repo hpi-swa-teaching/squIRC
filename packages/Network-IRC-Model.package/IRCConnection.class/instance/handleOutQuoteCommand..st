@@ -1,5 +1,11 @@
 command handling
 handleOutQuoteCommand: aMessage
 
-	aMessage stripOffFirstArgument.
-	self sendMessage: aMessage
+	| newMessage |
+	self halt.
+	newMessage := IRCProtocolMessage 
+			fromString: aMessage arguments first ,' ', aMessage arguments second.
+	"aMessage stripOffFirstArgument."
+	aMessage command = 'privmsg'
+		ifTrue: [self processPrivmsg: newMessage].
+	self sendMessage: newMessage
