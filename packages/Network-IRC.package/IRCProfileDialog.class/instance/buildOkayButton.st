@@ -6,3 +6,4 @@ buildOkayButton
 			label: 'Okay' 
 			action: #okaySelected 
 			balloonText: 'Accept these values for a new profile.'
+			name: 'BtnOkay'

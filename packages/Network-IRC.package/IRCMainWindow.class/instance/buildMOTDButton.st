@@ -6,3 +6,4 @@ buildMOTDButton
 			label: 'motd'
 			action: #openMotd
 			balloonText: 'Read Message Of The Day'
+			name: 'BtnMotd'
