@@ -1,4 +1,4 @@
 diagnostic
 tracing: aBoolean 
-	Tracing _ aBoolean.
+	Tracing := aBoolean.
 	self tracePrivate: 'Tracing turned ', (Tracing ifTrue: ['ON'] ifFalse: ['OFF'])

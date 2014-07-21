@@ -3,5 +3,6 @@ initialize
 	"IRCConnection initialize"
 	self
 		registerInOpenMenu; 
-		initializeAllMessageHandlers.
+		initializeIncomingMessageHandlers;
+		initializeOutgoingMessageHandlers.
 	IRCServer populateServersDatabaseWithBuiltIn
