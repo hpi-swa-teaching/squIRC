@@ -1,4 +1,5 @@
 set up
 tearDown
-	savedUserProfiles isNil
-		ifFalse: [IRCConnectionProfile profiles: savedUserProfiles deepCopy]
+	
+	self savedUserProfiles ifNotNil: [IRCConnectionProfile profiles: self savedUserProfiles deepCopy].
+	self savedLastSelectedProfile ifNotNil: [IRCConnectionProfile lastSelectedProfile: self savedLastSelectedProfile]
