@@ -9,8 +9,6 @@ tMessageFormat3
 	self
 		should: [msg command = 'part'].
 	self
-		shouldnt: [msg isLocal].
-	self
 		should: [msg arguments size = 2].
 	self
 		should: [msg arguments first = '#squeak'].

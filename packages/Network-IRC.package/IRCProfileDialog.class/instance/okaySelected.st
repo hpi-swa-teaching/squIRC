@@ -1,7 +1,6 @@
 action buttons
 okaySelected
-	| targetName |
-	self break.
+	| targetName |.
 	self changed: #accept.
 	editing
 		ifTrue: [parentDialog ifNotNil: [:dialog | dialog editedProfile: profile]]

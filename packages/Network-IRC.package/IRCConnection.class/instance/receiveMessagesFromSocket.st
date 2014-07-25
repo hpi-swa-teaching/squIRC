@@ -3,10 +3,11 @@ receiveMessagesFromSocket
 	| idx messageText |
 	
 	[socket dataAvailable]
-		whileTrue: [self receiveBufferAppend: 
-								(self networkTextConverter
-											decodeString: self socket receiveData)].
+		whileTrue: [messageText := self socket receiveData.
+					self receiveBufferAppend: 
+								([self networkTextConverter decodeString: messageText] 
+									ifError: [messageText])].
 	[idx := self receiveBuffer indexOf: Character lf. idx > 0]
 		whileTrue: [messageText := self receiveBufferExtract: idx.
 						IRCConnection trace: 'rcvd message: "' , messageText , '"'.
-						self processMessage: (IRCProtocolMessage fromString: messageText)]
+						self processIncomingMessage: (IRCProtocolMessage fromString: messageText)]

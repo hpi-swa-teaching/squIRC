@@ -1,4 +1,4 @@
 initialization
 registerInOpenMenu
 	"IRCConnection registerInOpenMenu"
-	TheWorldMenu registerOpenCommand: {'IRC'. {IRCConnection. #openEnhancedIRC}. 'Enhanced Internet Relay Chat'}
+	TheWorldMenu registerOpenCommand: {'squIRC'. {IRCConnection. #openEnhancedIRC}. 'Squeak Internet Relay Chat'}

@@ -2,12 +2,18 @@
 	"class" : {
 		"isAbstract" : "sbw 5/8/2004 15:42" },
 	"instance" : {
-		"profile1" : "ld 6/7/2014 14:37",
-		"profile2" : "ld 6/7/2014 14:37",
-		"serverFromMIRC" : "ld 6/7/2014 14:35",
-		"serverFromString" : "ld 6/7/2014 14:36",
-		"setUp" : "ld 6/7/2014 14:01",
-		"tProfileOperations" : "ld 6/7/2014 14:46",
-		"tProfileOptions" : "ld 6/7/2014 13:52",
-		"tearDown" : "sbw 5/22/2004 11:10",
-		"testProfileOperations" : "sbw 5/22/2004 11:11" } }
+		"connection" : "ld 7/25/2014 16:34",
+		"connection:" : "ld 7/21/2014 17:02",
+		"initProfileA" : "ld 7/21/2014 16:35",
+		"initProfileB" : "ld 7/21/2014 16:34",
+		"profileA" : "ld 7/21/2014 16:18",
+		"profileA:" : "ld 7/21/2014 16:17",
+		"profileB" : "ld 7/21/2014 17:19",
+		"profileB:" : "ld 7/21/2014 16:17",
+		"savedLastSelectedProfile" : "ld 7/21/2014 16:07",
+		"savedLastSelectedProfile:" : "ld 7/21/2014 16:07",
+		"savedUserProfiles" : "ld 7/21/2014 16:07",
+		"savedUserProfiles:" : "ld 7/21/2014 16:07",
+		"setUp" : "ld 7/21/2014 16:08",
+		"tearDown" : "ld 7/21/2014 16:11",
+		"testProfileOperations" : "ld 7/21/2014 17:19" } }

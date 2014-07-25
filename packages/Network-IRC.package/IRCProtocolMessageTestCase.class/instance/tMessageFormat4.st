@@ -9,8 +9,6 @@ tMessageFormat4
 	self
 		should: [msg command = '323'].
 	self
-		shouldnt: [msg isLocal].
-	self
 		should: [msg arguments size = 2].
 	self
 		should: [msg arguments first = 'fast48'].

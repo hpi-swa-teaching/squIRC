@@ -1,3 +1,3 @@
 constants
 baseWindowTitle
-	^ 'squIRC'
+	^ 'Enhanced IRC Console'
