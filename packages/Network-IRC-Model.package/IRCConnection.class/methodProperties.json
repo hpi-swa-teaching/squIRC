@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"exportSAR" : "ld 7/25/2014 22:22",
+		"exportSAR" : "ld 7/25/2014 23:03",
 		"features" : "sbw 6/4/2004 06:11",
 		"featuresString" : "sbw 6/10/2004 20:21",
 		"fixAllBadProfileKeys" : "sbw 5/17/2004 20:05",
@@ -15,7 +15,7 @@
 		"openAndJoinSqueakChannel" : "sbw 5/24/2004 23:03",
 		"openEnhancedIRC" : "sbw 5/16/2004 07:50",
 		"outgoingMessageHandlers" : "AP 7/1/2014 16:54",
-		"registerInOpenMenu" : "sbw 5/24/2004 23:04",
+		"registerInOpenMenu" : "ld 7/25/2014 23:03",
 		"releaseNotes" : "sbw 5/28/2004 06:14",
 		"releaseNotesString" : "fc 10/10/2005 16:25",
 		"removeProfile:" : "sbw 5/17/2004 20:08",
