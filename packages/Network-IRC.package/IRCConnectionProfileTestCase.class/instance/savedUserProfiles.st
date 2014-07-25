@@ -1,4 +1,0 @@
-accessing
-savedUserProfiles
-
-	^ savedUserProfiles

@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"IncomingMessageHandlers",
+		"LocalMessageHandlers",
+		"MessageHandlers",
 		"OutgoingMessageHandlers",
 		"Tracing" ],
 	"commentStamp" : "<historical>",

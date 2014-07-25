@@ -2,6 +2,7 @@ tests
 testGUI
 | ircConsole setup profileCreation |
 	
+	self break.
 	IRCConnectionProfile clearProfiles.
 	IRCConnection openEnhancedIRC.
 	
@@ -31,9 +32,5 @@ testGUI
 	 
 	setup closeBoxHit.
 	
-	self pressButton: 'BtnConnect' of:ircConsole.
-	
-	(Delay forMilliseconds: 1000) wait.
-	
-	ircConsole closeBoxHit.
+	self pressButton: 'BtnConnect' of:ircConsole. 
 	

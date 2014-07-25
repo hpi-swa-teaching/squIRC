@@ -1,4 +1,4 @@
 diagnostic
 tracing
-	Tracing isNil ifTrue: [Tracing := false].
+	Tracing isNil ifTrue: [Tracing _ false].
 	^Tracing

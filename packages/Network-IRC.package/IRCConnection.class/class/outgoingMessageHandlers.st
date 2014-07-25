@@ -1,5 +1,5 @@
 message handlers
 outgoingMessageHandlers
-	OutgoingMessageHandlers
-		ifNil: [self initializeOutgoingMessageHandlers].
+	OutgoingMessageHandlers isNil
+		ifTrue: [self initializeOutgoingMessageHandlers].
 	^ OutgoingMessageHandlers

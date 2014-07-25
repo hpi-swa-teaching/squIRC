@@ -1,4 +1,4 @@
-utility
+tests
 enterText: aString into: aName of: aMorph
 | textfield |
 	
@@ -7,13 +7,7 @@ enterText: aString into: aName of: aMorph
 	self shouldnt: [textfield isNil].
 	self should: [textfield isKindOf: PluggableTextMorph].
 	
-	aString do: [:chr | textfield keyStroke: (KeyboardEvent new
-											setType: #keystroke
-											buttons: 0
-											position: textfield center
-											keyValue: chr
-											hand: Morph currentHand
-											stamp: Time millisecondClockValue)].
+	textfield textMorph contents: aString.
 	textfield accept.
 	
 	

@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 fromConnection: anIRCConnectionEnhanced 
 	| model server |
 	model := self new.

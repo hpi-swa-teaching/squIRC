@@ -1,4 +1,0 @@
-accessing
-savedLastSelectedProfile
-
-	^ savedLastSelectedProfile

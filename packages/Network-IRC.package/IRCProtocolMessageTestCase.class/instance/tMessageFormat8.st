@@ -8,6 +8,8 @@ tMessageFormat8
 	self
 		should: [msg command = 'nick'].
 	self
+		shouldnt: [msg isLocal].
+	self
 		should: [msg arguments size = 1].
 	self
 		should: [msg arguments first = 'fastfingers']

@@ -9,6 +9,8 @@ tMessageFormat7
 	self
 		should: [msg command = 'privmsg'].
 	self
+		shouldnt: [msg isLocal].
+	self
 		should: [msg arguments size = 2].
 	self
 		should: [msg arguments first = '#test'].

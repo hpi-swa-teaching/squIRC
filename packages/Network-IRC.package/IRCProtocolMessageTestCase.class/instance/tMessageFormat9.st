@@ -8,6 +8,8 @@ tMessageFormat9
 	self
 		should: [msg command = 'user'].
 	self
+		shouldnt: [msg isLocal].
+	self
 		should: [msg arguments size = 4].
 	self
 		should: [(msg arguments at: 1)
