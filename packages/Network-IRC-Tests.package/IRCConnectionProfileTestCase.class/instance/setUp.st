@@ -1,5 +1,6 @@
 set up
 setUp
 	super setUp.
-	savedUserProfiles := IRCConnectionProfile profiles deepCopy.
-	IRCConnectionProfile resetProfiles 
+	self savedUserProfiles: IRCConnectionProfile profiles deepCopy.
+	self savedLastSelectedProfile: IRCConnectionProfile lastSelectedProfile.
+	IRCConnectionProfile clearProfiles

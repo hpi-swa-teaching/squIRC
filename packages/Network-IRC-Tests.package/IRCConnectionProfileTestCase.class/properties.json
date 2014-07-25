@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"savedUserProfiles" ],
+		"savedUserProfiles",
+		"savedLastSelectedProfile",
+		"profileA",
+		"profileB",
+		"connection" ],
 	"name" : "IRCConnectionProfileTestCase",
 	"pools" : [
 		 ],

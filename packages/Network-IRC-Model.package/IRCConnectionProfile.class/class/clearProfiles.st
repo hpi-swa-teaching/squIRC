@@ -1,5 +1,6 @@
 profile management
 clearProfiles
 
-	self profiles removeAll: (self profiles copy).
+	self lastSelectedProfile: self blank.
+	self resetProfiles.
 	self profileNamesSortedSetInvalid
