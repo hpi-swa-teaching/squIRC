@@ -2,7 +2,6 @@ command handling
 handleOutQuoteCommand: aMessage
 
 	| newMessage |
-	self halt.
 	newMessage := IRCProtocolMessage 
 			fromString: aMessage arguments first ,' ', aMessage arguments second.
 	"aMessage stripOffFirstArgument."
