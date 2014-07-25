@@ -25,4 +25,6 @@ printOn: stream indentString: indent
 			stream cr; nextPutAll: indent; nextPutAll: indent.
 			stream nextPutAll: argCount printString , ': '.
 			stream nextPut: $:.
-			stream nextPutAll: arguments last]
+			self isLocal
+				ifTrue: [stream nextPutAll: 'an' , arguments last class name]
+				ifFalse: [stream nextPutAll: arguments last]]
