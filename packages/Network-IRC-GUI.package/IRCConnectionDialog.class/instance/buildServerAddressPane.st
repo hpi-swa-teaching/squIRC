@@ -8,4 +8,3 @@ buildServerAddressPane
 			textGetter: #serverAsString 
 			textSetter: #serverAsString: 
 			tagColumnWidth: 100
-			name: 'TxtCnfServer'

@@ -5,4 +5,3 @@ buildSelectButton
 						label: 'select' 
 						action: #selectProfile 
 						balloonText: 'Load the selected profile into your current configuration'
-						name: 'BtnSelect'

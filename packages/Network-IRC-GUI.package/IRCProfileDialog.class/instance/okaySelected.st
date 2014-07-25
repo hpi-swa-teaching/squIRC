@@ -8,5 +8,5 @@ okaySelected
 		ifFalse: [targetName := profile name.
 			(IRCConnectionProfile hasProfileNamed: targetName)
 				ifTrue: [^ self inform: 'That profile name is already taken.']
-				ifFalse: [parentDialog addProfile: self profile]].
+				ifFalse: [parentDialog addProfile: profile]].
 	self topView delete

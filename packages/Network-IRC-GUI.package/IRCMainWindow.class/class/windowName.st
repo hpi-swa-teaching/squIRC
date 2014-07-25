@@ -1,3 +1,0 @@
-constants
-windowName
-	^#IRCRoot

@@ -7,4 +7,3 @@ buildProfileNamePane
 						textGetter: #profileName 
 						textSetter: #profileName:
 						tagColumnWidth: 100
-						name: 'TxtProfile'

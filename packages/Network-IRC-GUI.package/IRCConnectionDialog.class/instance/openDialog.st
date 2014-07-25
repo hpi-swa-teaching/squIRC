@@ -5,7 +5,6 @@ openDialog
 	configurationPaneName := 'Current Configuration'.
 	dialogue := IRCSystemWindow new.
 	dialogue model: self.
-	dialogue name: 'IRCDlgCon'.
 	swappingControl := self buildSwapper.
 	self
 		addPane: self buildConfigurationPane

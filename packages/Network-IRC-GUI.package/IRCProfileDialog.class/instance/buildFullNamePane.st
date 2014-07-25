@@ -7,4 +7,3 @@ buildFullNamePane
 						textGetter: #fullName 
 						textSetter: #fullName: 
 						tagColumnWidth: 100
-						name: 'TxtName'

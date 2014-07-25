@@ -1,9 +1,12 @@
 profiles-gui
 buildProfilesList
-
-	^(PluggableListMorph
+	| theList |
+	theList := PluggableListMorph
 				on: self
 				list: #profileDescriptions
 				selected: #profilesIndex
-				changeSelected: #profilesIndex:)
-				name: 'LstProfiles'
+				changeSelected: #profilesIndex:.
+	"theList color: Color white;
+		 name: 'theProfilesList'.
+	theList headerBackColor: Color paleTan muchLighter."
+	^ theList

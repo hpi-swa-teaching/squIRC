@@ -3,8 +3,6 @@ buildMorphicWindow
 
 	self model addDependent: self.
 	
-	self name: 'IRCWin'.
-	
 	self addMorph: (IRCGUIHelper 	headerPane: self buildActionButtons 
 											contentPane: self buildSwapperPane)
 			fullFrame: (LayoutFrame
