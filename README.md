@@ -4,9 +4,20 @@
 
 ## Installation
 
+### from SAR-File
 - open (or install and open) SqueakVM (tested on Squeak 4.5)
 - download squIRC.sar file
 - drag and drop SAR file on the running Squeak Image
+- done! squIRC should be ready to start under Apps > squIRC
+
+### with Filetree and Monticello
+- clone this repository ```git clone https://github.com/SWTI2014/SWTI2014-Project-14.git```
+- in squeak, open MonticelloBrowser and create a new repository. select filetree://
+- select the packages folder in the cloned git repository as base folder for filetree
+- open the new filetree repository and load the following packages
+  - Network-IRC-Model
+  - Network-IRC-GUI
+  - Network-IRC-Tests
 - done! squIRC should be ready to start under Apps > squIRC
 
 ## Most important changes to Enhanced IRC (legacy project)
