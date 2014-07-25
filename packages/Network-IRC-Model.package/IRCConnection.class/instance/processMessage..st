@@ -2,9 +2,9 @@ private-message handling
 processMessage: aMessage 
 	| handler |
 	
-	protocolMessageSubscribers
+	self protocolMessageSubscribers
 		do: [:subscriber | subscriber ircProtocolMessage: aMessage].
-	handler _ self class messageHandlers
+	handler := self class messageHandlers
 				at: aMessage command
 				ifAbsent: [].
 	handler

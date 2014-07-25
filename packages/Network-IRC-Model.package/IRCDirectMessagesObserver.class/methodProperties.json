@@ -20,6 +20,7 @@
 		"clearTextPane" : "sbw 6/7/2004 23:13",
 		"closeFrontMostWindow" : "sbw 5/13/2004 08:06",
 		"docs" : "sbw 6/10/2004 20:19",
+		"handleOutClearCommand:" : "AP 7/3/2014 14:48",
 		"initialExtent" : "sbw 5/13/2004 08:06",
 		"initialize:" : "sbw 6/7/2004 23:11",
 		"initializeChatTextLines" : "fc 10/10/2005 15:59",
@@ -35,6 +36,4 @@
 		"sendMessage:" : "md 10/22/2003 16:16",
 		"talkingTo" : "sbw 5/13/2004 08:08",
 		"talkingTo:" : "ls 9/17/1998 09:38",
-		"textWasSent:" : "sbw 5/13/2004 08:08",
-		"traceOff" : "sbw 6/2/2004 10:00",
-		"traceOn" : "sbw 6/2/2004 10:00" } }
+		"textWasSent:" : "sbw 5/13/2004 08:08" } }
