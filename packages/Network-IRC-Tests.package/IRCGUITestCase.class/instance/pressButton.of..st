@@ -1,4 +1,4 @@
-tests
+utility
 pressButton: aName of: aMorph
 | button |
 	

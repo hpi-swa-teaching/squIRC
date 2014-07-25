@@ -1,4 +1,4 @@
-tests
+utility
 deepFindSubmorph: aName in: aMorph
 | queue currentMorph |
 

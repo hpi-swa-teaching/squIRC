@@ -1,4 +1,4 @@
-tests
+utility
 findWindowNamed: aName
 | window |
 
