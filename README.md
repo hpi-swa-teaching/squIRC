@@ -4,8 +4,10 @@
 
 ## Installation
 
-- install SqueakVM (developed on 4.5)
-- get SAR
+- open (or install and open) SqueakVM (tested on Squeak 4.5)
+- download squIRC.sar file
+- drag and drop SAR file on the running Squeak Image
+- done! squIRC should be ready to start under Apps > squIRC
 
 ## Most important changes to Network-IRC
 
