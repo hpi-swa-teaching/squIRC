@@ -11,7 +11,7 @@ exportSAR
 					workingCopy := MCWorkingCopy forPackage: (MCPackage new name: package).
 					version := workingCopy newVersion fileOutOn: mczStream.
 					(zip addString: mczStream contents as: package, '.mcz') desiredCompressionLevel: 0.
-					installActions := installActions . 'self fileInMonticelloZipVersionNamed: ''' , package , '.mcz''. '].
-	
+					installActions := installActions , 'self fileInMonticelloZipVersionNamed: ''' , package , '.mcz''. '].
+				
 	zip addString: installActions as: 'install/preamble'.
 	zip writeToFileNamed: 'Network-IRC.sar'.
