@@ -9,7 +9,7 @@
 - drag and drop SAR file on the running Squeak Image
 - done! squIRC should be ready to start under Apps > squIRC
 
-## Most important changes to Network-IRC
+## Most important changes to Enhanced IRC (legacy project)
 
 ### For Users
 - improved and consistent UI
