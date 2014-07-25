@@ -12,6 +12,7 @@ addPaneNameToTabs: aString
 		 hResizing: #shrinkWrap;
 		 vResizing: #spaceFill;
 		 label: aString;
+		 name: self knownName, '.', aString;
 		 onColor: Color white offColor: Color white;
 		 feedbackColor: self tabFeedbackColor.
 	self swapper addMorphBack: btn.

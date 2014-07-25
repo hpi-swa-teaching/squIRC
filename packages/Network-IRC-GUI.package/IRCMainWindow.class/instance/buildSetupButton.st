@@ -6,3 +6,4 @@ buildSetupButton
 			label: 'setup'
 			action: #openSetupDialog
 			balloonText: 'Open up connection setup dialog'
+			name: 'BtnSetup'

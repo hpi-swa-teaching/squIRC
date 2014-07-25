@@ -4,7 +4,11 @@
 		"addProfile:" : "ld 5/18/2014 17:59",
 		"blank" : "ld 5/27/2014 11:14",
 		"checkKeyForProfileNamed:" : "sbw 5/17/2004 20:03",
+<<<<<<< HEAD
 		"clearProfiles" : "js 7/25/2014 16:05",
+=======
+		"clearProfiles" : "ld 7/21/2014 16:15",
+>>>>>>> master
 		"copy:" : "ld 6/14/2014 23:30",
 		"copy:name:" : "ld 5/8/2014 10:06",
 		"createDefault" : "sbw 5/27/2004 18:27",

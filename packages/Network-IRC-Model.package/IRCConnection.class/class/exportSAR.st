@@ -14,4 +14,4 @@ exportSAR
 					installActions := installActions , 'self fileInMonticelloZipVersionNamed: ''' , package , '.mcz''. '].
 				
 	zip addString: installActions as: 'install/preamble'.
-	zip writeToFileNamed: 'squIRC.sar'.
+	zip writeToFileNamed: 'Network-IRC.sar'.

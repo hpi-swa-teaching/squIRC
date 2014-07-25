@@ -6,5 +6,5 @@ isValid
 	^ (self name notNil) and: 
 		[self fullName notNil] and: 
 		[self userName notNil] and: 
-		[self server notNil] and: 
+		[(self server notNil) and: [self server isValid]] and: 
 		[self nick notNil]

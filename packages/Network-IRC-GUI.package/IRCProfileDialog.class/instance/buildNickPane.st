@@ -7,3 +7,4 @@ buildNickPane
 						textGetter: #nick 
 						textSetter: #nick:
 						tagColumnWidth: 100
+						name: 'TxtNick'
