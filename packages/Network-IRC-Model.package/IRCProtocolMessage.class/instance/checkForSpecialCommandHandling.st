@@ -2,20 +2,21 @@ private-initialization
 checkForSpecialCommandHandling
 	"See http://www.irchelp.org/irchelp/rfc/ctcpspec.html"
 	| lastArg controlChar stream convertedArg savedCommand |
-	isSpecial _ IRCConnection specialCommands includes: command.
+	"self halt."
+	isSpecial := IRCConnection specialCommands includes: command.
 	isSpecial
-		ifFalse: [^ nil].
-	savedCommand _ command asUppercase copy.
+		ifFalse: [^self].
+	savedCommand := command asUppercase copy.
 	savedCommand = 'ME'
-		ifTrue: [savedCommand _ 'ACTION'].
-	command _ 'PRIVMSG'.
-	lastArg _ arguments last.
-	controlChar _ self class extendedDelimeterCharacter.
-	stream _ ReadWriteStream on: ''.
+		ifTrue: [savedCommand := 'ACTION'].
+	command := 'PRIVMSG'.
+	lastArg := arguments last.
+	controlChar := self class extendedDelimeterCharacter.
+	stream := ReadWriteStream on: ''.
 	stream nextPut: controlChar;
 		 nextPutAll: savedCommand;
 		 nextPut: $ ;
 		 nextPutAll: lastArg;
 		 nextPut: controlChar.
-	convertedArg _ stream contents.
+	convertedArg := stream contents.
 	arguments at: arguments size put: convertedArg

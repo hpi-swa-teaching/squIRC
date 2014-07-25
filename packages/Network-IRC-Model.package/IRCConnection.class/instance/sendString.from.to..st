@@ -4,37 +4,19 @@ sendString: aString from: observer to: idString
 
 	| result msg |
 	result := true.
-	aString isEmpty 
-		ifFalse: 
-			[aString asString linesDo: 
-					[:line | 
-					result 
-						ifTrue: 
-							[line isEmpty ifTrue: [line := ' '].
-							"Needed to handle blank lines from, e.g., cut 'n' 
-							paste. "
-							result := line first = $/ 
-										ifTrue: 
-											[msg := self convertCmdToProtocolMessage: line idString: idString.
-											msg isNil 
-												ifTrue: [false]
-												ifFalse: 
-													[msg isLocal 
-														ifTrue: [self sendLocalMessage: msg from: observer]
-														ifFalse: 
-															[msg isSpecial 
-																ifTrue: 
-																	[self 
-																		privmsgFrom: nil
-																		to: idString
-																		text: msg specialConvertedForm]
-																ifFalse: 
-																	[self checkLastActionsFor: msg.
-																	self sendMessage: msg]]]]
-										ifFalse: 
-											[self 
-												privmsgFrom: nil
-												to: idString
-												text: line].
-							result ifTrue: [observer textWasSent: line]]]].
+	aString ifNotEmpty:  
+		[aString asString linesDo: 
+			[:line | 
+			result ifTrue: 
+				"Needed to handle blank lines from, e.g., cut 'n' paste. "
+				[line ifEmpty: [line := ' '].
+				result := line first = $/ 
+					ifTrue: 
+						[msg := self convertCmdToProtocolMessage: line sendTo: idString]
+					ifFalse: 
+						[msg:= self convertPrivToProtocolMessage: line sendTo: idString].
+				msg 
+					ifNil: [false]
+					ifNotNil: 
+						[self processOutgoingMessage: msg from: observer]]]].
 	^result

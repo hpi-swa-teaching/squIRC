@@ -4,16 +4,16 @@ processPrivmsg: aMessage
 	"put together the message"
 	| sender recipient text privMessage aChannelInfo |
 
-	sender _ aMessage prefix.
-	recipient _ aMessage arguments at: 1.
-	text _ aMessage arguments at: 2.
-	privMessage _ IRCMessage
+	sender := aMessage prefix.
+	recipient := aMessage arguments at: 1.
+	text := aMessage arguments at: 2.
+	privMessage := IRCMessage
 				sender: sender
 				recipient: recipient
 				text: text.
 	"If the recipient is a channel name, broadcast the message to all  
 	channel subscribers."
-	aChannelInfo _ subscribedChannels
+	aChannelInfo := subscribedChannels
 				at: recipient asIRCLowercase
 				ifAbsent: [].
 	aChannelInfo

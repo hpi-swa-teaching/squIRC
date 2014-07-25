@@ -1,3 +1,0 @@
-slash commands translation
-processNickCommand
-	self stripOffFirstArgument
