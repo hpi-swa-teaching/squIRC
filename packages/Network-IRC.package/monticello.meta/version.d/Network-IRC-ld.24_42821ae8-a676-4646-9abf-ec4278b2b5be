@@ -1,1 +1,0 @@
-(name 'Network-IRC-ld.24'message 'fix very stupid boolean inversion in IRCServer>>fromMIRCLine:'id '42821ae8-a676-4646-9abf-ec4278b2b5be'date '14 June 2014'time '6:38:23.439 pm'author 'ld'ancestors ((id 'e06e8755-2875-4ff6-b3da-0c353f939f38'))stepChildren ())

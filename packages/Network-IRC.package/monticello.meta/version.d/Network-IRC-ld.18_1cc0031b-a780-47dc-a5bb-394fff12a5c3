@@ -1,1 +1,0 @@
-(name 'Network-IRC-ld.18'message 'cleaned configuration pane creation in IRCConnectionDialog and made connect-button in IRCMainWindow reflect connection status'id '1cc0031b-a780-47dc-a5bb-394fff12a5c3'date '12 June 2014'time '10:12:16.595 am'author 'ld'ancestors ((id '058c9977-cb5b-40c5-8df2-40254fc24471'))stepChildren ())

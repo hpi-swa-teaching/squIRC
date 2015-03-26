@@ -1,1 +1,0 @@
-(name 'Network-IRC-sbw.1056'message 'merge from Frank at 10.5.5Minor factorings, comments and initial fold-in of channel list filter logic.'id 'db0d03cb-91e0-11d9-8da2-001124357d46'date '10 March 2005'time '9:51:31 pm'author 'sbw'ancestors ((id 'd35a152b-90c3-11d9-99de-0011242f0678'))stepChildren ())

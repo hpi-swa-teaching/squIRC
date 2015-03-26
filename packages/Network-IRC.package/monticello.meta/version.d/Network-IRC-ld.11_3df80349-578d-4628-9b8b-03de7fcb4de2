@@ -1,1 +1,0 @@
-(name 'Network-IRC-ld.11'message 'fix inconsistent type issue (Dictionary vs. OrderedCollection) in ICRConnectionProfile>>profilesand consequently remove some obsolete methods'id '3df80349-578d-4628-9b8b-03de7fcb4de2'date '7 June 2014'time '2:54:55.532 pm'author 'ld'ancestors ((id 'e231e076-4c62-4a4c-9f3c-e1be654b364a'))stepChildren ())
