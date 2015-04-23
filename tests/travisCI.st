@@ -8,12 +8,12 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
 
 Metacello new
   baseline: 'Project14';
-  repository: 'filetree://', gitPath, '/squIRC/packages';
+  repository: 'filetree://', gitPath, '/SWT15-Project-06/packages';
   get.
 
 Metacello new
   baseline: 'Project14';
-  repository: 'filetree://', gitPath, '/squIRC/packages';
+  repository: 'filetree://', gitPath, '/SWT15-Project-06/packages';
   load: 'TravisCI'.
 
 "Run the tests"
