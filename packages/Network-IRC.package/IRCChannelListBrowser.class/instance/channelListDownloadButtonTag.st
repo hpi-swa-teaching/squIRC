@@ -1,3 +1,0 @@
-constants
-channelListDownloadButtonTag
-	^ 'Refresh'

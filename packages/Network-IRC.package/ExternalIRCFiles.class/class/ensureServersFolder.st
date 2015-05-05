@@ -1,3 +1,0 @@
-servers
-ensureServersFolder
-	self rootFolder assureExistenceOfPath: self serversFolderName

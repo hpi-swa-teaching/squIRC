@@ -1,3 +1,0 @@
-as yet unclassified
-msgObserver: aIRCDirectMessagesObserver
-	msgObserver _ aIRCDirectMessagesObserver

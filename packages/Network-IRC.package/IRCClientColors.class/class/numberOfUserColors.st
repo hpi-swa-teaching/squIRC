@@ -1,4 +1,0 @@
-colors
-numberOfUserColors
-
-	^36

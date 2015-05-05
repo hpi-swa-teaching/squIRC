@@ -1,4 +1,0 @@
-colors
-numberOfUserColorSaturations
-
-	^5

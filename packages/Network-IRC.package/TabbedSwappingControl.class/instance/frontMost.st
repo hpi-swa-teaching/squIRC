@@ -1,3 +1,0 @@
-public API
-frontMost
-	^frontMost

@@ -1,1 +1,0 @@
-We manage output message logs for the model since it does not have a GUI.

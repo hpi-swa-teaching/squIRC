@@ -1,3 +1,0 @@
-private
-ensureRootFolder
-	FileDirectory default assureExistenceOfPath: self rootFolderName

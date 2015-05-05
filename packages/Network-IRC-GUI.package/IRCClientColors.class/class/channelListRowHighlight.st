@@ -1,3 +1,0 @@
-colors
-channelListRowHighlight
-	^ Color brown

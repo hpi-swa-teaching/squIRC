@@ -1,1 +1,0 @@
-Primary IRC window.

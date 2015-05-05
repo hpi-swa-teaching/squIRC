@@ -1,3 +1,0 @@
-private
-nickIsNil
-	^nick isNil

@@ -1,3 +1,0 @@
-default defaults
-defaultDefaultUserName
-	^'userName'

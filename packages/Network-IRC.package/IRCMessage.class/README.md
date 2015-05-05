@@ -1,1 +1,0 @@
-A message on IRC.  It has a sender (usually a username), a recipient (usually a user or channel name), and some text.

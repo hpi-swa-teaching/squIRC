@@ -1,3 +1,0 @@
-actionButtons
-talkTo
-	model talkTo

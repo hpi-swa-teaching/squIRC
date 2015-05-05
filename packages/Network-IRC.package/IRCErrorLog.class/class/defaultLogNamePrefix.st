@@ -1,3 +1,0 @@
-private
-defaultLogNamePrefix
-	^'default'

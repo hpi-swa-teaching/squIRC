@@ -1,3 +1,0 @@
-as yet unclassified
-windowIsClosing
-	self removeSelfFromConnectionObserversList

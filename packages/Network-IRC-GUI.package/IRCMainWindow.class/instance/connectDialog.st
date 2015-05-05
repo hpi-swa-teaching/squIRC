@@ -1,3 +1,0 @@
-actionButtons
-connectDialog
-	^connectDialog

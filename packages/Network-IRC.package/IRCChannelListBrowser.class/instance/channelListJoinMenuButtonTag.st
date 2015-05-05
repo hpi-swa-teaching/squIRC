@@ -1,3 +1,0 @@
-constants
-channelListJoinMenuButtonTag
-	^ 'Join Menu'

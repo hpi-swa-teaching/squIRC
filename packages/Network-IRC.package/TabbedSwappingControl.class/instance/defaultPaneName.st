@@ -1,4 +1,0 @@
-accessing
-defaultPaneName
-
-	^ defaultPaneName

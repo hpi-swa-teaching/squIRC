@@ -1,3 +1,0 @@
-as yet unclassified
-removeSelfFromConnectionObserversList
-	connection removeChannelObserver: self

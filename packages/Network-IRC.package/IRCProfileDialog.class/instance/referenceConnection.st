@@ -1,4 +1,0 @@
-accessing
-referenceConnection
-
-	^ referenceConnection

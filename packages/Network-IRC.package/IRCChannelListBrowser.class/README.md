@@ -1,1 +1,0 @@
-a browser of the list of channels a given connection offers.  Allows users to easily join and create channels.

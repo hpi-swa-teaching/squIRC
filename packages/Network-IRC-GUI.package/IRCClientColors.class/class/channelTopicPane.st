@@ -1,3 +1,0 @@
-colors
-channelTopicPane
-	^ Color veryVeryLightGray

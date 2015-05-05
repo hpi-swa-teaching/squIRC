@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"name:numUsers:topic:" : "ls 9/2/1998 22:39" },
-	"instance" : {
-		"initializeName:numUsers:topic:" : "ls 9/2/1998 22:38",
-		"name" : "ls 9/2/1998 22:39",
-		"numUsers" : "ls 9/2/1998 22:40",
-		"printOn:" : "sbw 3/10/2005 21:01",
-		"topic" : "ls 9/2/1998 22:40" } }
