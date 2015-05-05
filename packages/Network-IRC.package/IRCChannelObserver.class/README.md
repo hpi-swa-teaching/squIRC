@@ -1,1 +1,0 @@
-Converts IRC messages forwarded to it, into a textual format that may be displayed.  Messages may additionally be sent *from* it, to a specified target.

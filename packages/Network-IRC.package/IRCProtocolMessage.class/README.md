@@ -1,1 +1,0 @@
-A low-level IRC message; this is an internal format for what actually goes over the wire.

@@ -1,3 +1,0 @@
-actionButtons
-openChannelList
-	model openChannelList

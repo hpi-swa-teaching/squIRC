@@ -1,4 +1,0 @@
-accessing
-defaultServersDict
-
-	^IRCServer serversListByGroups

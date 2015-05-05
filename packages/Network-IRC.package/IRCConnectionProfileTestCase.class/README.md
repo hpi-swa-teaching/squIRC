@@ -1,1 +1,0 @@
-This is the test case for the connection profile.

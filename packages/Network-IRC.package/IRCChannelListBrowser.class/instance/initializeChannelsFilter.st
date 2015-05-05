@@ -1,4 +1,0 @@
-access
-initializeChannelsFilter
-
-	self channelsFilter: IRCChannelFilter noFilter

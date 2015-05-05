@@ -1,1 +1,0 @@
-Used in the channels browser for filters input from user.

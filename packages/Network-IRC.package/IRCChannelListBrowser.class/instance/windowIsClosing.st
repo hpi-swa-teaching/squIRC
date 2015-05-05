@@ -1,3 +1,0 @@
-interface
-windowIsClosing
-	self removeSelfFromConsole

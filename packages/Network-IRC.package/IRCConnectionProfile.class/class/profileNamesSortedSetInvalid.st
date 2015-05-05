@@ -1,4 +1,0 @@
-accessing
-profileNamesSortedSetInvalid
-
-	ProfilesSortedValid := false

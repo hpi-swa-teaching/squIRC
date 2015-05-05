@@ -1,3 +1,0 @@
-API
-specificPrivateMessageArrived
-	self playSoundFor: #specificPrivateMessageSound

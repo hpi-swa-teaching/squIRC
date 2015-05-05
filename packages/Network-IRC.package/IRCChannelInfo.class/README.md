@@ -1,1 +1,0 @@
-Describes the channel information itself.

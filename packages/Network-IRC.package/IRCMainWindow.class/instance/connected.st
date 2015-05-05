@@ -1,4 +1,0 @@
-actionButtons
-connected
-
-	^model connected

@@ -1,3 +1,0 @@
-swapper
-allSwappedPaneNamesWithModels
-	^ self swapper allSwappedPaneNamesWithModels

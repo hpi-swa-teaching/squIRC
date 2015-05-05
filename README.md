@@ -37,5 +37,5 @@
   - from 11% (Network-IRC) to 27% (Network-IRC-Model) and 37% (Network-IRC-GUI) 
 
 ##### Build Status: 
-[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/squIRC.svg)](https://travis-ci.org/HPI-SWA-Teaching/squIRC)
+[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/squIRC.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-06)
 

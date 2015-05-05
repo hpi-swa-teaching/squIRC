@@ -1,1 +1,0 @@
-Exercise the IRC server class.
