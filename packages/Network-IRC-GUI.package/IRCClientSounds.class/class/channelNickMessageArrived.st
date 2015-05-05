@@ -1,0 +1,3 @@
+API
+channelNickMessageArrived
+	self playSoundFor: #channelNickMessageSound

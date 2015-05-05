@@ -1,0 +1,3 @@
+constants
+channelListJoinMenuButtonTag
+	^ 'Join Menu'
