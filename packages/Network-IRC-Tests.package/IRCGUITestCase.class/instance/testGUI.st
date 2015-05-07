@@ -33,7 +33,7 @@ testGUI
 	
 	self pressButton: 'BtnConnect' of:ircConsole.
 	
-	(Delay forMilliseconds: 500) wait.
+	(Delay forMilliseconds: 5000) wait.
 	
 	ircConsole closeBoxHit.
 	
