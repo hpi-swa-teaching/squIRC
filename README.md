@@ -1,7 +1,7 @@
 *An open source IRC Client for Squeak.*
 
 # squIRC
-#### SWTI2014-Project-14
+#### SWTI2015-Project-06
 
 ## Installation
 
