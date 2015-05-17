@@ -1,0 +1,4 @@
+menu
+itemIRCSettings
+
+	self openSetupDialog.
