@@ -1,0 +1,4 @@
+menu
+itemIRCNew
+
+	self newConsole.

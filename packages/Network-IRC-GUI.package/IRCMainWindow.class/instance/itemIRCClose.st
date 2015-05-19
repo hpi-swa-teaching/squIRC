@@ -1,0 +1,4 @@
+menu
+itemIRCClose
+
+	self delete.
