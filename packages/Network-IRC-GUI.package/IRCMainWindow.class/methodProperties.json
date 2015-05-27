@@ -4,6 +4,7 @@
 		"openWindowOn:" : "ld 7/8/2014 14:03",
 		"windowName" : "ld 7/8/2014 14:04" },
 	"instance" : {
+		"addWindowToClose:" : "cw 5/25/2015 19:14",
 		"allSwappedPaneNamesWithModels" : "sbw 5/6/2004 21:36",
 		"alreadyShowingPrivateMessagesFrom:" : "sbw 5/6/2004 21:37",
 		"buildActionButtons" : "ld 6/11/2014 22:40",
@@ -23,6 +24,7 @@
 		"buttonHeight" : "sbw 5/4/2004 07:04",
 		"channelsBrowser" : "sbw 5/4/2004 08:04",
 		"channelsBrowser:" : "sbw 5/4/2004 08:04",
+		"closeBoxHit" : "cw 5/26/2015 13:07",
 		"closeTab" : "sbw 5/6/2004 21:38",
 		"closeTabs" : "sbw 5/6/2004 21:38",
 		"connectButtonLabel" : "AM 6/25/2014 01:51",
