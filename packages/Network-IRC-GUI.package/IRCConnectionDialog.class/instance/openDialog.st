@@ -4,6 +4,7 @@ openDialog
 	| dialogue swappingControl profilesPaneName |
 	profilesPaneName := 'Profiles'.
 	dialogue := IRCSystemWindow new.
+	mainWin ifNotNil: [mainWin addWindowToClose: dialogue].
 	dialogue model: self.
 	dialogue name: 'IRCDlgCon'.
 	swappingControl := self buildSwapper.
@@ -23,4 +24,5 @@ openDialog
 		frame: (0 @ 0 extent: 1 @ 1).
 	swappingControl showPaneNamed: profilesPaneName.
 	dialogue setLabel: 'setup for IRC cllient'.
-	dialogue openInWorld
+	dialogue openInWorld.
+	^dialogue

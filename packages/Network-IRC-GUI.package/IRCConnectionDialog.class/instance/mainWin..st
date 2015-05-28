@@ -1,4 +1,5 @@
-dialog creation
+accessing
 mainWin: aMainWindow
-
+	
 	mainWin := aMainWindow.
+	

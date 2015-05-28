@@ -11,7 +11,8 @@
 		"parentDialog",
 		"canceled",
 		"referenceConnection",
-		"editing" ],
+		"editing",
+		"mainWin" ],
 	"name" : "IRCProfileDialog",
 	"pools" : [
 		 ],

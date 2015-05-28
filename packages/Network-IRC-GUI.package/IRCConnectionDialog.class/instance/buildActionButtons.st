@@ -5,6 +5,5 @@ buildActionButtons
 							{	#buildNewButton .
 								#buildEditButton .
 								#buildDeleteButton .
-								#buildSelectButton .
-								#buildSaveButton}
+								#buildSelectButton}
 							on: self 
