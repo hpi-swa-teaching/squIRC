@@ -2,10 +2,7 @@ actionButtons
 buildActionButtons
 	
 	^IRCGUIHelper rowPaneFor: 
-						{	#buildConnectButton .
-							#buildSetupButton .
-							#buildMOTDButton .
+						{	#buildMOTDButton .
 							#buildChannelsButton .
-							#buildPrvMsgButton .
-							#buildConsoleButton }
+							#buildPrvMsgButton }
 						on: self.

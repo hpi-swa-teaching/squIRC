@@ -1,9 +1,6 @@
 actionButtons
 connectButtonLabel
 
-	self currentlyConnecting 
-		ifTrue: [^'connecting...'].
-
-	^self connected
+	^self connected | self currentlyConnecting 
 		ifTrue: ['disconnect']
 		ifFalse: ['connect']

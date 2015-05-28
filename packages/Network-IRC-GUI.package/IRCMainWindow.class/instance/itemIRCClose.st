@@ -1,4 +1,4 @@
 menu
 itemIRCClose
 
-	self delete.
+	self closeBoxHit.
