@@ -1,5 +1,6 @@
 dialog creation
 openDialog
+	"DEPRECATED"
 	"open a dialogue for making new connections"
 	| dialogue swappingControl profilesPaneName |
 	profilesPaneName := 'Profiles'.

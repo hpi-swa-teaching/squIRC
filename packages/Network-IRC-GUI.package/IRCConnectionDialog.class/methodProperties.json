@@ -4,7 +4,7 @@
 	"instance" : {
 		"addOptionPaneHeaderTo:offset:" : "sbw 5/27/2004 19:48",
 		"addOptionsList:to:fractions:offsets:" : "sbw 5/27/2004 20:29",
-		"addPane:toSwapper:paneName:default:" : "sbw 2/28/2002 07:25",
+		"addPane:toSwapper:paneName:default:" : "cw 6/8/2015 08:20",
 		"addProfile" : "ld 5/18/2014 19:54",
 		"addProfile:" : "ld 5/18/2014 20:14",
 		"buildActionButtons" : "cw 5/28/2015 09:43",
@@ -28,7 +28,9 @@
 		"hideWindow" : "sbw 2/25/2002 01:32",
 		"initialExtent" : "sbw 5/27/2004 20:20",
 		"mainWin:" : "cw 5/28/2015 09:37",
-		"openDialog" : "H1 5/28/2015 14:28",
+		"openDialog" : "cw 6/8/2015 11:09",
+		"openDialogAsPane:" : "cw 6/8/2015 11:10",
+		"openOptionsWindow:" : "cw 6/8/2015 11:09",
 		"optionRowHeight" : "sbw 5/9/2004 22:19",
 		"optionRowSpacing" : "sbw 5/27/2004 19:52",
 		"profileButtonSpecs" : "ld 5/18/2014 20:12",
@@ -38,6 +40,6 @@
 		"profilesPaneBackgroundColor" : "sbw 5/9/2004 21:58",
 		"saveCurrentToProfile" : "ld 5/27/2014 11:23",
 		"selectProfile" : "ld 6/14/2014 18:45",
-		"setupProfileDialog" : "cw 5/28/2015 09:41",
+		"setupProfileDialog" : "cw 6/5/2015 14:51",
 		"showWindow" : "sbw 3/3/2002 21:37",
 		"updateProfilesList" : "sbw 5/23/2004 08:02" } }

@@ -4,7 +4,7 @@ addPane: pane toSwapper: swapper paneName: aString default: default
 		addPane: pane
 		named: aString
 		hidden: default not
-		closeable: false
+		closeable: true
 		swapModel: self.
 	default
 		ifTrue: [swapper defaultPaneName: aString]

@@ -1,5 +1,5 @@
 actionButtons
 openConnectionDialogue
 	self
-		connectDialog: ((IRCConnectionDialog on: model) mainWin: self).
-	self connectDialog openDialog
+		connectDialog: (IRCConnectionDialog on: model).
+	self connectDialog openDialogAsPane: self.
