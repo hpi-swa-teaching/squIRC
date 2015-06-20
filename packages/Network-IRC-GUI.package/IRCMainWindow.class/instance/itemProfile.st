@@ -1,4 +1,4 @@
 menu
 itemProfile
 
-	self openSetupDialog 
+	self openProfilesDialog 

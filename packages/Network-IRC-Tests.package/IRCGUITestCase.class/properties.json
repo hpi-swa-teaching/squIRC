@@ -10,5 +10,5 @@
 	"name" : "IRCGUITestCase",
 	"pools" : [
 		 ],
-	"super" : "IRCTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -10,5 +10,5 @@
 	"name" : "IRCClientColorsTestCase",
 	"pools" : [
 		 ],
-	"super" : "IRCTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

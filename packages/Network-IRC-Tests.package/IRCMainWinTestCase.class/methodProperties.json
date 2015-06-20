@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"isAbstract" : "cw 6/20/2015 14:23" },
+	"instance" : {
+		"setUp" : "cw 6/20/2015 14:31",
+		"tearDown" : "cw 6/20/2015 14:20",
+		"testPaneNames" : "cw 6/20/2015 14:29" } }

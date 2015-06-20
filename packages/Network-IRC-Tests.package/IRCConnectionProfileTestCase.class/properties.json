@@ -14,5 +14,5 @@
 	"name" : "IRCConnectionProfileTestCase",
 	"pools" : [
 		 ],
-	"super" : "IRCTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

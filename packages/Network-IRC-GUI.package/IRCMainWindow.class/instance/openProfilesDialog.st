@@ -1,4 +1,4 @@
 actionButtons
-openSetupDialog
+openProfilesDialog
 
 	(IRCConnectionDialog on: self model) openProfilesAsPane: self.
