@@ -1,4 +1,4 @@
 actionButtons
 openOptionsDialog
 
-	(IRCConnectionDialog on: self model) openOptionsWindow: self.
+	(IRCConnectionDialog on: self model) openOptionsAsPane:  self.

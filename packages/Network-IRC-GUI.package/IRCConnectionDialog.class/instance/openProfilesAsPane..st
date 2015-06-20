@@ -1,7 +1,8 @@
 dialog creation
-openDialogAsPane: aMainWin
+openProfilesAsPane: aMainWin
 	"open a dialogue for making new connections as a Pane in MainWindow"
 	|swappingControl profilesPaneName |
+
 	profilesPaneName := 'Profiles'.
 	swappingControl := aMainWin swapper.
 	self mainWin: aMainWin.

@@ -4,7 +4,7 @@ menuDictionary
 	^Dictionary newFrom: {
 		"Menu and submenu map."
 		#menuIRC: 			->		'IRC'.
-		#menuProfile: 		->		'Profile'.
+		#itemProfile 		->		'Profile'.
 		#menuChannel:		->		'Channel'.
 		#menuHelp: 		->		'Help'.
 
@@ -18,7 +18,7 @@ menuDictionary
 		#itemHelpAbout 	->		'About'.
 
 		"Menu grouping."
-		#groupMain 		->		#(#menuIRC: #menuProfile: #menuChannel: #menuHelp:).
-		#groupIRC 			->		#(#itemIRCNew #itemIRCClose #itemIRCConnect #itemIRCSettings).
+		#groupMain 		->		#(#menuIRC: #menuChannel: #menuHelp:).
+		#groupIRC 			->		#(#itemIRCNew #itemIRCClose #itemIRCConnect #itemProfile #itemIRCSettings).
 		#groupHelp 		->		#(#itemHelpShow #itemHelpAbout).
 	}

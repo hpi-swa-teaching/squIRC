@@ -1,0 +1,4 @@
+menu
+itemProfile
+
+	self openSetupDialog 
