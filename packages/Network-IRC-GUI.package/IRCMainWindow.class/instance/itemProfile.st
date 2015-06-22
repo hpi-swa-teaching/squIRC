@@ -1,4 +1,0 @@
-menu
-itemProfile
-
-	self openProfilesDialog 

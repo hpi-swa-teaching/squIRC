@@ -19,6 +19,6 @@ menuDictionary
 
 		"Menu grouping."
 		#groupMain 		->		#(#menuIRC: #menuChannel: #menuHelp:).
-		#groupIRC 			->		#(#itemIRCNew #itemIRCClose #itemIRCConnect #itemProfile #itemIRCSettings).
+		#groupIRC 			->		#(#itemIRCNew #itemIRCClose #itemIRCConnect #itemIRCProfile #itemIRCSettings).
 		#groupHelp 		->		#(#itemHelpShow #itemHelpAbout).
 	}

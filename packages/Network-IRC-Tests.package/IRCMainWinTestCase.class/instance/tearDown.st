@@ -1,4 +1,4 @@
 as yet unclassified
 tearDown 
 
-	mainWin closeBoxHit.
+	IRCMainWindow allInstances do: [:each | each closeBoxHit].
