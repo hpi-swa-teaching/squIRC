@@ -1,10 +1,11 @@
 dialog creation
 openDialogLabeled: aString
-	| dialog |
-	dialog := IRCSystemWindow new.
-	mainWin ifNotNil: [mainWin addWindowToClose:  dialog].
-	dialog model: self.
-	self buildDialogOn: dialog.
-	dialog setLabel: aString.
+
+	mainWin ifNotNil: [
+		mainWin swapper
+			addPane: self buildPane
+			named: aString
+			hidden: false
+			closeable: true
+			swapModel: self].
 	canceled := false.
-	dialog openInWorld

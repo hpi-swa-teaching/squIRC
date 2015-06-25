@@ -1,15 +1,13 @@
 dialog creation
-buildDialogOn: window
+buildPaneContent
 	| alignMorph |
 	
 	alignMorph := IRCGUIHelper listPaneFor: 
 												{ 	#buildProfileNamePane .
 													#buildFullNamePane . 
-												   	#buildNickPane . 
+													#buildNickPane . 
 													#buildUserNamePane .
 													#buildServerAddressPane .
 													#buildActionButtons } 
 												on: self.
-	window name: 'IRCDlgProfile'.
-	window addMorph: alignMorph
-				fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1))
+	^alignMorph

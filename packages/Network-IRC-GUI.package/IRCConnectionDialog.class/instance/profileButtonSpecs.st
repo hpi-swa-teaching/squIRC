@@ -8,6 +8,4 @@ profileButtonSpecs
 			#('edit' #editProfile 'editProfile' 
 					'Edit the selected profile')
 			#('select' #selectProfile 'selectProfile' 
-					'Load the selected profile into your current configuration') 
-			#('save current' #saveCurrentToProfile 'saveCurrent' 
-					'Save your current configuration to a new profile'))
+					'Load the selected profile into your current configuration'))

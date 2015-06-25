@@ -13,6 +13,7 @@ menuDictionary
 		#itemIRCClose 		->		'Close'.
 		#itemIRCConnect 	->		[self connectButtonLabel].
 		#itemIRCSettings 	->		'Settings'.
+		#itemIRCProfile  	->		'Profile'.
 
 		#itemHelpShow 	->		'Help'.
 		#itemHelpAbout 	->		'About'.

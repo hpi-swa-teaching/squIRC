@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	
-	mainWin := IRCConnection openEnhancedIRC gui.
+	mainWin _ IRCConnection openEnhancedIRC gui.

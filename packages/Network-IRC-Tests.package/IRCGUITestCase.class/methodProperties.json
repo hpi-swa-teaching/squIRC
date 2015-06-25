@@ -2,7 +2,7 @@
 	"class" : {
 		"isAbstract" : "ld 7/8/2014 10:37" },
 	"instance" : {
-		"deepFindSubmorph:in:" : "ld 7/8/2014 14:42",
+		"deepFindSubmorph:in:" : "cw 6/25/2015 16:10",
 		"enterText:into:of:" : "js 7/25/2014 15:28",
 		"findWindowNamed:" : "ld 7/8/2014 14:17",
 		"mainWin:hasPane:" : "cw 6/5/2015 14:46",

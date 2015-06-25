@@ -1,9 +1,9 @@
-utility
-deepFindSubmorph: aName in: aMorph
+as yet unclassified
+deepFindSubmorph: aName
 | queue currentMorph |
 
 	queue := OrderedCollection new.
-	queue add: aMorph.
+	queue add: mainWin.
 	
 	[queue isEmpty] 
 		whileFalse: [currentMorph := queue removeFirst.
