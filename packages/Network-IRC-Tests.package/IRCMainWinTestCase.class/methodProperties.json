@@ -2,8 +2,9 @@
 	"class" : {
 		"isAbstract" : "cw 6/20/2015 14:23" },
 	"instance" : {
-		"deepFindSubmorph:" : "cw 6/25/2015 16:11",
+		"deepFindSubmorph:" : "cw 7/1/2015 14:22",
+		"pressButton:withLocation:inTab:" : "cw 7/1/2015 14:35",
 		"setUp" : "cw 6/25/2015 14:39",
 		"tearDown" : "cw 6/25/2015 14:03",
-		"testNewProfilePane" : "cw 6/25/2015 16:17",
+		"testNewProfilePane" : "cw 7/1/2015 15:01",
 		"testPaneNames" : "cw 6/22/2015 08:40" } }

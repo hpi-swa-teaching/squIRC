@@ -1,13 +1,11 @@
 as yet unclassified
 testNewProfilePane
+	| count |
 	
-	| newButton editButton |
-
 	mainWin openProfilesDialog.
 	self should: [mainWin swapper tabs includes: 'Profiles'].
-	newButton := self deepFindSubmorph: 'BtnNew'.
-	editButton := self deepFindSubmorph: 'BtnEdit'.
-	newButton performAction.
-	editButton performAction. 
-	self should: [mainWin swapper tabs includes: 'add a profile'].
-	self should: [mainWin swapper tabs includes: 'edit a profile'].
+	count := mainWin swapper tabs size.
+	self pressButton: 'BtnNew' withLocation: 2 inTab: 'Profiles'.
+	self should: [mainWin swapper tabs size = (count +1) ].
+	self pressButton: 'BtnCancel' withLocation: 1 inTab: 'add a profile'.
+	self should: [mainWin swapper tabs size = count].

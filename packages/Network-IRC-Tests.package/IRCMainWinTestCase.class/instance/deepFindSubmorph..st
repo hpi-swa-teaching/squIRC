@@ -1,6 +1,7 @@
 as yet unclassified
 deepFindSubmorph: aName
-| queue currentMorph |
+	"care! low performance"
+	| queue currentMorph |
 
 	queue := OrderedCollection new.
 	queue add: mainWin.

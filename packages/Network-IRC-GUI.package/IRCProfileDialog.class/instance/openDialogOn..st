@@ -4,4 +4,5 @@ openDialogOn: anIRCConnectionProfile
 	
 	editing := true.
 	profile := anIRCConnectionProfile.
-	self openDialogLabeled: 'edit a profile'.
+	self openDialogLabeled: 'Profile: ', self profileName.
+	

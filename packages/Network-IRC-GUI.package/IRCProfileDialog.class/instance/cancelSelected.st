@@ -1,4 +1,5 @@
 action buttons
 cancelSelected
-	canceled _ true.
-	self topView delete
+	canceled := true.
+	mainWin swapper closeFrontPane
+	
