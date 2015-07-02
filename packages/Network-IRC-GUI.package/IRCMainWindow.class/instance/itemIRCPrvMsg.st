@@ -1,0 +1,4 @@
+menu
+itemIRCPrvMsg
+
+	self talkTo.

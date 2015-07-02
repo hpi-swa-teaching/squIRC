@@ -15,11 +15,17 @@ menuDictionary
 		#itemIRCSettings 	->		'Settings'.
 		#itemIRCProfile  	->		'Profile'.
 
+		#itemIRCMotd  		->		'Motd'.
+		#itemIRCPrvMsg   	->		'PrvMsg'.
+
+		#itemIRCChannel    ->      	'Channels'.
+
 		#itemHelpShow 	->		'Help'.
 		#itemHelpAbout 	->		'About'.
 
 		"Menu grouping."
 		#groupMain 		->		#(#menuIRC: #menuChannel: #menuHelp:).
-		#groupIRC 			->		#(#itemIRCNew #itemIRCClose #itemIRCConnect #itemIRCProfile #itemIRCSettings).
+		#groupIRC 			->		#(#itemIRCNew #itemIRCClose #itemIRCMotd #itemIRCPrvMsg #itemIRCConnect #itemIRCProfile #itemIRCSettings).
+		#groupChannel		->		#(#itemIRCChannel).
 		#groupHelp 		->		#(#itemHelpShow #itemHelpAbout).
 	}

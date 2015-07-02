@@ -1,0 +1,4 @@
+menu
+itemIRCChannel
+
+	self openChannelList.

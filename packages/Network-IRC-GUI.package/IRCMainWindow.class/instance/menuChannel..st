@@ -1,4 +1,4 @@
 menu
 menuChannel: menu
 
-	self buildItem: #groupIRC at: menu.
+	self buildItem: #groupChannel at: menu.
