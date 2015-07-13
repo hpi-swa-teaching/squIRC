@@ -1,10 +1,11 @@
 actionButtons
 openMotd
 	| paneName alignMorph textView updateButton buttonHeight |
+	
 	buttonHeight := 22.
-	motdPane isNil
-		ifFalse: [^ nil].
 	paneName := 'MOTD'.
+	(self swapper tabs includes: paneName)
+		ifTrue:[^nil].
 	alignMorph := AlignmentMorph newColumn hResizing: #spaceFill;
 				 vResizing: #spaceFill;
 				 layoutInset: 0;

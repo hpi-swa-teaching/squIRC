@@ -6,3 +6,5 @@ windowIsClosing
 	parentDialog isNil
 		ifTrue: [^ nil].
 	parentDialog noServerSelected
+
+"here starts the bug that opens new tabs if we edit a profile and change the server via the button"
