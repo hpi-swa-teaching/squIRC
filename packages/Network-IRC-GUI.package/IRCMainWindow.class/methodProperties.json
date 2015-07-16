@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"baseWindowTitle" : "ld 7/25/2014 23:03",
+		"baseWindowTitle" : "H2 7/16/2015 07:57",
 		"openWindowOn:" : "ld 7/8/2014 14:03",
 		"windowName" : "ld 7/8/2014 14:04" },
 	"instance" : {
@@ -15,7 +15,7 @@
 		"buildMOTDButton" : "ld 7/10/2014 15:58",
 		"buildMenu:" : "H11 5/17/2015 11:19",
 		"buildMenu:at:" : "H11 5/17/2015 11:13",
-		"buildMorphicWindow" : "cw 7/2/2015 20:08",
+		"buildMorphicWindow" : "H2 7/16/2015 08:04",
 		"buildPrvMsgButton" : "ld 7/10/2014 15:58",
 		"buildSwapperPane" : "ld 7/8/2014 14:47",
 		"buttonHeight" : "sbw 5/4/2004 07:04",
@@ -27,14 +27,14 @@
 		"connectButtonLabel" : "H1 5/28/2015 14:49",
 		"connectDialog" : "sbw 5/29/2004 07:15",
 		"connectDialog:" : "sbw 5/29/2004 07:15",
-		"connectToggle" : "AM 6/25/2014 02:00",
+		"connectToggle" : "H2 7/16/2015 07:58",
 		"connected" : "LD 6/14/2014 10:53",
 		"consoleMenu:" : "sbw 5/4/2004 08:25",
 		"consoleMenuSpecification" : "LD 6/12/2014 20:36",
 		"consoleText" : "sbw 5/4/2004 09:07",
 		"consoleTextSelection" : "sbw 5/4/2004 09:07",
 		"currentlyConnecting" : "AM 6/25/2014 01:52",
-		"currentlyConnecting:" : "H1 5/28/2015 15:01",
+		"currentlyConnecting:" : "H2 7/16/2015 07:58",
 		"dockingBar" : "H11 5/17/2015 11:23",
 		"frontMost" : "sbw 5/6/2004 21:38",
 		"frontMostPaneIsCloseable" : "sbw 5/6/2004 21:38",
@@ -64,8 +64,10 @@
 		"openOptionsDialog" : "cw 6/20/2015 12:01",
 		"openProfilesDialog" : "cw 6/20/2015 14:21",
 		"possibleTabStateChange:" : "sbw 5/6/2004 21:38",
+		"profileString" : "H2 7/16/2015 08:23",
 		"showPaneNamed:" : "sbw 5/6/2004 21:36",
 		"swapper" : "sbw 5/4/2004 08:07",
 		"swapper:" : "ld 6/11/2014 23:23",
 		"talkTo" : "sbw 5/4/2004 11:26",
-		"update:" : "LD 6/14/2014 10:53" } }
+		"update:" : "H2 7/16/2015 08:26",
+		"updateMenuLabel" : "H2 7/16/2015 08:04" } }

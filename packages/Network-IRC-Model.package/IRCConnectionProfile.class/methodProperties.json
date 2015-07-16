@@ -26,7 +26,7 @@
 		"defaultUserName" : "sbw 5/18/2004 09:20",
 		"defaultUserName:" : "sbw 5/16/2004 08:05",
 		"fixAllBadProfileKeys" : "sbw 5/17/2004 20:04",
-		"fromConnection:" : "sbw 5/27/2004 19:24",
+		"fromConnection:" : "H2 7/16/2015 08:20",
 		"getProfileAt:" : "ld 5/18/2014 18:55",
 		"getProfileNamed:" : "ld 5/8/2014 10:28",
 		"hasProfileNamed:" : "ld 5/8/2014 10:29",
@@ -54,7 +54,7 @@
 		"updateProfileNamed:with:" : "ld 5/18/2014 19:59",
 		"wipeOutProfiles" : "sbw 5/19/2004 22:03" },
 	"instance" : {
-		"copyPropertiesFrom:" : "ld 6/7/2014 14:28",
+		"copyPropertiesFrom:" : "H2 7/16/2015 08:20",
 		"equalsByName:" : "ld 5/8/2014 09:50",
 		"equalsName:" : "ld 5/8/2014 09:51",
 		"fullName" : "ld 5/8/2014 11:55",

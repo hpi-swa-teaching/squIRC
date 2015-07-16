@@ -9,6 +9,7 @@ fromConnection: anIRCConnectionEnhanced
 	model nick: anIRCConnectionEnhanced nick;
 		 fullName: anIRCConnectionEnhanced fullName;
 		 userName: anIRCConnectionEnhanced userName;
+		name: anIRCConnectionEnhanced name;
 		 server: server;
 		 options: IRCOptionsManagement savedOptions.
 	^ model

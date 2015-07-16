@@ -8,9 +8,9 @@ connectToggle
 	
 		[model connectToggle ifTrue: 
 			[self setLabel: IRCMainWindow baseWindowTitle, 
-						' [' , model nick , ' @ ' , model server , ']']
+						' [' , model nick , ' @ ' , model server , ']', self profileString]
 		ifFalse: 
-			[self setLabel: IRCMainWindow baseWindowTitle].
+			[self setLabel: IRCMainWindow baseWindowTitle, self profileString].
 	
 		self currentlyConnecting: false.
 		self update: #connected] fork]

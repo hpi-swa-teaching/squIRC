@@ -5,6 +5,7 @@ buildMorphicWindow
 
 	self model addDependent: self.
 	contentMorph := self buildContentMorph.
+	self updateMenuLabel.
 	self addMorph: contentMorph
 		fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)).						
 	self swapper 

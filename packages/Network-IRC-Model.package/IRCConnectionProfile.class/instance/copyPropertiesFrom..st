@@ -5,4 +5,5 @@ copyPropertiesFrom: anOtherProfile
 	self 	fullName: anOtherProfile fullName;
 			nick: anOtherProfile nick;
 			server: (IRCServer copy: anOtherProfile server);
-			userName: anOtherProfile userName
+			userName: anOtherProfile userName;
+			name: anOtherProfile name.
