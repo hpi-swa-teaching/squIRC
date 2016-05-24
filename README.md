@@ -1,7 +1,6 @@
 *An open source IRC Client for Squeak.*
 
-# squIRC
-#### SWTI2015-Project-06
+# squIRC [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/squIRC.svg)](https://travis-ci.org/HPI-SWA-Teaching/squIRC)
 
 ## Installation
 
@@ -35,7 +34,3 @@
 - new server profile system
 - improved test coverage
   - from 11% (Network-IRC) to 27% (Network-IRC-Model) and 37% (Network-IRC-GUI) 
-
-##### Build Status: 
-[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-06.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-06)
-

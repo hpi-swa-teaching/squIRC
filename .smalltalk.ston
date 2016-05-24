@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'IRC',
+      #directory : 'packages',
+      #load : [ 'tests' ],
+      #platforms : [ #squeak ]
+    }
+  ]
+}

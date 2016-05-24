@@ -11,8 +11,7 @@ baseline: spec
 
 	spec
 		group: 'default' with: #('Network-IRC-Model' 'Network-IRC-GUI');
-		group: 'Tests' with: #('Network-IRC-Tests' );
-		group: 'TravisCI' with: #('Tests' ).
+		group: 'tests' with: #('Network-IRC-Tests' ).
 	
 	spec
 		package: 'VB-Regex' with: [spec repository: 'http://www.squeaksource.com/Regex']]
