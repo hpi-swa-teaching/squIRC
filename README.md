@@ -1,6 +1,6 @@
 *An open source IRC Client for Squeak.*
 
-# squIRC [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/squIRC.svg)](https://travis-ci.org/HPI-SWA-Teaching/squIRC)
+# squIRC [![Build Status](https://travis-ci.org/hpi-swa-teaching/squIRC.svg)](https://travis-ci.org/hpi-swa-teaching/squIRC)
 
 ## Installation
 
@@ -11,7 +11,7 @@
 - done! squIRC should be ready to start under Apps > squIRC
 
 ### with Filetree and Monticello
-- clone this repository ```git clone https://github.com/HPI-SWA-Teaching/squIRC.git```
+- clone this repository ```git clone https://github.com/hpi-swa-teaching/squIRC.git```
 - in squeak, open MonticelloBrowser and create a new repository. select filetree://
 - select the packages folder in the cloned git repository as base folder for filetree
 - open the new filetree repository and load the following packages
